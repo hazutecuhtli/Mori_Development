@@ -75,6 +75,16 @@ Este clasificador no solo permitirá determinar si la pregunta se enmarca dentro
 - estadística
 - entre otros temas relevantes dentro del dominio del procesamiento de datos.
 
+### Descarga de Modelos entrenados que conforman a Mori
+
+Debido a las limitantes de espacio definidas por GitHub, no es posible incluir en este repositorio los modelos entrenados que conforman Mori. No obstante, es posible obtenerlos a través de los repositorios correspondientes en la plataforma de Hugging Face. Para utilizarlos localmente, basta con descargarlos y colocarlos en la carpeta Models/, ubicada en el directorio raíz de este proyecto.
+
+Puedes acceder a los modelos desde los siguientes enlaces:
+
+- **Modelo de Clasificación de Contextos:** https://huggingface.co/tecuhtli/mori-context-model
+- **Modelo Técnico:** https://huggingface.co/tecuhtli/mori-tecnico-model
+- **Modelo Social:** https://huggingface.co/tecuhtli/mori-social-model
+
 ### Procedimiento para generar el clasificador de contextos
 
 La implementacion del clasificador de contextos se basa en el uso de un modelo ***BERT*** preentrenado, sobre el cual se implementa un ajuste fino (*fine-tuning*) utilizando la clase *BertForSequenceClassification*. Esta arquitectura permite determinar el contexto de una pregunta basándose en su estructura semántica.
