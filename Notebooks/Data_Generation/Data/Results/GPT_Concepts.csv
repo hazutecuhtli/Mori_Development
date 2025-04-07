@@ -1,0 +1,634 @@
+concepto,descripcion,Source,concept
+base de datos,"Colección organizada de datos que puede ser almacenada, consultada y manipulada.",GPT,database
+base de datos relacional,Tipo de base de datos que organiza datos en tablas relacionadas mediante llaves.,GPT,relational database
+sql,Lenguaje estándar para consultar y manipular bases de datos relacionales.,GPT,sql
+nosql,"Bases de datos que manejan datos no estructurados o semiestructurados, sin esquemas fijos.",GPT,nosql
+normalización,Proceso de estructurar una base de datos para minimizar redundancias y dependencias.,GPT,normalization
+desnormalización,Técnica para mejorar el rendimiento denormalizando datos estructurados.,GPT,nudorization
+esquema de base de datos,Estructura organizativa que define cómo se almacenan y relacionan los datos.,GPT,database scheme
+entidad relación,Modelo gráfico para representar entidades y sus relaciones en una base de datos.,GPT,entity relationship
+llave primaria,Atributo o conjunto de atributos que identifican de manera única una fila en una tabla.,GPT,primary key
+llave foránea,Atributo en una tabla que se relaciona con una llave primaria de otra tabla.,GPT,foreign key
+índices,Estructuras que mejoran la velocidad de las consultas en una base de datos.,GPT,indices
+consultas,Operaciones para recuperar datos específicos de una base de datos.,GPT,queries
+join,Operación para combinar filas de dos o más tablas basadas en condiciones comunes.,GPT,join
+inner join,Tipo de join que devuelve solo las filas con coincidencias en ambas tablas.,GPT,inner join
+outer join,Tipo de join que incluye filas con coincidencias y aquellas sin coincidencias en una tabla.,GPT,outer join
+base de datos distribuida,Base de datos cuyos datos están distribuidos en múltiples nodos o ubicaciones.,GPT,distributed database
+replicación de datos,Proceso de duplicar datos en varios servidores para aumentar disponibilidad y fiabilidad.,GPT,data replication
+sharding,División de una base de datos en fragmentos para manejar grandes volúmenes de datos.,GPT,sharding
+consistencia de datos,Propiedad que asegura que los datos sean precisos y estén sincronizados.,GPT,data consistency
+acid,Conjunto de propiedades que garantizan transacciones fiables en bases de datos.,GPT,acid
+transacciones,Secuencia de operaciones que se ejecutan como una unidad para mantener la integridad de datos.,GPT,transactions
+rollback,Operación que deshace una transacción no exitosa o que causa inconsistencias.,GPT,rollback
+commit,Operación que guarda los cambios realizados por una transacción en la base de datos.,GPT,commit
+base de datos en memoria,Base de datos optimizada para almacenar y acceder a datos directamente en la memoria ram.,GPT,memory database
+base de datos en la nube,Base de datos que se almacena y gestiona en servidores en la nube.,GPT,cloud database
+data lake,Repositorio de datos no estructurados o semiestructurados almacenados en su forma original.,GPT,data lake
+data warehouse,Sistema para almacenar y analizar grandes cantidades de datos estructurados.,GPT,data warehouse
+base de datos olap,Base de datos optimizada para consultas analíticas y procesamiento de datos históricos.,GPT,olap database
+base de datos oltp,Base de datos optimizada para transacciones rápidas y frecuentes en tiempo real.,GPT,oltp database
+cassandra,Base de datos distribuida diseñada para manejar grandes volúmenes de datos a escala global.,GPT,cassandra
+mongodb,Base de datos nosql popular que utiliza un modelo de documentos basado en json.,GPT,mongodb
+redis,"Base de datos en memoria utilizada como caché, cola de mensajes y más.",GPT,redis
+mysql,Sistema de gestión de bases de datos relacional de código abierto ampliamente utilizado.,GPT,mysql
+postgresql,Base de datos relacional avanzada con soporte para extensiones y alto rendimiento.,GPT,postgresql
+oracle database,Base de datos empresarial con características avanzadas para aplicaciones críticas.,GPT,oracle database
+microsoft sql server,Sistema de gestión de bases de datos desarrollado por microsoft con múltiples herramientas.,GPT,microsoft sql server
+sqlite,"Base de datos ligera y autónoma, ideal para aplicaciones móviles y pequeñas.",GPT,sqlite
+modelado de datos,Proceso de definir y organizar las estructuras de datos en una base de datos.,GPT,data modeling
+consultas preparadas,Consultas parametrizadas para prevenir inyecciones sql y mejorar seguridad.,GPT,prepared consultations
+seguridad en bases de datos,Conjunto de medidas para proteger bases de datos contra accesos no autorizados.,GPT,database security
+auditoría de bases de datos,Proceso de registrar y supervisar las actividades en una base de datos.,GPT,database audit
+big data,Conjunto de datos que son demasiado grandes o complejos para ser procesados por métodos tradicionales.,GPT,big data
+hadoop,Framework de código abierto para el almacenamiento y procesamiento distribuido de grandes volúmenes de datos.,GPT,hadoop
+apache spark,Herramienta de procesamiento de datos rápida y generalizada para big data.,GPT,apache spark
+mapreduce,Modelo de programación para el procesamiento distribuido de grandes conjuntos de datos.,GPT,mapreduce
+hdfs,Sistema de archivos distribuido diseñado para ejecutarse en hardware de bajo costo.,GPT,hdfs
+nosql,Base de datos diseñada para manejar grandes volúmenes de datos no estructurados o semiestructurados.,GPT,nosql
+bases de datos distribuidas,Bases de datos que permiten el almacenamiento y acceso a datos a través de múltiples nodos.,GPT,distributed databases
+mongodb,Base de datos nosql diseñada para manejar datos json y consultas dinámicas.,GPT,mongodb
+cassandra,Base de datos distribuida y escalable para el almacenamiento de grandes volúmenes de datos.,GPT,cassandra
+apache hive,Sistema de almacenamiento de datos para hadoop que permite consultas tipo sql.,GPT,apache hive
+pig latin,"Lenguaje de programación para la plataforma apache pig, usado en big data.",GPT,pig latin
+streaming de datos,Transmisión continua de datos generados en tiempo real desde múltiples fuentes.,GPT,data streaming
+procesamiento en batch,"Procesamiento de datos agrupados en bloques, adecuado para operaciones periódicas.",GPT,batch processing
+procesamiento en tiempo real,Procesamiento de datos en tiempo real con latencias mínimas.,GPT,real -time processing
+data lake,Repositorio centralizado que almacena datos estructurados y no estructurados a gran escala.,GPT,data lake
+data warehouse,Sistema optimizado para consultas rápidas en datos estructurados almacenados a gran escala.,GPT,data warehouse
+apache kafka,Plataforma para la transmisión y procesamiento en tiempo real de flujos de datos distribuidos.,GPT,apache kafka
+flink,Sistema de procesamiento de datos en tiempo real con alta escalabilidad y flexibilidad.,GPT,flink
+elasticsearch,Herramienta para búsqueda y análisis de datos basada en índices.,GPT,elasticsearch
+indexación de datos,Proceso de organizar datos para permitir búsquedas rápidas y eficaces.,GPT,data indexation
+machine learning en big data,Aplicación de algoritmos de aprendizaje automático en grandes volúmenes de datos.,GPT,machine learning in big data
+scala,Lenguaje de programación ampliamente utilizado para trabajar con sistemas big data como apache spark.,GPT,scala
+python en big data,Lenguaje popular utilizado en big data para manipulación y análisis de datos.,GPT,python in big data
+etl en big data,"Proceso de extracción, transformación y carga de datos en entornos big data.",GPT,etl in big data
+orquestación de datos,Coordinación de tareas y flujos de datos en sistemas distribuidos.,GPT,data orchestration
+aws big data,Servicios en la nube de amazon diseñados para procesamiento y análisis de big data.,GPT,aws big data
+google bigquery,Plataforma de análisis de datos de google para consultas rápidas en grandes volúmenes de datos.,GPT,google bigquery
+azure data lake,Servicio de microsoft para el almacenamiento y análisis de datos no estructurados.,GPT,azure data lake
+almacenamiento en nube,Uso de almacenamiento remoto para datos accesibles desde cualquier lugar con escalabilidad.,GPT,cloud storage
+escalabilidad horizontal,Ampliación de recursos de un sistema agregando más nodos en lugar de aumentar la capacidad de un nodo.,GPT,horizontal scalability
+redundancia de datos,Copia de seguridad de datos para prevenir la pérdida en caso de fallas.,GPT,data redundancy
+alta disponibilidad,Capacidad de un sistema para estar operativo incluso en presencia de fallos de hardware o software.,GPT,high availability
+zookeeper,Servicio de coordinación central para sistemas distribuidos.,GPT,zookeeper
+infraestructura distribuida,Infraestructura diseñada para manejar el procesamiento y almacenamiento de datos en múltiples nodos.,GPT,distributed infrastructure
+spark sql,Componente de spark para consultas estructuradas y análisis de datos.,GPT,spark sql
+dataframes en spark,Estructura de datos en spark optimizada para análisis de datos tabulares.,GPT,dataframes in spark
+rdds,"Resilient distributed datasets, la unidad básica de datos en spark.",GPT,rdds
+clúster de procesamiento,Conjunto de computadoras interconectadas para procesar y almacenar datos distribuidos.,GPT,processing cluster
+latencia en big data,Tiempo necesario para procesar una solicitud o consulta en un sistema big data.,GPT,latency in big data
+análisis exploratorio en big data,Proceso de explorar y visualizar datos a gran escala para entender patrones y tendencias.,GPT,exploratory analysis in big data
+agrupamiento aglomerado,Método jerárquico de agrupamiento que une elementos o grupos en función de su similitud.,GPT,agglomerate grouping
+area bajo la curva de pr,Medida del rendimiento de un modelo que combina precisión y recuperación en problemas de clasificación.,GPT,area under the pr curve
+area bajo la curva roc,Indicador de desempeño que mide la capacidad de un modelo para distinguir entre clases en problemas binarios.,GPT,area under the roc curve
+ecuacion de bellman,Ecuación central en la programación dinámica que describe la relación recursiva en problemas de decisión.,GPT,bellman equation
+sesgo de cobertura,Sesgo que surge cuando ciertos datos no están representados en la muestra analizada.,GPT,coverage bias
+agrupamiento en clusteres divisivo,Método jerárquico que comienza con un grupo único y lo divide recursivamente en subgrupos.,GPT,grouping in divisive clusters
+sesgo del investigador,Sesgo que ocurre cuando las expectativas del investigador influyen en los resultados del estudio.,GPT,researcher's bias
+sesgo de no respuesta,Sesgo que se genera por la falta de respuestas de ciertos participantes en una encuesta o estudio.,GPT,non -response bias
+precision,Proporción de predicciones correctas sobre el total de predicciones positivas hechas por un modelo.,GPT,precision
+recall,Proporción de verdaderos positivos sobre el total de positivos reales en un conjunto de datos.,GPT,recall
+sesgo muestral,Sesgo que ocurre cuando la muestra seleccionada no representa adecuadamente a la población objetivo.,GPT,sample bias
+reduccion espacial,Proceso de reducir la dimensionalidad de los datos manteniendo la mayor cantidad de información relevante.,GPT,space reduction
+submuestreo,Técnica para reducir el tamaño de un conjunto de datos seleccionando una muestra más pequeña representativa.,GPT,subsamore
+rango de tensor,Número de dimensiones linealmente independientes en un tensor.,GPT,tensor range
+tasa de falsos positivos,Proporción de negativos falsamente clasificados como positivos por un modelo de clasificación.,GPT,false positives rate
+tasa de verdaderos positivos,Proporción de positivos correctamente identificados sobre el total de positivos reales.,GPT,true positive rate
+estadistica inferencial,Rama de la estadística que utiliza muestras para hacer inferencias sobre una población.,GPT,inferential statistics
+prueba de hipotesis,Procedimiento estadístico para determinar si una hipótesis es consistente con los datos observados.,GPT,hypothesis test
+series de tiempo,Conjunto de observaciones tomadas secuencialmente en el tiempo.,GPT,time series
+redes neuronales recurrentes,Tipo de red neuronal diseñada para procesar secuencias de datos y conservar información de estados anteriores.,GPT,recurrent neural networks
+redes neuronales convolucionales,"Tipo de red neuronal optimizada para el procesamiento de datos con estructura espacial, como imágenes.",GPT,convolutional neuronal networks
+hugging face,Plataforma y librería de machine learning centrada en modelos de procesamiento de lenguaje natural.,GPT,hugging face
+procesamiento de senales,Disciplina que estudia cómo analizar y modificar señales para extraer información útil.,GPT,senal processing
+valores atipicos,Valores que se desvían significativamente de los demás en un conjunto de datos.,GPT,atypical values
+deteccion de anomalias,Proceso de identificar datos que no cumplen con patrones normales en un conjunto de datos.,GPT,anomaly detection
+rango intercuartílico,Medida estadística que evalúa la dispersión de los datos dentro del rango entre el primer y el tercer cuartil.,GPT,interquartilic range
+valores representativos,"Valores que resumen o representan características clave de un conjunto de datos, como medias o medianas.",GPT,representative values
+poblacion estadistica,Conjunto completo de individuos o elementos que se estudian en un análisis estadístico.,GPT,statistical population
+muesta estadistica,Subconjunto de la población estadística seleccionado para realizar un estudio o análisis.,GPT,statistics
+covarianza,Medida estadística que indica la relación entre dos variables y cómo cambian conjuntamente.,GPT,covariance
+despliegue de modelos de ai,Proceso de poner modelos de inteligencia artificial en operación para su uso real.,GPT,deployment of ai models
+ciclo de vida de un modelo,Etapas desde la concepción hasta el despliegue y mantenimiento de un modelo.,GPT,life cycle of a model
+entrenamiento de modelos,Proceso para entrenar un modelo usando datos de entrenamiento.,GPT,model training
+validación de modelos,Evaluación de un modelo utilizando datos separados para medir su desempeño.,GPT,validation of models
+pruebas de modelos,Pruebas finales para garantizar que un modelo funcione como se espera antes del despliegue.,GPT,model tests
+pipeline de machine learning,"Conjunto de pasos automatizados para entrenar, validar y desplegar modelos de machine learning.",GPT,machine learning pipeline
+ingeniería de características,Selección y transformación de variables relevantes para mejorar el modelo.,GPT,feature engineering
+mlops,Prácticas que combinan machine learning y operaciones para gestionar modelos en producción.,GPT,mlops
+modelos en producción,Modelos de ai que están disponibles para realizar predicciones en aplicaciones en vivo.,GPT,production models
+contenedores para modelos,Uso de contenedores para encapsular modelos junto con sus dependencias.,GPT,containers for models
+docker para ai,Herramienta para crear y gestionar contenedores para aplicaciones de ai.,GPT,docker for ai
+kubernetes para ai,Plataforma para orquestar contenedores en despliegues de gran escala.,GPT,kubernetes for ai
+microservicios para modelos,Arquitectura que permite desplegar modelos como servicios independientes.,GPT,microservices for models
+servidores de inferencia,Servidores especializados para manejar solicitudes de inferencia de modelos ai.,GPT,inference servers
+rest apis para modelos,Interfaces que permiten la comunicación entre aplicaciones y modelos ai.,GPT,rest apis for models
+grpc para modelos,Protocolo de comunicación eficiente para la inferencia de modelos ai.,GPT,grpc for models
+monitorización de modelos,Seguimiento y análisis del rendimiento y comportamiento de los modelos desplegados.,GPT,model monitoring
+retraining de modelos,Proceso de actualizar modelos con nuevos datos para mantener su precisión.,GPT,retraining models
+tuning de hiperparámetros,Ajuste de parámetros de un modelo para mejorar su rendimiento.,GPT,hyperparameter tuning
+automatización de despliegue,Automatización de los procesos de prueba y despliegue de modelos.,GPT,deployment automation
+pruebas de rendimiento,Evaluación de la velocidad y eficiencia de un modelo durante la inferencia.,GPT,performance tests
+latencia de inferencia,Tiempo que tarda un modelo en generar una predicción después de recibir datos de entrada.,GPT,inference latency
+escalabilidad de modelos,Capacidad para manejar un aumento en el volumen de solicitudes de inferencia.,GPT,scalability of models
+versionado de modelos,Seguimiento de versiones de modelos para mejorar la reproducibilidad y gestión.,GPT,version of models
+gestión de modelos,Gestión centralizada de modelos a lo largo de su ciclo de vida.,GPT,model management
+mlflow,Herramienta para rastrear y gestionar experimentos de machine learning.,GPT,mlflow
+tensorflow serving,Sistema para servir modelos de tensorflow en producción.,GPT,tensorflow serving
+torchserve,Plataforma para desplegar y servir modelos de pytorch.,GPT,torchserve
+onnx,Formato estándar para representar modelos de machine learning interoperables.,GPT,onnx
+optimización de modelos,Mejorar el rendimiento de un modelo para reducir su tiempo de inferencia y uso de recursos.,GPT,models optimization
+cuantización de modelos,Proceso de reducir la precisión de los números en un modelo para hacerlo más eficiente.,GPT,quantization of models
+compresión de modelos,Técnicas para reducir el tamaño de un modelo sin sacrificar significativamente su precisión.,GPT,compression of models
+despliegue en la nube,"Implementación de modelos en plataformas de nube como aws, azure o gcp.",GPT,cloud display
+despliegue en dispositivos locales,Despliegue de modelos en hardware local o servidores en sitio.,GPT,display on local devices
+edge ai,Ejecución de modelos ai directamente en dispositivos periféricos cercanos a la fuente de datos.,GPT,edge ai
+ensamblaje de modelos,Combinación de múltiples modelos para mejorar la precisión y robustez.,GPT,model assembly
+explainability de modelos,Explicaciones de cómo un modelo produce predicciones para mejorar su interpretabilidad.,GPT,model explainability
+seguridad en modelos ai,Prácticas para proteger modelos ai contra ataques y accesos no autorizados.,GPT,safety in ai models
+pruebas de sesgo en modelos,Evaluación de posibles sesgos en modelos para garantizar la equidad.,GPT,big tests in models
+auditoría de modelos,Revisión y documentación de modelos para asegurar transparencia y cumplimiento.,GPT,audit of models
+integración continua y despliegue continuo,Automatización de pruebas y despliegues de modelos utilizando herramientas ci/cd.,GPT,continuous integration and continuous deployment
+exploración de datos,Proceso de analizar conjuntos de datos para resumir sus características principales.,GPT,data exploration
+análisis exploratorio de datos,Técnica para investigar datos a través de resúmenes y gráficos antes de aplicar modelos.,GPT,exploratory data analysis
+estadísticas descriptivas,Cálculo de medidas estadísticas para describir los datos de forma general.,GPT,descriptive statistics
+distribución de datos,Representación visual y estadística de cómo se distribuyen los valores en un conjunto de datos.,GPT,data distribution
+media,Promedio de los valores en un conjunto de datos.,GPT,average
+mediana,Valor central de un conjunto de datos ordenado.,GPT,median
+moda,Valor más frecuente en un conjunto de datos.,GPT,mode
+rango,Diferencia entre los valores máximo y mínimo de un conjunto de datos.,GPT,range
+varianza,Medida que refleja la dispersión de los datos en relación a la media.,GPT,variance
+desviación estándar,"Raíz cuadrada de la varianza, usada para medir la dispersión en los datos.",GPT,standard deviation
+percentiles,Valores que dividen un conjunto de datos en partes proporcionales.,GPT,percentiles
+cuartiles,Valores que dividen los datos en cuatro partes iguales.,GPT,quartiles
+histogramas,Gráfico que muestra la distribución de datos en intervalos (bins).,GPT,histograms
+diagramas de caja,"Gráfico que visualiza la dispersión, mediana y valores extremos de los datos.",GPT,boxplots
+gráficos de dispersión,Gráfico que muestra relaciones entre dos variables mediante puntos dispersos.,GPT,scatter plots
+gráficos de correlación,Gráfico que utiliza colores o flechas para mostrar la fuerza y dirección de las correlaciones.,GPT,correlation graphics
+matrices de correlación,Matriz que muestra correlaciones entre múltiples variables en un conjunto de datos.,GPT,correlation matrices
+diagrama de pareto,Gráfico que identifica los elementos más importantes en un conjunto de datos categóricos.,GPT,pareto chart
+detección de valores atípicos,Proceso para identificar valores que se alejan significativamente del resto de los datos.,GPT,detection of atypical values
+análisis bivariado,Análisis que examina relaciones entre dos variables.,GPT,bivariate analysis
+análisis multivariado,Análisis que explora interacciones entre más de dos variables.,GPT,multivariate analysis
+gráficos de series temporales,"Gráfico que visualiza datos a lo largo del tiempo, mostrando tendencias o patrones.",GPT,time  series plot
+transformación de datos,Aplicación de funciones matemáticas para modificar la distribución de datos.,GPT,data transformation
+normalización,Escalado de datos a un rango común para facilitar comparaciones.,GPT,normalization
+estandarización,Ajuste de los datos para que tengan una media de 0 y desviación estándar de 1.,GPT,standardization
+filtrado de datos,Eliminación de registros irrelevantes o problemáticos para mejorar la calidad de los datos.,GPT,data filtering
+agrupación de datos,Agrupación de datos en categorías o segmentos para su análisis.,GPT,data grouping
+segmentación de datos,División de datos en subconjuntos según características comunes.,GPT,data segmentation
+análisis de componentes principales,Técnica para reducir dimensiones mientras se mantiene la variabilidad de los datos.,GPT,main component analysis
+reducción de dimensionalidad,Método para disminuir el número de variables en un conjunto de datos.,GPT,dimensionality reduction
+relación variable objetivo,Análisis para evaluar cómo las variables independientes afectan a la variable objetivo.,GPT,variable objective relationship
+gráficos de barras,Gráfico que utiliza barras para comparar categorías o variables.,GPT,bar charts
+gráficos de líneas,Gráfico que conecta puntos con líneas para mostrar tendencias en los datos.,GPT,line charts
+nubes de palabras,Representación visual de palabras más frecuentes en un conjunto de texto.,GPT,word clouds
+mapas de calor,Gráfico que utiliza colores para representar la intensidad de datos en una matriz o mapa.,GPT,heat maps
+análisis de correlación,Medición de la relación entre dos o más variables cuantitativas.,GPT,correlation analysis
+identificación de patrones,"Identificación de tendencias, relaciones o regularidades en los datos.",GPT,patterns identification
+comprobación de supuestos estadísticos,Evaluación de si los datos cumplen con supuestos como normalidad o independencia.,GPT,verification of statistical assumptions
+interpretación de resultados,Proceso de extraer conclusiones claras y accionables de los datos analizados.,GPT,interpretation of results
+reportes de datos,Creación de informes que resuman hallazgos clave en el análisis de datos.,GPT,data reports
+estadística descriptiva,Rama de la estadística que resume y describe características de un conjunto de datos.,GPT,descriptive statistics
+estadística inferencial,Rama de la estadística que utiliza muestras para hacer inferencias sobre una población.,GPT,inferential statistics
+población,Conjunto completo de elementos o individuos bajo estudio estadístico.,GPT,population
+muestra,Subconjunto representativo extraído de una población para análisis.,GPT,sample
+media aritmética,Promedio aritmético de un conjunto de números.,GPT,arithmetic mean
+mediana,Valor central de un conjunto de datos ordenados.,GPT,median
+moda,Valor que aparece con mayor frecuencia en un conjunto de datos.,GPT,mode
+varianza,Medida de dispersión que indica la variabilidad de los datos respecto a la media.,GPT,variance
+desviación estándar,"Raíz cuadrada de la varianza, indica la dispersión en la misma unidad que los datos.",GPT,standard deviation
+coeficiente de variación,"Relación entre la desviación estándar y la media, expresada como porcentaje.",GPT,variation coefficient
+distribución normal,"Distribución de probabilidad simétrica y en forma de campana, fundamental en estadística.",GPT,normal distribution
+distribución binomial,Distribución que modela el número de éxitos en una serie de ensayos independientes.,GPT,binomial distribution
+distribución de poisson,Distribución que describe la probabilidad de un número dado de eventos en un intervalo.,GPT,poisson distribution
+distribución t student,Distribución utilizada para análisis de muestras pequeñas con varianza desconocida.,GPT,t student distribution
+distribución chi cuadrado,Distribución usada en pruebas de bondad de ajuste y análisis de independencia.,GPT,chi square distribution
+distribución exponencial,Distribución que modela tiempos entre eventos en un proceso continuo.,GPT,exponential distribution
+intervalo de confianza,Rango de valores dentro del cual se espera que un parámetro poblacional se encuentre.,GPT,confidence interval
+prueba de hipótesis,Método estadístico para determinar si una afirmación sobre un parámetro es plausible.,GPT,hypothesis test
+error tipo i,Error al rechazar una hipótesis nula verdadera.,GPT,type i error
+error tipo ii,Error al no rechazar una hipótesis nula falsa.,GPT,type ii error
+valor p,Medida de la evidencia contra la hipótesis nula en una prueba estadística.,GPT,value p
+nivel de significancia,Nivel máximo de probabilidad de cometer un error tipo i permitido en un análisis.,GPT,level of significance
+regresión lineal,Modelo estadístico que relaciona una variable dependiente con una independiente.,GPT,linear regression
+regresión múltiple,Extensión de la regresión lineal para múltiples variables independientes.,GPT,multiple regression
+correlación,Medida de la relación lineal entre dos variables.,GPT,correlation
+coeficiente de correlación de pearson,Indicador de la fuerza y dirección de la relación lineal entre dos variables.,GPT,pearson correlation coefficient
+análisis de varianza,Técnica para comparar las medias de tres o más grupos.,GPT,variance analysis
+prueba t de student,Prueba para comparar medias entre dos grupos con varianza desconocida.,GPT,student t test
+prueba chi cuadrado,Prueba para analizar asociaciones entre variables categóricas.,GPT,chi square test
+prueba de kolmogorov smirnov,Prueba para determinar si una muestra proviene de una distribución específica.,GPT,kolmogorov smirnov test
+prueba de mann whitney,Prueba no paramétrica para comparar dos grupos independientes.,GPT,mann whitney test
+prueba de wilcoxon,Prueba no paramétrica para comparar datos pareados o relacionados.,GPT,wilcoxon test
+prueba de kruskal wallis,Prueba para comparar más de dos grupos independientes en datos no paramétricos.,GPT,kruskal wallis test
+prueba de friedman,Prueba para comparar varias muestras relacionadas en datos no paramétricos.,GPT,friedman test
+bootstraping,Método para estimar propiedades de una población generando muestras repetitivas.,GPT,bootstraping
+muestreo aleatorio,Método de selección donde cada elemento de la población tiene igual probabilidad de ser elegido.,GPT,random sampling
+muestreo estratificado,Método de selección donde la población se divide en estratos homogéneos antes del muestreo.,GPT,stratified sampling
+sesgo de muestra,Error sistemático que ocurre cuando una muestra no representa adecuadamente a la población.,GPT,sample bias
+histogramas,Gráfico que muestra la distribución de un conjunto de datos usando barras.,GPT,histograms
+boxplot,Gráfico que representa la dispersión de datos mediante cuartiles y valores atípicos.,GPT,boxploot
+gpt,Modelo generativo basado en transformers diseñado para procesar y generar texto.,GPT,gpt
+transformer,Arquitectura que utiliza mecanismos de atención para capturar relaciones entre tokens.,GPT,transformer
+autoregressive model,Modelo que predice la siguiente palabra basándose en las palabras anteriores.,GPT,self -pessive model
+preentrenamiento,Fase inicial de entrenamiento donde el modelo aprende patrones generales del lenguaje.,GPT,pre -entry
+fine tuning,Ajuste del modelo preentrenado para tareas específicas con datos etiquetados.,GPT,fine tuning
+contexto en gpt,Contexto textual que el modelo utiliza para hacer predicciones o generar respuestas.,GPT,context in gpt
+atención autoregresiva,Mecanismo que calcula pesos basados en tokens previos para predecir el siguiente token.,GPT,self -greencious attention
+tokenización en gpt,Proceso de dividir texto en unidades más pequeñas como palabras o subpalabras para el modelo.,GPT,tokenization in gpt
+embeddings de entrada,Representaciones vectoriales de tokens que alimentan el modelo para su procesamiento.,GPT,input embeddings
+head de atención,Elemento de la arquitectura de transformers que aplica atención sobre diferentes representaciones.,GPT,head of attention
+capas de transformer,Capas de la arquitectura que procesan datos utilizando mecanismos de atención y normalización.,GPT,transformer layers
+normalización de capas,Técnica que mejora la estabilidad del entrenamiento ajustando valores en las capas del modelo.,GPT,standardization of layers
+máscara de atención,Máscara que evita que el modelo considere tokens futuros durante la predicción.,GPT,attention mask
+salida del modelo gpt,Texto generado por el modelo tras procesar la entrada proporcionada.,GPT,gpt model output
+aprendizaje transferido,Uso de conocimientos aprendidos en una tarea para mejorar el desempeño en otra tarea.,GPT,transferred learning
+parámetros ajustables,Parámetros internos que se ajustan durante el entrenamiento para minimizar la pérdida.,GPT,adjustable parameters
+modelo preentrenado,Modelo que ya ha sido entrenado en un corpus grande y generalizado antes de ser ajustado.,GPT,prerenized model
+entrenamiento supervisado,Método de aprendizaje que utiliza datos etiquetados para entrenar el modelo en tareas específicas.,GPT,supervised training
+entrenamiento no supervisado,Método donde el modelo aprende patrones sin supervisión directa ni etiquetas explícitas.,GPT,non -supervised training
+ajuste por retropropagación,Método que ajusta los parámetros del modelo utilizando gradientes calculados a partir del error.,GPT,retropropative adjustment
+codificador en transformers,Componente de los transformers que procesa representaciones completas del texto.,GPT,coder in transformers
+decodificador en transformers,Componente que utiliza la atención para generar texto basado en entradas previas.,GPT,decoder in transformers
+atención multihead,Técnica que utiliza múltiples cabezas de atención para capturar diferentes patrones en los datos.,GPT,multihead attention
+dimensión oculta,Tamaño de las representaciones internas utilizadas en cada capa del modelo.,GPT,hidden dimension
+pesos aprendidos,Valores en la red que se optimizan durante el entrenamiento para capturar relaciones textuales.,GPT,pesos learned
+generación de texto,Capacidad del modelo para crear texto coherente y fluido en lenguaje natural.,GPT,text generation
+completado de texto,Capacidad del modelo para completar una frase o texto basándose en un inicio dado.,GPT,text completed
+traducción automática,Uso del modelo para traducir texto de un idioma a otro utilizando su arquitectura generativa.,GPT,machine translation
+resumen automático,Generación de resúmenes concisos y coherentes a partir de textos más extensos.,GPT,automatic summary
+clasificación de texto,Uso del modelo para categorizar texto en diferentes clases o etiquetas.,GPT,text classification
+prompt en gpt,Texto inicial proporcionado al modelo para dirigir su generación de respuestas.,GPT,prompt in gpt
+zero shot learning,Capacidad del modelo para realizar tareas sin entrenamiento específico en ellas.,GPT,zero shot learning
+few shot learning,Capacidad del modelo para realizar tareas con ejemplos limitados proporcionados como guía.,GPT,few shot learning
+entrenamiento continuo,Extensión del entrenamiento de un modelo ya preentrenado para actualizar conocimientos.,GPT,continuous training
+modelo de lenguaje generativo,Modelo diseñado para generar texto basándose en probabilidades aprendidas del lenguaje.,GPT,generative language model
+pérdida de entropía cruzada,Función utilizada para medir la discrepancia entre la salida del modelo y la verdad.,GPT,loss of cross entropy
+regularización en gpt,Técnicas utilizadas para evitar el sobreajuste y mejorar la generalización del modelo.,GPT,regularization in gpt
+escalado de modelos,Escalado de la arquitectura y parámetros del modelo para mejorar su rendimiento.,GPT,model scaling
+entrenamiento distribuido,Método para entrenar el modelo en múltiples máquinas o procesadores para acelerar el proceso.,GPT,distributed training
+aplicaciones de gpt,"Aplicaciones prácticas del modelo en diversas áreas como chatbots, análisis de sentimientos y más.",GPT,gpt applications
+procesamiento de imágenes,"Técnicas y métodos para analizar, modificar o interpretar imágenes digitales.",GPT,image processing
+segmentación de imágenes,Proceso de dividir una imagen en regiones basadas en características similares.,GPT,image segmentation
+detección de bordes,"Técnica para identificar los contornos en una imagen, marcando áreas de cambio brusco de intensidad.",GPT,edges detection
+filtro de sobel,Filtro para detectar bordes en una imagen usando gradientes en direcciones específicas.,GPT,sobel filter
+filtro de canny,Algoritmo avanzado para detección precisa de bordes en imágenes.,GPT,canny filter
+transformada de fourier,Transformación matemática para analizar frecuencias en una imagen.,GPT,fourier transform
+transformada de hough,"Técnica para identificar líneas, círculos y otras formas geométricas en imágenes.",GPT,houch transformed
+convolución en imágenes,Operación matemática entre matrices utilizada para aplicar filtros o detectar patrones en imágenes.,GPT,convolution in images
+redes neuronales convolucionales,"Tipo de red neuronal diseñada específicamente para procesar datos con estructura espacial, como imágenes.",GPT,convolutional neuronal networks
+mapas de características,Representaciones intermedias de características detectadas en una imagen durante el procesamiento.,GPT,features maps
+pooling,Técnica para reducir la dimensionalidad de mapas de características en redes neuronales convolucionales.,GPT,pooling
+upsampling,Método para aumentar la resolución de una imagen o mapa de características.,GPT,upsampling
+normalización de imágenes,Proceso de escalar los valores de píxeles a un rango estándar para mejorar el procesamiento.,GPT,normalization of images
+ecualización de histograma,Método para mejorar el contraste de una imagen distribuyendo los niveles de intensidad uniformemente.,GPT,histogram equalization
+reducción de ruido,Técnicas para eliminar ruido en imágenes digitales manteniendo detalles importantes.,GPT,noise reduction
+filtro gaussiano,Filtro que suaviza una imagen utilizando una distribución gaussiana.,GPT,gaussian filter
+filtro de mediana,"Filtro que reduce el ruido preservando bordes, calculando la mediana de los píxeles vecinos.",GPT,medium filter
+morfología matemática,Conjunto de operaciones para procesar estructuras en imágenes binarias.,GPT,mathematical morphology
+dilatación y erosión,Operaciones básicas para expandir o reducir regiones en imágenes binarias.,GPT,dilation and erosion
+transformada de radón,Técnica para proyectar una imagen en un espacio transformado para analizar patrones lineales.,GPT,radon transformed
+clasificación de imágenes,Asignación de categorías a imágenes según su contenido.,GPT,image classification
+reconocimiento de objetos,Proceso de identificar y etiquetar objetos específicos en imágenes.,GPT,recognition of objects
+detección de objetos,Localización y clasificación de objetos dentro de una imagen.,GPT,object detection
+anotación de imágenes,Proceso de marcar manualmente áreas relevantes de una imagen para entrenamiento o análisis.,GPT,annotation of images
+reconocimiento facial,Identificación de rostros humanos en imágenes o videos.,GPT,facial recognition
+reconstrucción de imágenes,Proceso de recrear imágenes a partir de datos incompletos o distorsionados.,GPT,image reconstruction
+ajuste de contraste,Método para ajustar la diferencia de brillo entre las partes oscuras y claras de una imagen.,GPT,contrast adjustment
+balance de blancos,Corrección del color de una imagen para que los blancos parezcan más naturales.,GPT,white balance
+realce de imágenes,Técnicas para mejorar la calidad visual de una imagen.,GPT,image enhancement
+compresión de imágenes,Proceso para reducir el tamaño de una imagen digital conservando su calidad visual lo máximo posible.,GPT,image compression
+formatos de imagen,Diferentes estándares para almacenar y representar imágenes digitales.,GPT,image formats
+transformación afín,Transformación que mantiene paralelismo entre líneas en una imagen.,GPT,related transformation
+transformación de perspectiva,Transformación que modifica la perspectiva para simular diferentes puntos de vista.,GPT,perspective transformation
+warping de imágenes,Técnica para deformar imágenes aplicando transformaciones geométricas.,GPT,image warping
+registro de imágenes,Proceso de alinear imágenes superpuestas para compararlas o fusionarlas.,GPT,image record
+análisis de textura,Análisis de patrones repetitivos o texturas en una imagen.,GPT,texture analysis
+extracción de características,Proceso de identificar y extraer características significativas de una imagen.,GPT,characteristics extraction
+reconstrucción 3d,Reconstrucción de escenas tridimensionales a partir de imágenes bidimensionales.,GPT,3d reconstruction
+esteganografía de imágenes,Método para ocultar información dentro de una imagen de manera imperceptible.,GPT,image steganography
+segmentación basada en color,Técnica de segmentación basada en diferencias de color en las imágenes.,GPT,color -based segmentation
+limpieza de datos,Proceso de identificar y corregir problemas en un conjunto de datos para mejorar su calidad.,GPT,data cleaning
+datos faltantes,Registros que no tienen valores en ciertas columnas o campos.,GPT,missing data
+imputación de datos,Técnica para estimar y rellenar datos faltantes basándose en valores existentes.,GPT,data imputation
+eliminación de datos faltantes,Eliminación de filas o columnas con datos faltantes para simplificar el análisis.,GPT,removal data
+detección de valores atípicos,Identificación de valores que están significativamente alejados del resto de los datos.,GPT,detection of atypical values
+normalización de datos,Transformación de valores para llevarlos a un rango específico entre 0 y 1.,GPT,data standardization
+estandarización de datos,Ajuste de datos para que tengan una media de 0 y desviación estándar de 1.,GPT,data standardization
+codificación de variables categóricas,Conversión de datos categóricos en formatos adecuados para el análisis.,GPT,categorical variable coding
+one hot encoding,Codificación de categorías en columnas binarias separadas.,GPT,one hot enoding
+label encoding,Asignación de valores numéricos únicos a categorías.,GPT,label enoding
+manejo de valores nulos,Identificación y tratamiento de valores que no tienen asignaciones válidas.,GPT,null values management
+transformación de datos,Aplicación de transformaciones matemáticas para mejorar la distribución de datos.,GPT,data transformation
+escalado de características,Ajuste de escalas en los datos para facilitar comparaciones y análisis.,GPT,characteristics scaling
+filtrado de datos,Eliminación de registros no deseados o irrelevantes en un conjunto de datos.,GPT,data filtering
+eliminación de duplicados,Identificación y eliminación de registros duplicados en un conjunto de datos.,GPT,duplicate elimination
+agrupación de datos,Reunión de datos similares en categorías o agrupaciones lógicas.,GPT,data grouping
+muestreo de datos,Selección de una muestra representativa para reducir el tamaño de los datos.,GPT,data sampling
+relleno de datos faltantes,Sustitución de valores faltantes utilizando estimaciones razonables.,GPT,feeding data filling
+transformación logarítmica,Transformación matemática para estabilizar la varianza y hacer distribuciones más normales.,GPT,logarithmic transformation
+reducción de dimensionalidad,Reducción del número de variables para simplificar modelos y análisis.,GPT,dimensionality reduction
+conversión de tipos de datos,Cambio de formatos de datos para garantizar su compatibilidad con las herramientas utilizadas.,GPT,data type conversion
+revisión de tipos de datos,Comprobación de que los datos tienen el tipo adecuado para cada columna.,GPT,data type review
+consistencia de datos,Asegurarse de que los datos sean coherentes en formato y contenido.,GPT,data consistency
+corrección de errores de entrada,Corrección de errores cometidos durante la entrada de datos manual o automática.,GPT,input errors correction
+integración de datos,Unificación de datos provenientes de múltiples fuentes en un solo conjunto.,GPT,data integration
+fusión de conjuntos de datos,Combinación de dos o más conjuntos de datos basándose en columnas comunes.,GPT,fusion of data sets
+eliminación de columnas irrelevantes,Eliminación de columnas que no aportan valor al análisis.,GPT,elimination of irrelevant columns
+filtrado de filas irrelevantes,Descartar filas que no son relevantes para el objetivo del análisis.,GPT,filtering of irrelevant ranks
+interpolación de datos,Estimación de valores faltantes utilizando métodos matemáticos como interpolación lineal.,GPT,data interpolation
+relleno con promedio,Rellenar valores faltantes con el promedio de la columna correspondiente.,GPT,filling with average
+relleno con mediana,Rellenar valores faltantes con la mediana de la columna correspondiente.,GPT,stuffed with median
+relleno con moda,Rellenar valores faltantes con la moda de la columna correspondiente.,GPT,fashion with fashion
+identificación de valores extremos,Detección de valores que están fuera de un rango razonable o esperado.,GPT,identification of extreme values
+recodificación de variables,Asignación de nuevos valores a variables para mejorar la claridad del análisis.,GPT,variable recoding
+depuración de nombres de columnas,Estandarización y corrección de nombres de columnas en un conjunto de datos.,GPT,column name clothing
+eliminación de espacios en blanco,Eliminación de espacios innecesarios en celdas de texto o nombres de columnas.,GPT,elimination of blank spaces
+validación de rangos de datos,Comprobación de que los valores de datos están dentro de rangos predefinidos.,GPT,validation of data ranges
+manejo de datos inconsistentes,Identificación y corrección de registros que tienen conflictos en su contenido.,GPT,inconsistent data management
+codificación de fechas,Convertir datos de fechas en formatos consistentes para facilitar su análisis.,GPT,dates coding
+verificación de integridad de datos,Asegurarse de que los datos estén completos y sean válidos en todas las columnas.,GPT,data integrity verification
+aprendizaje supervisado,Tipo de aprendizaje donde el modelo se entrena con datos etiquetados.,GPT,supervised learning
+aprendizaje no supervisado,Método de aprendizaje que encuentra patrones en datos no etiquetados.,GPT,unsupervised learning
+aprendizaje por refuerzo,Técnica donde un agente aprende a maximizar recompensas en un entorno.,GPT,reinforcement learning
+regresión lineal,Modelo para predecir una variable continua usando una relación lineal.,GPT,linear regression
+regresión logística,Modelo utilizado para predecir probabilidades y clasificaciones binarias.,GPT,logistic regression
+máquinas de soporte vectorial,Algoritmo que encuentra hiperplanos para separar clases en datos.,GPT,vectorial support machines
+k nearest neighbors,Método basado en la proximidad para clasificar o predecir valores.,GPT,k nearest neighbors
+árboles de decisión,Modelo basado en reglas que divide datos en ramas para clasificaciones o regresiones.,GPT,decision trees
+bosques aleatorios,Conjunto de árboles de decisión que mejora la precisión al promediar resultados.,GPT,random forests
+xgboost,Técnica avanzada de boosting para clasificación y regresión con alta precisión.,GPT,xgboost
+lightgbm,Algoritmo de boosting optimizado para velocidad y eficiencia.,GPT,lightgbm
+catboost,Método de boosting diseñado para manejar datos categóricos de manera efectiva.,GPT,catboost
+naive bayes,Clasificador probabilístico basado en el teorema de bayes.,GPT,naive bayes
+clustering,Técnica para agrupar datos en conjuntos basados en similitud.,GPT,clustering
+k means,Método de agrupamiento que divide datos en k grupos según distancias.,GPT,k means
+dbscan,Algoritmo de agrupamiento que identifica regiones densas en datos.,GPT,dbscan
+hierarchical clustering,Método de agrupamiento que crea una jerarquía de clústeres.,GPT,hierarchical clustering
+análisis de componentes principales,Técnica de reducción de dimensionalidad que encuentra las direcciones principales en datos.,GPT,main component analysis
+t sne,Método para reducir dimensionalidad preservando relaciones locales en datos.,GPT,t sne
+umap,Técnica para visualizar datos de alta dimensión en espacios más pequeños.,GPT,umap
+redes neuronales artificiales,Modelo basado en capas de nodos interconectados para aprendizaje no lineal.,GPT,artificial neuronal networks
+redes neuronales convolucionales,Tipo de red neuronal diseñada para procesar datos con estructura espacial.,GPT,convolutional neuronal networks
+redes neuronales recurrentes,Red neuronal optimizada para procesar datos secuenciales.,GPT,recurrent neural networks
+lstm,Arquitectura de red para manejar dependencias a largo plazo en secuencias.,GPT,lstm
+gru,Variante de rnn que utiliza puertas para simplificar cálculos y mejorar rendimiento.,GPT,gru
+transformers,Modelo basado en atención para procesar texto y secuencias eficientemente.,GPT,transformers
+regresión ridge,Método de regresión que incluye penalización para reducir el sobreajuste.,GPT,ridge regression
+regresión lasso,Método que restringe coeficientes de regresión para evitar sobreajuste.,GPT,lasso regression
+elastic net,Modelo que combina regularización l1 y l2 para un mejor ajuste.,GPT,elastic net
+algoritmos genéticos,Algoritmo inspirado en la evolución natural para optimización de soluciones.,GPT,genetic algorithms
+máquinas de boltzmann,Modelo probabilístico que captura dependencias entre variables en redes.,GPT,boltzmann machines
+autoencoders,Red diseñada para aprender representaciones comprimidas de datos.,GPT,self -chirers
+redes adversarias generativas,Modelo que utiliza dos redes neuronales en competencia para generar datos nuevos.,GPT,generative adversary networks
+bagging,Técnica que combina predicciones de múltiples modelos para reducir varianza.,GPT,bagging
+boosting,"Método que mejora modelos secuencialmente, corrigiendo errores previos.",GPT,boosting
+stacking,Ensamblaje que combina predicciones de múltiples modelos de manera jerárquica.,GPT,stacking
+gradient boosting,Técnica de boosting basada en gradientes para mejorar precisión.,GPT,gradient boosting
+regresión de procesos gaussianos,Método para modelar distribuciones y relaciones no lineales en datos continuos.,GPT,gaussian processes regression
+clustering fuzzy c means,Técnica de agrupamiento que permite pertenencia parcial a múltiples clústeres.,GPT,clustering fuzzy c means
+q learning,Algoritmo de refuerzo para aprender políticas óptimas en un entorno discreto.,GPT,q learning
+procesamiento de lenguaje natural,Campo de la inteligencia artificial que se centra en la interacción entre computadoras y lenguaje humano.,GPT,natural language processing
+tokenización,División de texto en unidades más pequeñas como palabras o subpalabras.,GPT,tokenization
+lematización,Reducción de palabras a su forma base utilizando reglas lingüísticas.,GPT,lematization
+stemización,Reducción de palabras a sus raíces eliminando afijos.,GPT,stemization
+part of speech tagging,Asignación de etiquetas gramaticales a las palabras en un texto.,GPT,part of speech tagging
+reconocimiento de entidades nombradas,"Identificación y clasificación de nombres propios, organizaciones, ubicaciones y otros términos en texto.",GPT,recognition of named entities
+análisis de sentimientos,"Evaluación del tono emocional en un texto, como positivo, negativo o neutral.",GPT,feelings analysis
+extracción de relaciones,Identificación de relaciones entre entidades en un texto.,GPT,relationship extraction
+traducción automática,Conversión de texto de un idioma a otro utilizando modelos automáticos.,GPT,machine translation
+resumen automático,Generación de un resumen breve y coherente a partir de un texto más extenso.,GPT,automatic summary
+análisis de sintaxis,Análisis de la estructura gramatical de una oración.,GPT,syntax analysis
+modelado de lenguaje,Construcción de modelos que predicen la probabilidad de secuencias de palabras.,GPT,language modeling
+embedding de palabras,Representación vectorial de palabras para capturar su significado semántico.,GPT,word embedding
+word2vec,Modelo para crear representaciones de palabras basadas en su contexto.,GPT,word2vec
+glove,Algoritmo para generar embeddings de palabras que capturan similitudes semánticas.,GPT,glove
+fasttext,Método para crear embeddings de palabras que combina eficiencia y significado contextual.,GPT,fasttext
+representaciones contextuales,Representaciones de palabras que tienen en cuenta su contexto en una oración.,GPT,contextual representations
+bert,Modelo de lenguaje preentrenado para entender y procesar texto de manera contextual.,GPT,bert
+gpt,Modelo generativo basado en transformers para creación y comprensión de texto.,GPT,gpt
+transformer,Arquitectura basada en mecanismos de atención para procesar secuencias de texto.,GPT,transformer
+redes neuronales recurrentes,Red neuronal diseñada para procesar datos secuenciales como texto.,GPT,recurrent neural networks
+lstm,Variante de rnn que utiliza puertas para manejar dependencias a largo plazo.,GPT,lstm
+gru,Modelo simplificado de lstm que mantiene información relevante en texto secuencial.,GPT,gru
+clasificación de texto,Asignación de categorías a textos en función de su contenido.,GPT,text classification
+detección de spam,Identificación de correos electrónicos no deseados utilizando modelos nlp.,GPT,spam detection
+segmentación de palabras,"División de texto continuo en palabras individuales, especialmente en idiomas sin espacios claros.",GPT,word segmentation
+parsing dependencial,Análisis de las dependencias gramaticales entre palabras de una oración.,GPT,dependential parsing
+parsing constituencial,Descomposición de una oración en sus constituyentes estructurales.,GPT,constitutional parsing
+etiquetado secuencial,Procesamiento de texto que asigna etiquetas secuenciales a palabras o frases.,GPT,sequential labeling
+text to speech,Conversión de texto escrito en voz sintetizada.,GPT,text to speech
+speech to text,Conversión de audio hablado en texto escrito.,GPT,speech to text
+resolución de anáforas,Detección de qué palabra o frase hace referencia a una entidad anterior en el texto.,GPT,anaphoras resolution
+desambiguación léxica,Determinación del significado correcto de una palabra basada en su contexto.,GPT,lexical disambiguation
+generación de texto,Creación de texto coherente y significativo a partir de un modelo generativo.,GPT,text generation
+machine translation,Traducción de texto entre idiomas utilizando técnicas automáticas.,GPT,machine translation
+intent detection,Identificación de la intención subyacente en frases escritas o habladas.,GPT,try detection
+named entity linking,Vinculación de entidades nombradas con una base de datos o conocimiento externo.,GPT,named entity linking
+semantic role labeling,Identificación de roles semánticos de palabras o frases dentro de una oración.,GPT,semantic role labeling
+coreferencia,Detección de menciones de la misma entidad en diferentes partes del texto.,GPT,choreference
+análisis morfológico,Análisis de las unidades gramaticales mínimas en una palabra.,GPT,morphological analysis
+computación en la nube,Modelo de computación que permite acceso remoto a recursos y servicios compartidos.,GPT,cloud computing
+internet de las cosas,Red de dispositivos conectados que recopilan e intercambian datos a través de internet.,GPT,internet of things
+plataforma como servicio,Modelo de servicio que proporciona una plataforma para desarrollar y desplegar aplicaciones.,GPT,platform as a service
+infraestructura como servicio,"Provisión de infraestructura virtualizada, como servidores y almacenamiento, bajo demanda.",GPT,infrastructure as a service
+software como servicio,"Modelo que ofrece software a través de internet, eliminando la necesidad de instalación local.",GPT,software as a service
+edge computing,Procesamiento de datos en dispositivos cercanos al lugar donde se generan.,GPT,edge computing
+fog computing,Extensión del edge computing que utiliza nodos intermedios para procesar datos.,GPT,fog computing
+computación híbrida,Combinación de servicios locales y en la nube para una mayor flexibilidad y control.,GPT,hybrid computing
+servidor en la nube,Computadoras virtuales que proporcionan servicios en entornos de nube.,GPT,cloud server
+almacenamiento en la nube,Almacenamiento de datos que se accede y gestiona a través de internet.,GPT,cloud storage
+big data en la nube,Procesamiento y análisis de grandes volúmenes de datos utilizando servicios en la nube.,GPT,big data in the cloud
+servicios de nube privada,Entornos de nube diseñados exclusivamente para una sola organización.,GPT,private cloud services
+servicios de nube pública,Servicios de nube disponibles para el público general a través de proveedores.,GPT,public cloud services
+seguridad en la nube,Prácticas y herramientas para proteger datos y aplicaciones en entornos de nube.,GPT,cloud security
+automatización en la nube,Uso de herramientas para gestionar y optimizar procesos en la nube automáticamente.,GPT,cloud automation
+machine learning en la nube,Implementación de algoritmos de machine learning utilizando infraestructura en la nube.,GPT,machine learning in the cloud
+redes de sensores iot,Conjunto de dispositivos interconectados para monitoreo y recolección de datos ambientales.,GPT,iot sensor networks
+conectividad iot,Tecnologías que conectan dispositivos iot a redes y servicios de internet.,GPT,iot connectivity
+protocolo mqtt,Protocolo ligero para la comunicación entre dispositivos iot y servidores.,GPT,mqtt protocol
+protocolo coap,Protocolo diseñado para aplicaciones iot de baja potencia y recursos limitados.,GPT,coap protocol
+dispositivos iot,Dispositivos físicos que recopilan datos y actúan en base a comandos recibidos.,GPT,iot devices
+pasarelas iot,Puentes que conectan dispositivos iot con redes o servicios en la nube.,GPT,iot catwalks
+análisis de datos iot,Procesamiento y análisis de los datos generados por dispositivos iot.,GPT,iot data analysis
+computación en tiempo real,Capacidad de procesar datos en tiempo real para aplicaciones sensibles a la latencia.,GPT,real -time computing
+integración de iot y cloud,Uso combinado de iot y servicios en la nube para gestionar dispositivos y datos.,GPT,integration of iot and cloud
+gemelos digitales,Representaciones virtuales de dispositivos o sistemas físicos para simulación y análisis.,GPT,digital twins
+arquitectura de microservicios,Estructura que permite desarrollar y desplegar aplicaciones como componentes independientes.,GPT,microservice architecture
+iot industrial,Aplicación de iot en entornos industriales para optimizar procesos y monitorear equipos.,GPT,industrial iot
+automatización del hogar,Uso de dispositivos iot para controlar y automatizar funciones en el hogar.,GPT,home automation
+redes 5g para iot,Tecnología de redes móviles que soporta alta velocidad y conectividad masiva para iot.,GPT,5g networks for iot
+api de iot,Interfaz que permite a desarrolladores integrar dispositivos iot con sistemas externos.,GPT,iot api
+servicios en nube multi tenant,Entornos de nube compartidos por múltiples usuarios o empresas.,GPT,multi tenant cloud services
+orquestación de nube,Gestión coordinada de recursos y servicios en entornos de nube complejos.,GPT,cloud orchestration
+contenedores en la nube,Tecnología para empaquetar aplicaciones y sus dependencias para ejecutar en cualquier entorno.,GPT,cloud containers
+kubernetes,Plataforma para gestionar contenedores en entornos de nube y locales.,GPT,kubernetes
+cloud functions,Servicios basados en eventos que ejecutan funciones en la nube sin necesidad de servidores.,GPT,cloud functions
+iot security,Prácticas y tecnologías para proteger dispositivos iot y sus datos.,GPT,iot security
+procesamiento de datos iot,"Métodos para recopilar, procesar y analizar datos generados por dispositivos iot.",GPT,iot data processing
+servicios de mensajería en la nube,Herramientas para transmitir mensajes entre aplicaciones y servicios en la nube.,GPT,cloud messaging services
+blockchain en iot,Aplicación de blockchain para mejorar la seguridad y transparencia en iot.,GPT,blockchain in iot
+análisis predictivo iot,Análisis de datos iot para predecir eventos futuros y optimizar operaciones.,GPT,iot predictive analysis
+aceleración de modelos ai,Uso de hardware especializado y técnicas avanzadas para acelerar la inferencia de modelos.,GPT,ai models acceleration
+despliegue de modelos ai en edge,Implementación de modelos en dispositivos periféricos para procesamiento local.,GPT,deployment of ai models in edge
+inferencia distribuida,División de cargas de inferencia en múltiples nodos o servidores.,GPT,distributed inference
+optimización de recursos para modelos,"Optimización del uso de cpu, gpu y memoria para mejorar la eficiencia de modelos.",GPT,optimization of resource for models
+gestión de datos para ai,Gestión eficaz de datos necesarios para entrenar y validar modelos de ai.,GPT,data management for ai
+trazabilidad de datos,Seguimiento del origen y transformación de datos usados en los modelos.,GPT,data traceability
+pruebas de estabilidad de modelos,Pruebas para evaluar la estabilidad del desempeño de los modelos a lo largo del tiempo.,GPT,model stability tests
+control de calidad de modelos,Medidas para garantizar que los modelos mantengan altos estándares de calidad.,GPT,model quality control
+pipeline de datos ai,Pipeline diseñado para procesar y preparar datos usados en modelos ai.,GPT,ai data pipeline
+orquestación de tareas ai,Coordinación de procesos relacionados con la preparación y despliegue de modelos.,GPT,ai task orchestration
+infraestructura como código para modelos,Uso de herramientas de automatización para definir infraestructura de despliegue como código.,GPT,infrastructure as code for models
+versionado de datos de entrenamiento,Registro y control de versiones de los datos usados en el entrenamiento de modelos.,GPT,training data version
+automatización de features engineering,Automatización del proceso de creación y selección de características relevantes.,GPT,features engineering automation
+monitorización de drift de datos,Monitorización de cambios en datos que pueden afectar el rendimiento de los modelos.,GPT,data drift monitoring
+escalado automático de modelos,Capacidad para ajustar dinámicamente la infraestructura según la demanda del modelo.,GPT,automatic models scaling
+despliegue multinube,Despliegue de modelos en múltiples entornos de nube para mayor flexibilidad.,GPT,multicloud deployment
+adaptación dinámica de modelos,Ajuste continuo de los modelos basándose en datos o contextos cambiantes.,GPT,dynamic adaptation of models
+inferencia en tiempo real,Capacidad para realizar predicciones inmediatamente después de recibir datos.,GPT,real -time inference
+inferencia en lote,Procesamiento de grandes lotes de datos para inferencias masivas.,GPT,lot inference
+explicabilidad basada en gráficos,Uso de visualizaciones gráficas para explicar las predicciones de los modelos.,GPT,graphic based placement
+privacidad diferencial en modelos ai,Implementación de técnicas para garantizar la privacidad de los datos en modelos ai.,GPT,differential privacy in ai models
+evaluación de impacto ético de modelos,Análisis del impacto social y ético de los modelos en su contexto de uso.,GPT,ethical impact evaluation of models
+regulación de modelos de machine learning,Cumplimiento de normas y regulaciones relacionadas con el uso de ai.,GPT,regulation of machine learning models
+pruebas de resiliencia de modelos,Pruebas para evaluar la capacidad del modelo de mantener su rendimiento bajo estrés.,GPT,model resilience tests
+compatibilidad con frameworks múltiples,Compatibilidad de modelos con múltiples frameworks de machine learning.,GPT,compatibility with multiple frameworks
+automatización de documentación de modelos,Generación automática de documentación técnica para modelos desplegados.,GPT,model documentation automation
+a/b testing en modelos ai,Experimentación controlada para comparar el rendimiento de diferentes modelos.,GPT,a/b testing in ai models
+gestión de sesgos post despliegue,Mitigación y ajuste de sesgos detectados después del despliegue de modelos.,GPT,post deployment biased management
+integración de modelos en aplicaciones web,Integración fluida de modelos en aplicaciones web y móviles.,GPT,integration of models in web applications
+uso de gpus para despliegue ai,Uso de unidades de procesamiento gráfico para optimizar despliegues en producción.,GPT,use of gpus for deployment ai
+inferencia en dispositivos iot,Despliegue de modelos en dispositivos conectados como sensores y cámaras.,GPT,inference on iot devices
+pruebas de seguridad para modelos ai,Pruebas para identificar vulnerabilidades de seguridad en modelos ai.,GPT,safety tests for ai models
+monitorización en tiempo real de modelos,Seguimiento continuo del rendimiento y la actividad de los modelos en producción.,GPT,real -time monitoring of models
+despliegue de modelos ai en kubernetes,Automatización del despliegue y gestión de modelos usando plataformas como kubernetes.,GPT,deployment of ai models in kubernetes
+reentrenamiento automático basado en feedback,Actualización automática de modelos basándose en retroalimentación de usuarios o datos nuevos.,GPT,automatic feedback resentment
+uso de data lake para entrenamiento ai,Uso de repositorios centralizados de datos para entrenar y reentrenar modelos.,GPT,data lake use for ai training
+automatización de auditorías de modelos,Automatización de auditorías para revisar el desempeño y el cumplimiento de modelos.,GPT,automation of models audits
+seguridad de datos en despliegues ai,Garantizar la seguridad de datos sensibles usados durante el entrenamiento o inferencia.,GPT,data safety in ai deployments
+despliegue de modelos explicables,Despliegue de modelos con capacidades para proporcionar interpretaciones claras.,GPT,display of explainable models
+actualización continua de modelos en producción,Implementación de estrategias para actualizar modelos sin interrumpir el servicio.,GPT,continuous update of models in production
+automatización robótica de procesos,Tecnología que utiliza bots para automatizar tareas repetitivas y basadas en reglas.,GPT,robotic process automation
+bots de software,Programas diseñados para realizar tareas específicas de manera automatizada.,GPT,software bots
+flujos de trabajo automatizados,Definición de pasos automáticos para completar tareas dentro de un proceso.,GPT,automated workflows
+procesos repetitivos,Actividades repetitivas y estructuradas que se pueden automatizar con bots.,GPT,repetitive processes
+automatización basada en reglas,Automatización de tareas que siguen reglas predefinidas y estructuradas.,GPT,rules -based automation
+orquestación de bots,Coordinación y gestión de múltiples bots que trabajan en conjunto.,GPT,bots orchestration
+asistentes virtuales,Aplicaciones que asisten a los usuarios en tareas específicas mediante automatización.,GPT,virtual assistants
+ocr,Tecnología que convierte imágenes de texto en datos editables y procesables.,GPT,ocr
+integración con apis,Método para conectar sistemas y servicios mediante interfaces de programación.,GPT,integration with apis
+screen scraping,Técnica para extraer datos de pantallas o interfaces sin acceso directo al sistema.,GPT,screen scraping
+automatización de procesos empresariales,Automatización de flujos de trabajo en operaciones comerciales complejas.,GPT,business process automation
+gestión de credenciales en rpa,Prácticas para proteger y manejar credenciales utilizadas por bots.,GPT,credential management in rpa
+bots desatendidos,Bots que funcionan de manera autónoma sin intervención humana.,GPT,unattended bots
+bots atendidos,Bots que requieren interacción humana para completar ciertas tareas.,GPT,bots attended
+programación visual,Creación de flujos de trabajo mediante herramientas de diseño visual sin necesidad de programación avanzada.,GPT,visual programming
+plataformas de rpa,"Plataformas diseñadas para desarrollar, implementar y gestionar automatizaciones con rpa.",GPT,rpa platforms
+herramientas de rpa,"Software como uipath, automation anywhere y blue prism utilizado para rpa.",GPT,rpa tools
+automatización de formularios,Automatización de procesos que implican la entrada de datos en formularios.,GPT,form automation
+automatización de tareas manuales,Reducción de tiempo y errores en tareas manuales a través de la automatización.,GPT,automation of manual tasks
+automatización de flujos de datos,Procesos para mover datos entre sistemas de forma automática y eficiente.,GPT,data flow automation
+análisis de procesos para rpa,Evaluación de tareas y procesos para identificar oportunidades de automatización.,GPT,rpa process analysis
+documentación de procesos,Creación de documentación detallada sobre los procesos a automatizar.,GPT,process documentation
+monitorización de bots,Seguimiento y evaluación del desempeño de bots durante la ejecución de procesos.,GPT,bots monitoring
+gestión de excepciones,Gestión de errores y fallas durante la ejecución de procesos automatizados.,GPT,exception management
+automatización de tareas repetitivas,Simplificación de tareas que implican repetición y seguimiento de reglas específicas.,GPT,automation of repetitive tasks
+automatización asistida,Automatización que opera con la supervisión o asistencia de un usuario.,GPT,assisted automation
+automatización no asistida,Automatización que opera completamente sin supervisión humana.,GPT,non -assisted automation
+pruebas automatizadas,Uso de rpa para realizar pruebas de software automáticamente.,GPT,automated tests
+automatización de flujos de trabajo,Automatización de tareas dentro de un flujo de trabajo empresarial.,GPT,automation of workflows
+ciclo de vida de bots,Etapas desde el diseño hasta la implementación y mantenimiento de bots.,GPT,bots life cycle
+impacto de rpa en el roi,Medición de los beneficios financieros y operativos obtenidos mediante rpa.,GPT,rpa impact on the roi
+optimización de procesos con rpa,Mejoras en la eficiencia y calidad de procesos mediante automatización robótica.,GPT,rpa processes optimization
+implementación de rpa,Pasos y consideraciones para introducir rpa en una organización.,GPT,rpa implementation
+escalabilidad en rpa,Capacidad para aumentar la cantidad de bots o procesos automatizados según las necesidades.,GPT,scalability in rpa
+rpa en la nube,Implementación de bots y procesos automatizados en entornos basados en la nube.,GPT,rpa in the cloud
+seguridad en rpa,Prácticas para garantizar la seguridad de datos y sistemas en implementaciones rpa.,GPT,rpa security
+análisis predictivo en rpa,Uso de análisis de datos para mejorar y optimizar procesos automatizados.,GPT,predictive analysis in rpa
+inteligencia artificial en rpa,Integración de técnicas de ia para habilitar capacidades avanzadas en bots.,GPT,artificial intelligence in rpa
+automatización cognitiva,Combinación de rpa con ia para manejar tareas complejas y no estructuradas.,GPT,cognitive automation
+automatización de atención al cliente,Automatización de interacciones y servicios ofrecidos a los clientes.,GPT,customer service automation
+procesamiento de señales,Estudio y análisis de señales para mejorar su interpretación o transmisión.,GPT,signal processing
+señal continua,Señal que varía de forma continua en el tiempo o el espacio.,GPT,continuous sign
+señal discreta,Señal definida solo en instantes discretos de tiempo.,GPT,discreet signal
+frecuencia de muestreo,Frecuencia a la cual se toma una muestra de una señal continua.,GPT,sampling frequency
+transformada de fourier,Técnica matemática para descomponer señales en sus componentes frecuenciales.,GPT,fourier transform
+transformada rápida de fourier,Versión eficiente de la transformada de fourier para señales discretas.,GPT,fourier transformed
+filtro pasa bajos,Filtro que permite pasar frecuencias bajas y atenúa las altas.,GPT,low pass filter
+filtro pasa altos,Filtro que permite pasar frecuencias altas y atenúa las bajas.,GPT,filter passes high
+filtro pasa banda,Filtro que permite pasar frecuencias dentro de un rango específico.,GPT,filter pass band
+filtro rechaza banda,Filtro que elimina frecuencias dentro de un rango específico.,GPT,filter rejects band
+transformada de laplace,Transformación para analizar señales en el dominio complejo.,GPT,laplace transform
+transformada z,Herramienta matemática para analizar sistemas lineales discretos.,GPT,transformed z
+convolución,Operación que combina dos señales para producir una tercera.,GPT,convolution
+correlación cruzada,Medida de similitud entre dos señales en función del tiempo.,GPT,cross correlation
+autocorrelación,Medida de similitud de una señal consigo misma en diferentes instantes.,GPT,autocorrelation
+análisis de espectro,Análisis que identifica la distribución de energía en función de la frecuencia.,GPT,spectrum analysis
+señales determinísticas,Señales cuya amplitud y características pueden predecirse completamente.,GPT,deterministic signals
+señales aleatorias,Señales que contienen componentes impredecibles debido al ruido.,GPT,random signals
+ruido en señales,Interferencias no deseadas que afectan la calidad de una señal.,GPT,noise in signals
+sistema lineal e invariante en el tiempo,Sistemas cuyas propiedades no cambian con el tiempo y son lineales.,GPT,linear and invariant system in time
+respuesta impulsiva,Respuesta de un sistema a una señal impulsiva.,GPT,impulsive response
+respuesta en frecuencia,Descripción de cómo un sistema afecta las distintas frecuencias de una señal.,GPT,frequency response
+modulación amplitud,Técnica de transmisión que varía la amplitud de la señal portadora.,GPT,amplitude modulation
+modulación frecuencia,Técnica de transmisión que varía la frecuencia de la señal portadora.,GPT,frequency modulation
+modulación de fase,Técnica de transmisión que varía la fase de la señal portadora.,GPT,phase modulation
+señales digitales,Señales que consisten en valores discretos en el tiempo.,GPT,digital signals
+señales analógicas,Señales que son continuas en el tiempo y varían suavemente.,GPT,analog signals
+teorema de muestreo de nyquist,Principio que determina la frecuencia mínima de muestreo para evitar aliasing.,GPT,nyquist sampling theorem
+aliasing,Fenómeno donde frecuencias altas se confunden con frecuencias bajas al muestrear.,GPT,aliasing
+interpolación de señales,Método para reconstruir una señal continua a partir de muestras discretas.,GPT,signal interpolation
+dizaje de señales,Reducción de la frecuencia de muestreo de una señal.,GPT,signal sale
+análisis de tiempo frecuencia,Análisis que combina información del tiempo y la frecuencia de una señal.,GPT,frequency time analysis
+filtrado digital,Procesamiento de señales en formato digital usando algoritmos.,GPT,digital filtrate
+filtrado analógico,Procesamiento de señales usando circuitos y componentes físicos.,GPT,analog filtering
+ruido blanco,Ruido con energía uniforme en todo el espectro de frecuencias.,GPT,white noise
+ruido gaussiano,Ruido que sigue una distribución normal en sus valores.,GPT,gaussian noise
+ruido de banda limitada,Ruido restringido a un rango específico de frecuencias.,GPT,limited band noise
+detección de bordes en señales,Técnica para identificar cambios abruptos en señales.,GPT,border detection in signals
+espectrogramas,Representación visual que muestra cómo cambian las frecuencias en el tiempo.,GPT,spectrograms
+análisis de señales multiresolución,Análisis que descompone señales en diferentes niveles de detalle y resolución.,GPT,multi -purpose signal analysis
+visualización de datos,"Técnica para representar datos visualmente, facilitando su interpretación y análisis.",GPT,data display
+gráficos de barras,Gráfico que utiliza barras para comparar valores entre diferentes categorías.,GPT,bar charts
+gráficos de líneas,Gráfico que conecta puntos de datos con líneas para mostrar tendencias.,GPT,line charts
+gráficos de dispersión,Gráfico que representa relaciones entre dos variables mediante puntos dispersos.,GPT,scatter plots
+histogramas,Gráfico que muestra la distribución de datos dividiéndolos en intervalos o bins.,GPT,histograms
+diagramas de caja,Gráfico que visualiza la distribución de datos mostrando cuartiles y valores atípicos.,GPT,boxplots
+heatmaps,Gráfico que utiliza colores para representar la intensidad de datos en una matriz.,GPT,heatmaps
+gráficos de torta,Gráfico que muestra proporciones de un total usando segmentos de un círculo.,GPT,cake graphics
+gráficos de área,Gráfico que combina líneas y áreas para mostrar acumulaciones de datos a lo largo del tiempo.,GPT,area charts
+diagramas de dispersión con burbujas,Extensión del gráfico de dispersión que incluye tamaños de burbujas para representar una tercera variable.,GPT,bubbles scatter plots
+gráficos de radar,Gráfico que representa variables multidimensionales en forma de un polígono.,GPT,radar chart
+gráficos de rosca,Variante del gráfico de torta con un centro hueco para visualización adicional.,GPT,pie chart
+mapas coropléticos,Mapa que utiliza variaciones de color para mostrar valores en diferentes regiones geográficas.,GPT,choropleth maps
+gráficos de series temporales,Gráfico diseñado para visualizar cambios a lo largo del tiempo en una o varias series.,GPT,time  series plot
+gráficos de violin,Gráfico que muestra la distribución de datos combinando aspectos de diagramas de caja y densidad.,GPT,violin plot
+gráficos de densidad,Gráfico que muestra estimaciones de la densidad de datos en un conjunto continuo.,GPT,density graphics
+diagramas de gantt,Gráfico utilizado para planificar y mostrar tareas a lo largo del tiempo.,GPT,gantt charts
+nubes de palabras,Representación visual de texto donde las palabras más frecuentes tienen mayor tamaño.,GPT,word clouds
+treemaps,Gráfico jerárquico que utiliza rectángulos para representar proporciones de categorías.,GPT,treemaps
+mapas de calor geográficos,Visualización que combina datos geográficos con colores para representar información regional.,GPT,geographical heat maps
+gráficos de red,Gráfico que muestra conexiones entre nodos en un sistema de red.,GPT,network diagram
+diagramas de sankey,Gráfico que representa flujos de datos entre categorías con anchos proporcionales.,GPT,sankey diagrams
+gráficos de pareto,Gráfico que ordena datos por frecuencia para identificar las más significativas.,GPT,pareto graphics
+gráficos de boxen,Gráfico similar al diagrama de caja pero diseñado para grandes conjuntos de datos.,GPT,boxen graphics
+diagrama de hexágonos,Gráfico que utiliza celdas hexagonales para agrupar y representar densidad de puntos.,GPT,hexagon chart
+gráficos de líneas apiladas,Gráfico que apila líneas para mostrar la contribución de cada serie en un total acumulado.,GPT,stacked line graphics
+gráficos de variación,Gráfico diseñado para mostrar desviaciones de un valor promedio o estándar.,GPT,variation charts
+mapas de relieve,Mapa que representa datos utilizando variaciones en la elevación geográfica.,GPT,relief maps
+mapas de flujo,Mapa que utiliza líneas y flechas para mostrar el flujo de datos o personas.,GPT,flow maps
+gráficos de pirámides poblacionales,Gráfico demográfico que muestra la distribución de una población por edad y género.,GPT,population pyramid graphics
+gráficos de velocímetros,Gráfico que simula indicadores de velocidad para mostrar valores actuales frente a un objetivo.,GPT,velocimeter graphics
+gráficos de rosetas,Gráfico circular con múltiples capas para mostrar datos jerárquicos o categóricos.,GPT,rosette charts
+visualización interactiva,Representación interactiva de datos que permite explorar información dinámicamente.,GPT,interactive visualization
+dashboard,Panel que combina múltiples gráficos e indicadores para mostrar métricas clave.,GPT,dashboard
+gráficos dinámicos,Gráficos que permiten actualización en tiempo real para análisis dinámico.,GPT,dynamic charts
+infografía,Combinación de gráficos y texto para comunicar información de manera atractiva.,GPT,infographic
+colores en visualización,Uso estratégico de colores para mejorar la comprensión de los datos visualizados.,GPT,colors in visualization
+principios de percepción visual,Principios que optimizan cómo los humanos perciben y entienden gráficos.,GPT,principles of visual perception
+anotaciones en gráficos,Elementos adicionales en gráficos para destacar puntos clave o contextos importantes.,GPT,charts annotations
+software de visualización,Herramientas de software populares para crear gráficos y paneles interactivos.,GPT,visualization software

@@ -1,0 +1,42 @@
+Concepto,Descripción
+Despliegue de Modelos de AI,Proceso de poner modelos de inteligencia artificial en operación para su uso real.
+Ciclo de Vida de un Modelo,Etapas desde la concepción hasta el despliegue y mantenimiento de un modelo.
+Entrenamiento de Modelos,Proceso para entrenar un modelo usando datos de entrenamiento.
+Validación de Modelos,Evaluación de un modelo utilizando datos separados para medir su desempeño.
+Pruebas de Modelos,Pruebas finales para garantizar que un modelo funcione como se espera antes del despliegue.
+Pipeline de Machine Learning,"Conjunto de pasos automatizados para entrenar, validar y desplegar modelos de machine learning."
+Ingeniería de Características,Selección y transformación de variables relevantes para mejorar el modelo.
+MLOps,Prácticas que combinan machine learning y operaciones para gestionar modelos en producción.
+Modelos en Producción,Modelos de AI que están disponibles para realizar predicciones en aplicaciones en vivo.
+Contenedores para Modelos,Uso de contenedores para encapsular modelos junto con sus dependencias.
+Docker para AI,Herramienta para crear y gestionar contenedores para aplicaciones de AI.
+Kubernetes para AI,Plataforma para orquestar contenedores en despliegues de gran escala.
+Microservicios para Modelos,Arquitectura que permite desplegar modelos como servicios independientes.
+Servidores de Inferencia,Servidores especializados para manejar solicitudes de inferencia de modelos AI.
+REST APIs para Modelos,Interfaces que permiten la comunicación entre aplicaciones y modelos AI.
+gRPC para Modelos,Protocolo de comunicación eficiente para la inferencia de modelos AI.
+Monitorización de Modelos,Seguimiento y análisis del rendimiento y comportamiento de los modelos desplegados.
+Retraining de Modelos,Proceso de actualizar modelos con nuevos datos para mantener su precisión.
+Tuning de Hiperparámetros,Ajuste de parámetros de un modelo para mejorar su rendimiento.
+Automatización de Despliegue,Automatización de los procesos de prueba y despliegue de modelos.
+Pruebas de Rendimiento,Evaluación de la velocidad y eficiencia de un modelo durante la inferencia.
+Latencia de Inferencia,Tiempo que tarda un modelo en generar una predicción después de recibir datos de entrada.
+Escalabilidad de Modelos,Capacidad para manejar un aumento en el volumen de solicitudes de inferencia.
+Versionado de Modelos,Seguimiento de versiones de modelos para mejorar la reproducibilidad y gestión.
+Gestión de Modelos,Gestión centralizada de modelos a lo largo de su ciclo de vida.
+MLflow,Herramienta para rastrear y gestionar experimentos de machine learning.
+TensorFlow Serving,Sistema para servir modelos de TensorFlow en producción.
+TorchServe,Plataforma para desplegar y servir modelos de PyTorch.
+ONNX,Formato estándar para representar modelos de machine learning interoperables.
+Optimización de Modelos,Mejorar el rendimiento de un modelo para reducir su tiempo de inferencia y uso de recursos.
+Cuantización de Modelos,Proceso de reducir la precisión de los números en un modelo para hacerlo más eficiente.
+Compresión de Modelos,Técnicas para reducir el tamaño de un modelo sin sacrificar significativamente su precisión.
+Despliegue en la Nube,"Implementación de modelos en plataformas de nube como AWS, Azure o GCP."
+Despliegue en Dispositivos Locales,Despliegue de modelos en hardware local o servidores en sitio.
+Edge AI,Ejecución de modelos AI directamente en dispositivos periféricos cercanos a la fuente de datos.
+Ensamblaje de Modelos,Combinación de múltiples modelos para mejorar la precisión y robustez.
+Explainability de Modelos,Explicaciones de cómo un modelo produce predicciones para mejorar su interpretabilidad.
+Seguridad en Modelos AI,Prácticas para proteger modelos AI contra ataques y accesos no autorizados.
+Pruebas de Sesgo en Modelos,Evaluación de posibles sesgos en modelos para garantizar la equidad.
+Auditoría de Modelos,Revisión y documentación de modelos para asegurar transparencia y cumplimiento.
+Integración Continua y Despliegue Continuo (CI/CD),Automatización de pruebas y despliegues de modelos utilizando herramientas CI/CD.

@@ -1,0 +1,42 @@
+Concepto,Descripción
+Base de Datos,"Colección organizada de datos que puede ser almacenada, consultada y manipulada."
+Base de Datos Relacional,Tipo de base de datos que organiza datos en tablas relacionadas mediante llaves.
+SQL,Lenguaje estándar para consultar y manipular bases de datos relacionales.
+NoSQL,"Bases de datos que manejan datos no estructurados o semiestructurados, sin esquemas fijos."
+Normalización,Proceso de estructurar una base de datos para minimizar redundancias y dependencias.
+Desnormalización,Técnica para mejorar el rendimiento denormalizando datos estructurados.
+Esquema de Base de Datos,Estructura organizativa que define cómo se almacenan y relacionan los datos.
+Entidad-Relación,Modelo gráfico para representar entidades y sus relaciones en una base de datos.
+Llave Primaria,Atributo o conjunto de atributos que identifican de manera única una fila en una tabla.
+Llave Foránea,Atributo en una tabla que se relaciona con una llave primaria de otra tabla.
+Índices,Estructuras que mejoran la velocidad de las consultas en una base de datos.
+Consultas,Operaciones para recuperar datos específicos de una base de datos.
+Join,Operación para combinar filas de dos o más tablas basadas en condiciones comunes.
+Inner Join,Tipo de join que devuelve solo las filas con coincidencias en ambas tablas.
+Outer Join,Tipo de join que incluye filas con coincidencias y aquellas sin coincidencias en una tabla.
+Base de Datos Distribuida,Base de datos cuyos datos están distribuidos en múltiples nodos o ubicaciones.
+Replicación de Datos,Proceso de duplicar datos en varios servidores para aumentar disponibilidad y fiabilidad.
+Sharding,División de una base de datos en fragmentos para manejar grandes volúmenes de datos.
+Consistencia de Datos,Propiedad que asegura que los datos sean precisos y estén sincronizados.
+ACID,Conjunto de propiedades que garantizan transacciones fiables en bases de datos.
+Transacciones,Secuencia de operaciones que se ejecutan como una unidad para mantener la integridad de datos.
+Rollback,Operación que deshace una transacción no exitosa o que causa inconsistencias.
+Commit,Operación que guarda los cambios realizados por una transacción en la base de datos.
+Base de Datos en Memoria,Base de datos optimizada para almacenar y acceder a datos directamente en la memoria RAM.
+Base de Datos en la Nube,Base de datos que se almacena y gestiona en servidores en la nube.
+Data Lake,Repositorio de datos no estructurados o semiestructurados almacenados en su forma original.
+Data Warehouse,Sistema para almacenar y analizar grandes cantidades de datos estructurados.
+Base de Datos OLAP,Base de datos optimizada para consultas analíticas y procesamiento de datos históricos.
+Base de Datos OLTP,Base de datos optimizada para transacciones rápidas y frecuentes en tiempo real.
+Cassandra,Base de datos distribuida diseñada para manejar grandes volúmenes de datos a escala global.
+MongoDB,Base de datos NoSQL popular que utiliza un modelo de documentos basado en JSON.
+Redis,"Base de datos en memoria utilizada como caché, cola de mensajes y más."
+MySQL,Sistema de gestión de bases de datos relacional de código abierto ampliamente utilizado.
+PostgreSQL,Base de datos relacional avanzada con soporte para extensiones y alto rendimiento.
+Oracle Database,Base de datos empresarial con características avanzadas para aplicaciones críticas.
+Microsoft SQL Server,Sistema de gestión de bases de datos desarrollado por Microsoft con múltiples herramientas.
+SQLite,"Base de datos ligera y autónoma, ideal para aplicaciones móviles y pequeñas."
+Modelado de Datos,Proceso de definir y organizar las estructuras de datos en una base de datos.
+Consultas Preparadas,Consultas parametrizadas para prevenir inyecciones SQL y mejorar seguridad.
+Seguridad en Bases de Datos,Conjunto de medidas para proteger bases de datos contra accesos no autorizados.
+Auditoría de Bases de Datos,Proceso de registrar y supervisar las actividades en una base de datos.

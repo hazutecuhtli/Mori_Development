@@ -1,0 +1,677 @@
+concepto,descripcion,concept,source
+ablación,Una técnica para evaluar la importancia de una característica o componente al eliminarla temporalmente de un modelo.,ablation,developers.google.com
+prueba a/b,Una forma estadística de comparar dos (o más) técnicas: A y el B.,a/b testing,developers.google.com
+chip de acelerador,Una categoría de componentes de hardware especializados diseñados para realizar cálculos clave necesarios para algoritmos de aprendizaje profundo.,accelerator chip,developers.google.com
+exactitud,El número de predicciones de clasificación correctas divididas por el número total de predicciones.,accuracy,developers.google.com
+acción,"En el aprendizaje de refuerzo, el mecanismo por el cual el agente pasa entre los estados del medio ambiente.",action,developers.google.com
+función de activación,Una función que permite a las redes neuronales aprender relaciones no lineales (complejas) entre las características y la etiqueta.,activation function,developers.google.com
+aprendizaje activo,Un enfoque de entrenamiento en el que el algoritmo elige algunos de los datos de los que aprende.,active learning,developers.google.com
+adagrad,"Un sofisticado algoritmo de descenso de gradiente que reescala los gradientes de cada parámetro, dando efectivamente a cada parámetro anindependiente de aprendizaje.",adagrad,developers.google.com
+agente,"En el aprendizaje de refuerzo, la entidad que utiliza una política para maximizar el rendimiento esperado obtenido de la transición entre los estados del medio ambiente.",agent,developers.google.com
+agrupación aglomerativa,Ver clúster jerárquico.,agglomerative clustering,developers.google.com
+detección de anomalías,El proceso de identificación de valores atípicos.,anomaly detection,developers.google.com
+arkansas,Abreviatura de la realidad aumentada.,ar,developers.google.com
+área bajo la curva de recuperación de precisión,Ver PR AUC (área debajo de la curva de PR).,area under the pr curve,developers.google.com
+área bajo la curva roc,Ver AUC (área debajo de la curva ROC).,area under the roc curve,developers.google.com
+inteligencia general artificial,"Un mecanismo no humano que demuestra una amplia gama de resolución de problemas, creatividad y adaptabilidad.",artificial general intelligence,developers.google.com
+inteligencia artificial,Un programa o modelo no humano que puede resolver tareas sofisticadas.,artificial intelligence,developers.google.com
+atención,Un mecanismo utilizado en una red neuronal que indica la importancia de una palabra o parte en particular de una palabra.,attention,developers.google.com
+atributo,Sinónimo de función.,attribute,developers.google.com
+muestreo de atributos,Una táctica para capacitar un bosque de decisión en el que cada árbol de decisión considera solo un subconjunto aleatorio de posibles características al aprender la condición.,attribute sampling,developers.google.com
+auc (área debajo de la curva roc),Un número entre 0 y 1 que representa la capacidad de un modelo de clasificación binaria para separar las clases positivas de las clases negativas.,auc (area under the roc curve),developers.google.com
+realidad aumentada,"Una tecnología que superpone una imagen generada por computadora en la vista de un usuario del mundo real, proporcionando así una vista compuesta.",augmented reality,developers.google.com
+autoencoder,Un sistema que aprende a extraer la información más importante de la entrada.,autoencoder,developers.google.com
+evaluación automática,Uso de software para juzgar la calidad de la salida de un modelo.,automatic evaluation,developers.google.com
+sesgo de automatización,"Cuando un tomador de decisiones humano favorece las recomendaciones hechas por un sistema de toma de decisiones automatizado sobre la información realizada sin automatización, incluso cuando el sistema automatizado de toma de decisiones comete errores.",automation bias,developers.google.com
+automl,Cualquier proceso automatizado para construir modelos de aprendizaje automático.,automl,developers.google.com
+evaluación de autórmes,"Autoraters preconstruidos están disponibles, pero los mejores autoraters están ajustados específicamente a la tarea que está evaluando.",autorater evaluation,developers.google.com
+modelo autorregresivo,Un modelo que infiere una predicción basada en las propias predicciones anteriores.,auto regressive model,developers.google.com
+pérdida auxiliar,"Una función de pérdida, utilizada junto con la función de pérdida principal de un modelo de red neuronal, eso ayuda a acelerar el entrenamiento durante las primeras iteraciones cuando los pesos se inicializan aleatoriamente.",auxiliary loss,developers.google.com
+precisión promedio en k,"Una métrica para resumir el rendimiento de un modelo en un solo mensaje que genera resultados clasificados, como una lista numerada de recomendaciones de libros.",average precision at k,developers.google.com
+condición alineada por eje,"En un árbol de decisión, una condición que involucra solo una característica.",axis aligned condition,developers.google.com
+backpropagation,El algoritmo que implementa el descenso de gradiente en las redes neuronales.,backpropagation,developers.google.com
+bagging,Un método para entrenar un conjunto donde cada modelo constituyente entrena en un subconjunto aleatorio de ejemplos de entrenamiento muestreados con reemplazo.,bagging,developers.google.com
+bolsa de palabras,"Una representación de las palabras en una frase o pasaje, independientemente del orden.",bag of words,developers.google.com
+base,"Un modelo utilizado como punto de referencia para comparar qué tan bien está funcionando otro modelo (típicamente, uno más complejo).",baseline,developers.google.com
+lote,El conjunto de ejemplos utilizados en una iteración de entrenamiento.,batch,developers.google.com
+inferencia por lotes,"El proceso de inferir predicciones en múltiples ejemplos no etiquetados divididos en subconjuntos más pequeños (""lotes"").",batch inference,developers.google.com
+normalización por lotes,Normalización de la entrada o salida de las funciones de activación en una capa oculta.,batch normalization,developers.google.com
+tamaño por lotes,El número de ejemplos en un lote.,batch size,developers.google.com
+red neuronal bayesiana,Una red neuronal probabilística que explica la incertidumbre en los pesos y las salidas.,bayesian neural network,developers.google.com
+optimización bayesiana,Una técnica de modelo de regresión probabilística para optimizar funciones objetivas computacionalmente costosas al optimizar un sustituto que cuantifica la incertidumbre utilizando una técnica de aprendizaje bayesiana.,bayesian optimization,developers.google.com
+ecuación de bellman,"En el aprendizaje de refuerzo, la siguiente identidad satisfecha por la función Q óptima: \ [q (s, a) = r (s, a) + \ gamma \ mathbb {e} _ {s '| s, a} \ max_ {a'} q (s ', a') \] reforzando los algorits de aprendizaje aplicando esta identidad para crear Q-leanding utilizando el siguiente Q (S, A) + \ Alpha \ Left [R (S, A) + \ Gamma \ DisplayStyle \ Max _ {\ Sustack {A_1}} Q (S ', A') -q (S, A) \ Right] \] Más allá del aprendizaje de refuerzo, la ecuación de Bellman tiene aplicaciones a la programación dinámica.",bellman equation,developers.google.com
+bert (representaciones de codificador bidireccional de transformers),Una arquitectura modelo para la representación de texto.,bert (bidirectional encoder representations from transformers),developers.google.com
+sesgo (ética/equidad),"Estereotipos, prejuicios o favoritismo hacia algunas cosas, personas o grupos sobre otras.",bias (ethics/fairness),developers.google.com
+sesgo (matemáticas) o término de sesgo,Una intersección o compensación de un origen.,bias (math) or bias term,developers.google.com
+bidireccional,Un término utilizado para describir un sistema que evalúa el texto que precede y sigue una sección objetivo del texto.,bidirectional,developers.google.com
+modelo de idioma bidireccional,Un modelo de lenguaje que determina la probabilidad de que un tokenis dado presente en una ubicación dada en un extracto de texto basado en el texto anterior y siguiente.,bidirectional language model,developers.google.com
+bigram,Un n-gram en el que n = 2.,bigram,developers.google.com
+clasificación binaria,"Un tipo de tarea de clasificación que predice una de las dos clases mutuamente excluyentes: por ejemplo, los siguientes dos modelos de aprendizaje automático cada uno realiza una clasificación binaria: contrasta con la clasificación de múltiples clases.",binary classification,developers.google.com
+condición binaria,"En un árbol de decisión, una condición que tiene solo dos resultados posibles, generalmente sí o no.",binary condition,developers.google.com
+binning,Sinónimo de bulleting.,binning,developers.google.com
+bleu (evaluación bilingüe),"Una métrica entre 0 y 1 para evaluar las traducciones de la máquina, por ejemplo, de español a japonés.",bleu (bilingual evaluation understudy),developers.google.com
+bleurt (evaluación bilingüe de los transformadores),"Una métrica para evaluar las traducciones automáticas de un idioma a otro, particularmente hacia y desde el inglés.",bleurt (bilingual evaluation understudy from transformers),developers.google.com
+impulso,"Una técnica de aprendizaje automático que combina iterativamente un conjunto de clasificadores simples y no muy precisos (denominados clasificadores ""débiles"") en un clasificador con alta precisión (un clasificador ""fuerte"") al alejar los ejemplos de que el modelo actualmente es una clasificación errónea.",boosting,developers.google.com
+caja delantera,"En Animage, las coordenadas (x, y) de un rectángulo alrededor de un área de interés, como el perro en la imagen a continuación.",bounding box,developers.google.com
+radiodifusión,Ampliando la forma de un operando en una operación matemática de matriz a dimensiones compatibles para esa operación.,broadcasting,developers.google.com
+bulto,"Convertir una sola característica en múltiples características binarias llamadas cubos o contenedores, típicamente basado en un rango de valor.",bucketing,developers.google.com
+capa de calibración,"Un ajuste posterior a la predicción, generalmente para tener en cuenta el sesgo de predicción.",calibration layer,developers.google.com
+generación candidata,El conjunto inicial de recomendaciones elegidas por un sistema de recomendación.,candidate generation,developers.google.com
+muestreo candidato,"Una optimización del tiempo de entrenamiento que calcula una probabilidad para todas las etiquetas positivas, utilizando, por ejemplo, Softmax, pero solo para una muestra aleatoria de etiquetas negativas.",candidate sampling,developers.google.com
+datos categóricos,Características que tienen un conjunto específico de valores posibles.,categorical data,developers.google.com
+modelo de idioma causal,Sinónimo de modelo de lenguaje unidireccional.,causal language model,developers.google.com
+centroide,El centro de un clúster determinado por un algoritmo K-means o K-mediano.,centroid,developers.google.com
+clúster basado en centroides,Una categoría de algoritmos de agrupación que organiza datos en grupos no jerárquicos.,centroid based clustering,developers.google.com
+cadena de indemnización de pensamiento,"Una técnica de ingeniería rápida que fomenta un modelo de lenguaje grande (LLM) a explicar el razonamiento, paso a paso.",chain of thought prompting,developers.google.com
+charlar,"El contenido de un diálogo de ida y vuelta con un sistema ML, típicamente un modelo de lenguaje grande.",chat,developers.google.com
+control,"Los datos que capturan el estado de los parámetros de un modelo, ya sea durante la capacitación o después de que se complete el entrenamiento.",checkpoint,developers.google.com
+clase,Una categoría a la que puede pertenecer una etiqueta.,class,developers.google.com
+modelo de clasificación,Un modelo cuya predicción es una clase.,classification model,developers.google.com
+umbral de clasificación,"En una clasificación binaria, un número entre 0 y 1 que convierte la salida sin procesar de un modelo de regresión logística en una predicción de la clase positiva o la clase negativa.",classification threshold,developers.google.com
+clasificador,Un término informal para un modelo de clasificación.,classifier,developers.google.com
+conjunto de datos desequilibrado de clase,Un conjunto de datos para un problema de clasificación en el que el número total de etiquetas de cada clase difiere significativamente.,class imbalanced dataset,developers.google.com
+recorte,"Una técnica para manejar valores atípicos haciendo uno o ambos a continuación: por ejemplo, supongamos que <0.",clipping,developers.google.com
+tpu en la nube,Un acelerador de hardware especializado diseñado para acelerar las cargas de trabajo de aprendizaje automático en Google Cloud.,cloud tpu,developers.google.com
+agrupación,"Agrupación de ejemplos relacionados, particularmente durante el aprendizaje no supervisado.",clustering,developers.google.com
+adaptación,Cuando las neuronas predicen los patrones en los datos de entrenamiento al depender casi exclusivamente de salidas de otras neuronas específicas en lugar de confiar en el comportamiento de la red en su conjunto.,co adaptation,developers.google.com
+filtrado colaborativo,Hacer predicciones sobre los intereses de un usuario en función de los intereses de muchos otros usuarios.,collaborative filtering,developers.google.com
+drift de concepto,Un cambio en la relación entre las características y la etiqueta.,concept drift,developers.google.com
+condición,"En un árbol de decisión, cualquier nodo que evalúe una expresión.",condition,developers.google.com
+confabulación,Sinónimo de alucinación.,confabulation,developers.google.com
+sesgo de confirmación,"La tendencia a buscar, interpretar, favorecer y recordar la información de una manera que confirme las creencias o hipótesis preexistentes de uno.",confirmation bias,developers.google.com
+matriz de confusión,Una tabla NXN que resume el número de predicciones correctas e incorrectas que hizo un modelo de clasificación.,confusion matrix,developers.google.com
+análisis de la circunscripción,"Dividir una oración en estructuras gramaticales más pequeñas (""componentes"").",constituency parsing,developers.google.com
+lenguaje contextualizado incrustación,"Una incrustación que se acerca a las palabras y frases de ""comprender"" de manera que los hablantes humanos fluidos pueden.",contextualized language embedding,developers.google.com
+ventana de contexto,El número de tokens que un modelo puede procesar en un aviso dado.,context window,developers.google.com
+característica continua,"Una característica de punto flotante con un rango de valores posibles, como temperatura o peso.",continuous feature,developers.google.com
+muestreo de conveniencia,Uso de un conjunto de datos que no se ha reunido científicamente para ejecutar experimentos rápidos.,convenience sampling,developers.google.com
+convergencia,Un estado alcanzado cuando los valores de pérdida cambian muy poco o nada con cada iteración.,convergence,developers.google.com
+función convexa,Una función que la región sobre la gráfica de la función es un conjunto convexo.,convex function,developers.google.com
+optimización convexa,El proceso de utilizar técnicas matemáticas como el descenso de gradiente para encontrar el mínimo de una función convexa.,convex optimization,developers.google.com
+conjunto convexo,Un subconjunto de espacio euclidiano de tal manera que una línea dibujada entre dos puntos en el subconjunto permanece completamente dentro del subconjunto.,convex set,developers.google.com
+circunvolución,"En matemáticas, casualmente hablando, una mezcla de dos funciones.",convolution,developers.google.com
+filtro convolucional,Uno de los dos actores en una operación convolucional.,convolutional filter,developers.google.com
+capa convolucional,Una capa de una red neuronal profunda en la que pasa un filtro convolucional a lo largo de la matriz de Aninput.,convolutional layer,developers.google.com
+red neuronal convolucional,Una red neuronal en la que al menos una capa es una capa convolucional.,convolutional neural network,developers.google.com
+operación convolucional,"La siguiente operación matemática de dos pasos: por ejemplo, considere la siguiente matriz de entrada 5x5: ahora imagine el siguiente filtro convolucional 2x2: cada operación convolucional incluye un solo porta de 2x2 de la matriz de entrada.",convolutional operation,developers.google.com
+costo,Sinónimo de pérdida.,cost,developers.google.com
+entrenamiento,Un enfoque de aprendizaje semi-supervisado es particularmente útil cuando todas las siguientes condiciones son verdaderas: la capacitación esencialmente amplifica las señales independientes en una señal más fuerte.,co training,developers.google.com
+justicia contrafactual,"Una métrica de equidad que verifica si un modelo de clasificación produce el mismo resultado para un individuo que para otro individuo que es idéntico al primero, excepto con respecto a uno o más atributos sensibles.",counterfactual fairness,developers.google.com
+sesgo de cobertura,Ver sesgo de selección.,coverage bias,developers.google.com
+flor de choque,Una oración o frase con un significado ambiguo.,crash blossom,developers.google.com
+crítico,Sinónimo de profundo Q-Network.,critic,developers.google.com
+entropía,Una generalización de la pérdida de registro a problemas de clasificación de múltiples clases.,cross entropy,developers.google.com
+validación cruzada,Un mecanismo para estimar qué tan bien un modelo se generalizaría a los nuevos datos probando el modelo con uno o más subconjuntos de datos no superpuestos retenidos del conjunto de capacitación.,cross validation,developers.google.com
+función de distribución acumulativa (cdf),Una función que define la frecuencia de muestras menores o igual a un valor objetivo.,cumulative distribution function (cdf),developers.google.com
+análisis de datos,"Obtener una comprensión de los datos considerando muestras, medición y visualización.",data analysis,developers.google.com
+aumento de datos,Aumentando artificialmente el rango y el número de ejemplos de capacitación transformando ejemplos existentes para crear ejemplos adicionales.,data augmentation,developers.google.com
+marco de datos,Un tipo de datos PANDAS popular para representar conjuntos de datos en la memoria.,dataframe,developers.google.com
+paralelismo de datos,Una forma de escalar el entrenamiento o la inferencia que replica un modelo completo en múltiples dispositivos y luego pasa un subconjunto de los datos de entrada a cada dispositivo.,data parallelism,developers.google.com
+api de conjunto de datos (tf.data),Una API TensorFlow de alto nivel para leer datos y transformarlo en un formulario que requiere un algoritmo de aprendizaje automático.,dataset api (tf.data),developers.google.com
+conjunto de datos o conjunto de datos,"Una colección de datos sin procesar, comúnmente (pero no exclusivamente) organizado en uno de los siguientes formatos: límite de decisión.",data set or dataset,developers.google.com
+límite de decisión,El separador entre clases aprendidas por un modelo en una clase binaria o problemas de clasificación de múltiples clases.,decision boundary,developers.google.com
+bosque de decisión,Un modelo creado a partir de múltiples árboles de decisión.,decision forest,developers.google.com
+umbral de decisión,Sinónimo de umbral de clasificación.,decision threshold,developers.google.com
+árbol de decisión,Un modelo de aprendizaje supervisado compuesto por un conjunto de condiciones y hojas organizadas jerárquicamente.,decision tree,developers.google.com
+descifrador,"En general, cualquier sistema ML que se convierta de una representación procesada, densa o interna a una representación más cruda, escasa o externa.",decoder,developers.google.com
+modelo profundo,Una red neuronal que contiene más de una capa oculta.,deep model,developers.google.com
+red neuronal profunda,Sinónimo de modelo profundo.,deep neural network,developers.google.com
+deep q network (dqn),"En Q-learning, una red neuronal profunda que predice las funciones Q.",deep q network (dqn),developers.google.com
+paridad demográfica,Una métrica de equidad que se satisface si los resultados de la clasificación de un modelo no dependen de un atributo sensible dado.,demographic parity,developers.google.com
+renovado,Un enfoque común para el aprendizaje auto-supervisado en el que: Denoising permite el aprendizaje de ejemplos no etiquetados.,denoising,developers.google.com
+característica densa,"Una característica en la que la mayoría o todos los valores son distintos de cero, típicamente un tensor de valores de punto flotante.",dense feature,developers.google.com
+capa densa,Sinónimo de capa totalmente conectada.,dense layer,developers.google.com
+profundidad,"La suma de lo siguiente en una red neuronal: por ejemplo, una red neuronal con cinco capas ocultas y una capa de salida tiene una profundidad de 6.",depth,developers.google.com
+red neural convolucional separable en profundidad (sepcnn),"Una arquitectura de la red neuronal convolucional basada en el inicio, pero donde los módulos de inicio se reemplazan con convoluciones de profundidad separables.",depthwise separable convolutional neural network (sepcnn),developers.google.com
+etiqueta derivada,Sinónimo de etiqueta proxy.,derived label,developers.google.com
+dispositivo,Un término sobrecargado con las siguientes dos definiciones posibles: privacidad diferencial.,device,developers.google.com
+privacidad diferencial,"En el aprendizaje automático, un enfoque de anonimización para proteger cualquier datos confidenciales (por ejemplo, la información personal de Anindividual) incluido en el conjunto de capacitación de un modelo de ser expuesto.",differential privacy,developers.google.com
+reducción de dimensión,"Disminuyendo el número de dimensiones utilizadas para representar una característica particular en un vector de características, típicamente convirtiendo a un vector de incrustación.",dimension reduction,developers.google.com
+dimensiones,Término sobrecargado que tiene cualquiera de las siguientes definiciones: el número de niveles de coordenadas en un tensor.,dimensions,developers.google.com
+indicación directa,Sinónimo de solicitación de disparos cero.,direct prompting,developers.google.com
+característica discreta,Una característica con un conjunto finito de valores posibles.,discrete feature,developers.google.com
+modelo discriminativo,Un modelo que predice etiquetas de un conjunto de una o más características.,discriminative model,developers.google.com
+discriminado,Un sistema que determina si los ejemplos son reales o falsos.,discriminator,developers.google.com
+impacto dispar,Tomar decisiones sobre personas que afectan diferentes subgrupos de población desproporcionadamente.,disparate impact,developers.google.com
+tratamiento dispar,Factorizar los atributos sensibles de los sujetos en un proceso de toma de decisiones algorítmicas de modo que diferentes subgrupos de personas se tratan de manera diferente.,disparate treatment,developers.google.com
+destilación,El proceso de reducir el tamaño de un modelo (conocido como maestro) en un modelo más pequeño (conocido como el alumno) que emula las predicciones del modelo original de la manera más fiel posible.,distillation,developers.google.com
+distribución,La frecuencia y el rango de diferentes valores para una característica o etiqueta dada.,distribution,developers.google.com
+agrupación divisiva,Ver clúster jerárquico.,divisive clustering,developers.google.com
+descendente,Término sobrecargado que puede significar cualquiera de los siguientes: consulte los conjuntos de datos: conjuntos de datos desequilibrados en el curso de bloqueo de aprendizaje automático para obtener más información.,downsampling,developers.google.com
+dqn,Abreviatura de la red Q profunda.,dqn,developers.google.com
+regularización de abandono,Una forma de regularización útil en la capacitación de redes neuronales.,dropout regularization,developers.google.com
+dinámica,Algo hecho con frecuencia o continuamente.,dynamic,developers.google.com
+modelo dinámico,Un modelo que con frecuencia (tal vez incluso continuamente) se reacunta.,dynamic model,developers.google.com
+ejecución ansiosa,Un entorno de programación de TensorFlow en el que las operaciones se ejecutan inmediatamente.,eager execution,developers.google.com
+parada temprana,Un método para la regularización que implica finalizar la capacitación antes de la pérdida de entrenamiento termina disminuyendo.,early stopping,developers.google.com
+distancia de la mada de la tierra (emd),Una medida de la similitud relativa de dos distribuciones.,earth mover's distance (emd),developers.google.com
+distancia de edición,Una medida de cuán similares son dos cadenas de texto entre sí.,edit distance,developers.google.com
+notación de einsum,Una notación eficiente para describir cómo se combinarán dos tensores.,einsum notation,developers.google.com
+capa de incrustación,Una capa oculta especial que entrena en una característica categórica de alta dimensión para aprender gradualmente un vector de incrustación de menor dimensión.,embedding layer,developers.google.com
+incrustación de espacio,Se asigna el espacio vectorial D-dimensional que aparece desde un espacio vectorial dimensional superior.,embedding space,developers.google.com
+vector de incrustación,"En términos generales, una variedad de números de punto flotante tomados de cualquier capa oculta que describe las entradas a esa capa oculta.",embedding vector,developers.google.com
+función de distribución acumulativa empírica (ecdf o edf),Una función de distribución acumulativa basada en mediciones empíricas de un conjunto de datos real.,empirical cumulative distribution function (ecdf or edf),developers.google.com
+minimización del riesgo empírico (erm),Elegir la función que minimiza la pérdida en el conjunto de entrenamiento.,empirical risk minimization (erm),developers.google.com
+codificador,"En general, cualquier sistema ML que se convierta de una representación cruda, escasa o externa en una representación más procesada, más densa o más interna.",encoder,developers.google.com
+conjunto,Una colección de modelos entrenados de forma independiente cuyas predicciones se promedian o se agregan.,ensemble,developers.google.com
+entropía,"En la teoría de la información, una descripción de cuán impredecible es una distribución de probabilidad.",entropy,developers.google.com
+ambiente,"En el aprendizaje de refuerzo, el mundo que contiene al agente y permite al agente observar el estado del mundo.",environment,developers.google.com
+episodio,"En el aprendizaje de refuerzo, cada uno de los repetidos intentos del agente de aprender un entorno.",episode,developers.google.com
+época,Un pase de entrenamiento completo sobre todo el conjunto de capacitación de tal manera que cada ejemplo se haya procesado una vez.,epoch,developers.google.com
+política codiciosa de epsilon,"En el aprendizaje de refuerzo, una política que sigue una política aleatoria con la probabilidad de Epsilon o una política codiciosa de lo contrario.",epsilon greedy policy,developers.google.com
+igualdad de oportunidades,Una métrica de equidad para evaluar si un modelo predice el resultado deseable igualmente bien para todos los valores de un atributo sensible.,equality of opportunity,developers.google.com
+probabilidades igualadas,"Una métrica de equidad para evaluar si un modelo predice los resultados igualmente bien para todos los valores de un atributo sensible con respecto tanto a la clase positiva como a la clase negativa, no solo una clase o la otra exclusivamente.",equalized odds,developers.google.com
+estimador,Una API de flujo tensor desordenado.,estimator,developers.google.com
+evals,Utilizado principalmente como abreviatura para las evaluaciones de LLM.,evals,developers.google.com
+evaluación,El proceso de medir la calidad de un modelo o comparar diferentes modelos entre sí.,evaluation,developers.google.com
+ejemplo,Los valores de una fila de características y posiblemente una etiqueta.,example,developers.google.com
+reproducción de experiencia,"En el aprendizaje de refuerzo, una técnica DQN utilizada para reducir las correlaciones temporales en los datos de capacitación.",experience replay,developers.google.com
+sesgo del experimentador,Ver sesgo de confirmación.,experimenter's bias,developers.google.com
+problema de gradiente explosivo,La tendencia de los gradientes en redes neuronales profundas (especialmente redes neuronales recurrentes) a volverse sorprendentemente pronunciada (alta).,exploding gradient problem,developers.google.com
+f1,"Una métrica de clasificación binaria ""enrollable"" que se basa tanto en la precisión como en el recuerdo.",f1,developers.google.com
+realidad,"Dentro del mundo de ML, una propiedad que describe un modelo cuyo resultado se basa en la realidad.",factuality,developers.google.com
+justicia métrica,"Una definición matemática de ""equidad"" que es medible.",fairness metric,developers.google.com
+falso negativo (fn),Un ejemplo en el que el modelo predice por error la clase negativa.,false negative (fn),developers.google.com
+tasa falsa negativa,La proporción de ejemplos positivos reales para los cuales el modelo predijo por error la clase negativa.,false negative rate,developers.google.com
+falso positivo (fp),Un ejemplo en el que el modelo predice por error la clase positiva.,false positive (fp),developers.google.com
+tasa de falsos positivos (fpr),La proporción de ejemplos negativos reales para los cuales el modelo predijo por error la clase positiva.,false positive rate (fpr),developers.google.com
+característica,Aninput variable a un modelo de aprendizaje automático.,feature,developers.google.com
+característica cruzada,"Una característica sintética formada por características categóricas o cubiertas de ""cruce"".",feature cross,developers.google.com
+ingeniería de características,"Un proceso que involucra los siguientes pasos: por ejemplo, puede determinar que la temperatura podría ser una característica útil.",feature engineering,developers.google.com
+importaciones de características,Sinónimo de importancias variables.,feature importances,developers.google.com
+conjunto de características,El grupo de características de su modelo de aprendizaje automático entrena.,feature set,developers.google.com
+especificación de características,Describe la información requerida para extraer las características de los datos del TF.,feature spec,developers.google.com
+vector de características,La matriz de valores de características que comprende un ejemplo.,feature vector,developers.google.com
+caracterización,"El proceso de extraer características de AnInput Source, como un documento o video, y mapeo de esas características en un vector de características.",featurization,developers.google.com
+aprendizaje federado,Un enfoque de aprendizaje automático distribuido que entrena modelos de aprendizaje automático que utilizan ejemplos descentralizados que residen en dispositivos como teléfonos inteligentes.,federated learning,developers.google.com
+bucle de retroalimentación,"En el aprendizaje automático, una situación en la que las predicciones de un modelo influyen en los datos de entrenamiento para el mismo modelo u otro modelo.",feedback loop,developers.google.com
+red neural de feedforward (ffn),Una red neuronal sin conexiones cíclicas o recursivas.,feedforward neural network (ffn),developers.google.com
+pocos aprendizaje de disparos,"Un enfoque de aprendizaje automático, a menudo utilizado para la clasificación de objetos, diseñado para capacitar a modelos de clasificación efectivos de solo un pequeño número de ejemplos de capacitación.",few shot learning,developers.google.com
+pocos indicadores de disparos,"Un mensaje que contiene más de un ejemplo (unos ""pocos"") que demuestre cómo debería responder el modelo de lenguaje grande.",few shot prompting,developers.google.com
+violín,Una biblioteca de configuración de Python-First que establece los valores de funciones y clases sin código o infraestructura invasiva.,fiddle,developers.google.com
+sintonia fina,Un segundo pase de entrenamiento específico de tareas realizado en un modelo previamente capacitado para refinar sus parámetros para un caso de uso específico.,fine tuning,developers.google.com
+lino,Una biblioteca de código abierto de alto rendimiento para el aprendizaje profundo construido sobre Jax.,flax,developers.google.com
+formador de lino,"Una biblioteca de transformadores de código abierto, construida sobre lino, diseñada principalmente para el procesamiento del lenguaje natural y la investigación multimodal.",flaxformer,developers.google.com
+olvídate de la puerta,La porción de una celda de memoria a largo plazo que regula el flujo de información a través de la celda.,forget gate,developers.google.com
+fracción de éxitos,Una métrica para evaluar el texto generado por un modelo ML.,fraction of successes,developers.google.com
+softmax completo,Sinónimo de Softmax.,full softmax,developers.google.com
+capa totalmente conectada,Una capa oculta en la que cada nodo está conectado a cada nodo en la capa oculta posterior.,fully connected layer,developers.google.com
+transformación de funciones,Una función que toma una función como entrada y devuelve una función transformada como salida.,function transformation,developers.google.com
+ganancia,Abreviatura de la red adversaria generativa.,gan,developers.google.com
+géminis,El ecosistema comprende la IA más avanzada de Google.,gemini,developers.google.com
+modelos de géminis,Los modelos multimodales basados ​​en transformadores de vanguardia de Google.,gemini models,developers.google.com
+generalización,La capacidad de un modelo para hacer predicciones correctas en datos nuevos y previamente invisibles.,generalization,developers.google.com
+curva de generalización,Una parcela de pérdida de entrenamiento y pérdida de validación en función del número de iteraciones.,generalization curve,developers.google.com
+modelo lineal generalizado,"Una generalización de los modelos de regresión de mínimos cuadrados, que se basan en el ruido gaussiano, a otros tipos de modelos basados ​​en otros tipos de ruido, como el ruido de Poisson o el ruido categórico.",generalized linear model,developers.google.com
+texto generado,"En general, el texto que genera un modelo ML.",generated text,developers.google.com
+red de adversaria generativa (gan),Un sistema para crear nuevos datos en los que un generador crea datos y un discriminador determina si los datos creados son válidos o no válidos.,generative adversarial network (gan),developers.google.com
+ia generativa,Un campo transformador emergente sin definición formal.,generative ai,developers.google.com
+modelo generativo,"Hablando prácticamente, un modelo que hace cualquiera de los siguientes: un modelo generativo puede discernir teóricamente la distribución de ejemplos o características particulares en un conjunto de datos.",generative model,developers.google.com
+generador,El subsistema dentro de una red adversaria generativa que crea nuevos ejemplos.,generator,developers.google.com
+impureza de gini,Una métrica similar a la entropía.,gini impurity,developers.google.com
+conjunto de datos dorado,Un conjunto de datos curados manualmente que captura la verdad del suelo.,golden dataset,developers.google.com
+respuesta dorada,Una respuesta que se sabe que es buena.,golden response,developers.google.com
+gpt (transformador generado generado),Una familia de modelos de idiomas grandes basados ​​en transformadores desarrollados por OpenAI.,gpt (generative pre trained transformer),developers.google.com
+gradiente,El vector de derivados parciales con respecto a todas las variables independientes.,gradient,developers.google.com
+acumulación de gradiente,Una técnica de backpropagation que actualiza los parámetros solo una vez por época en lugar de una vez por iteración.,gradient accumulation,developers.google.com
+gradiente boosted (decisión) árboles (gbt),Un tipo de bosque de decisión en el que: ver los árboles de decisión impulsados ​​por el gradiente en el curso de bosques de decisión para obtener más información.,gradient boosted (decision) trees (gbt),developers.google.com
+aumento de gradiente,Un algoritmo de entrenamiento donde los modelos débiles están entrenados para mejorar iterativamente la calidad (reducir la pérdida) de un modelo fuerte.,gradient boosting,developers.google.com
+recorte de gradiente,Un mecanismo de uso común para mitigar el problema de gradiente explosivo limitando (recorte) el valor máximo de los gradientes cuando se usa descenso de gradiente para entrenar un modelo.,gradient clipping,developers.google.com
+descenso de gradiente,Una técnica matemática para minimizar la pérdida.,gradient descent,developers.google.com
+gráfico,"En TensorFlow, una especificación de cálculo.",graph,developers.google.com
+ejecución de gráficos,Un entorno de programación TensorFlow en el que el programa construye primero un gráfico y luego ejecuta todo o parte de ese gráfico.,graph execution,developers.google.com
+política codiciosa,"En el aprendizaje de refuerzo, una política que siempre elige la acción con el mayor rendimiento esperado.",greedy policy,developers.google.com
+tierra,Tenga en cuenta que un modelo conectado a tierra no siempre es un modelo fáctico.,groundedness,developers.google.com
+verdad fundamental,"Realidad, lo que realmente sucedió.",ground truth,developers.google.com
+sesgo de atribución de grupo,Asumir que lo que es cierto para Anindividual también es cierto para todos en ese grupo.,group attribution bias,developers.google.com
+alucinación,La producción de salida plausible pero fácticamente incorrecta por un modelo de IA generativo que pretende hacer una afirmación sobre el mundo real.,hallucination,developers.google.com
+hashing,"En el aprendizaje automático, un mecanismo para el buceo de datos categóricos, particularmente cuando el número de categorías es grande, pero el número de categorías que realmente aparecen en el conjunto de datos es relativamente pequeño.",hashing,developers.google.com
+heurístico,Una solución simple e implementada rápidamente para un problema.,heuristic,developers.google.com
+capa oculta,Una capa en una red neuronal entre la capa de entrada (las características) y la capa de salida (la predicción).,hidden layer,developers.google.com
+agrupación jerárquica,Una categoría de algoritmos de agrupación que crean un árbol de grupos.,hierarchical clustering,developers.google.com
+escalada,"Un algoritmo para mejorar iterativamente (""caminar cuesta arriba"") un modelo ML hasta que el modelo deje de mejorar (""llega a la cima de una colina"").",hill climbing,developers.google.com
+pérdida de hinge,"Una familia de pérdidas funciona para la clasificación diseñada para encontrar el límite de decisión lo más distante posible de cada ejemplo de capacitación, maximizando así el margen entre los ejemplos y el límite.",hinge loss,developers.google.com
+sesgo histórico,Un tipo de sesgo que ya existe en el mundo y ha llegado a un conjunto de datos.,historical bias,developers.google.com
+datos de retención,"Ejemplos intencionalmente no usados ​​(""retenido"") durante el entrenamiento.",holdout data,developers.google.com
+anfitrión,"Al entrenar un modelo ML en chips aceleradores (GPU o TPU), la parte del sistema que controla los siguientes: el host generalmente se ejecuta en una CPU, no en un chip de acelerador; El dispositivo manipula los tensores en los chips aceleradores.",host,developers.google.com
+evaluación humana,"Un proceso en el que las personas juzgan la calidad de la producción de un modelo ML; Por ejemplo, hacer que las personas bilingües juzguen la calidad de un modelo de traducción de ML.",human evaluation,developers.google.com
+hiperparámetro,Las variables que usted o un servicio de ajuste de hiperparameter se ajustan durante las ejecuciones sucesivas de capacitación de un modelo.,hyperparameter,developers.google.com
+hiperplano,Un límite que separa un espacio en dos subespacios.,hyperplane,developers.google.com
+i.i.d.,Abreviatura de distribuida independiente e idénticamente.,i.i.d.,developers.google.com
+reconocimiento de imágenes,"Un proceso que clasifica los objetos, el patrón (s) o el concepto (s) en animage.",image recognition,developers.google.com
+conjunto de datos desequilibrado,Sinónimo de conjunto de datos ilusizado con clase.,imbalanced dataset,developers.google.com
+sesgo implícito,Hacer automáticamente una asociación o suposición basada en los modelos y recuerdos mentes de uno.,implicit bias,developers.google.com
+imputación,Forma corta de imputación de valor.,imputation,developers.google.com
+incompatibilidad de las métricas de equidad,La idea de que algunas nociones de justicia son mutuamente incompatibles y no pueden satisfacerse simultáneamente.,incompatibility of fairness metrics,developers.google.com
+en el aprendizaje con contexto,Sinónimo de pocos disparos.,in context learning,developers.google.com
+distribuido independiente e idénticamente (i.i.d),"Los datos extraídos de una distribución que no cambia, y donde cada valor dibujado no depende de los valores que se han dibujado anteriormente.",independently and identically distributed (i.i.d),developers.google.com
+justicia individual,Una métrica de equidad que verifica si individuos similares se clasifican de manera similar.,individual fairness,developers.google.com
+inferencia,"En el aprendizaje automático, el proceso de hacer predicciones aplicando un modelo capacitado a ejemplos no etiquetados.",inference,developers.google.com
+ruta de inferencia,"En un árbol de decisión, durante la inferencia, la ruta un ejemplo particular toma de la raíz a otras condiciones, que termina con una hoja.",inference path,developers.google.com
+ganancia de información,"En los bosques de decisión, la diferencia entre la entropía de un nodo y la suma ponderada (por número de ejemplos) de la entropía de sus nodos infantiles.",information gain,developers.google.com
+en el sesgo grupal,Mostrando parcialidad con el propio grupo o características propias.,in group bias,developers.google.com
+generador de entrada,Un mecanismo por el cual los datos se cargan en una red neuronal.,input generator,developers.google.com
+capa de entrada,La capa de una red neuronal que contiene el vector de características.,input layer,developers.google.com
+en condición establecida,"En un árbol de decisión, una condición que prueba la presencia de un elemento en un conjunto de elementos.",in set condition,developers.google.com
+instancia,"Sinónimo, por ejemplo.",instance,developers.google.com
+ajuste de instrucciones,Una forma de ajuste fino que mejora la capacidad de un modelo de IA generativo para seguir las instrucciones.,instruction tuning,developers.google.com
+interpretabilidad,La capacidad de explicar o presentar el razonamiento de un modelo ML en términos comprensibles a un humano.,interpretability,developers.google.com
+acuerdo de inter rater,Una medición de la frecuencia con la que los evaluadores humanos están de acuerdo al hacer una tarea.,inter rater agreement,developers.google.com
+intersección sobre la unión (iou),La intersección de dos conjuntos divididos por su unión.,intersection over union (iou),developers.google.com
+iou,Abreviatura de la intersección sobre la unión.,iou,developers.google.com
+matriz de artículos,"En los sistemas de recomendación, una matriz de vectores de incrustación generados por factorización de matriz que contiene señales latentes sobre cada elemento.",item matrix,developers.google.com
+elementos,"En un sistema de recomendación, las entidades que recomienda un sistema.",items,developers.google.com
+iteración,"Una sola actualización de los parámetros de un modelo, los pesos y los sesgos del modelo, en el entrenamiento.",iteration,developers.google.com
+jax,"Una biblioteca de computación de matriz, que reúne XLA (álgebra lineal acelerada) y diferenciación automática para la computación numérica de alto rendimiento.",jax,developers.google.com
+keras,Una popular API de aprendizaje automático de Python.,keras,developers.google.com
+máquinas de vectores de soporte de kernel (ksvms),Un algoritmo de clasificación que busca maximizar el margen entre las clases positivas y negativas al mapear los vectores de datos de entrada a un espacio dimensional superior.,kernel support vector machines (ksvms),developers.google.com
+punto clave,Las coordenadas de características particulares en Animage.,keypoints,developers.google.com
+k fold validación cruzada,Un algoritmo para predecir la capacidad de un modelo para generalizar a nuevos datos.,k fold cross validation,developers.google.com
+k means,Un algoritmo de agrupación popular que agrupa ejemplos en aprendizaje no supervisado.,k means,developers.google.com
+k mediana,Un algoritmo de agrupación estrechamente relacionado con K-means.,k median,developers.google.com
+l0 regularización,Un tipo de regularización que penaliza el número total de pesos distintos de cero en un modelo.,l0 regularization,developers.google.com
+pérdida de l1,Una función de pérdida que calcula el valor absoluto de la diferencia entre los valores de etiqueta reales y los valores que predice un modelo.,l1 loss,developers.google.com
+l1 regularización,Un tipo de regularización que penaliza los pesos en proporción a la suma del valor absoluto de los pesos.,l1 regularization,developers.google.com
+pérdida de l2,Una función de pérdida que calcula el cuadrado de la diferencia entre los valores de la etiqueta reales y los valores que predice un modelo.,l2 loss,developers.google.com
+regularización de l2,Un tipo de regularización que penaliza los pesos en proporción a la suma de los cuadrados de los pesos.,l2 regularization,developers.google.com
+etiqueta,"En el aprendizaje automático supervisado, la parte ""respuesta"" o ""resultado"" de un ejemplo.",label,developers.google.com
+ejemplo etiquetado,Un ejemplo que contiene una o más características y una etiqueta.,labeled example,developers.google.com
+fuga de etiqueta,Una falla de diseño de modelo en la que una característica es un proxy para la etiqueta.,label leakage,developers.google.com
+lambda,Sinónimo de tasa de regularización.,lambda,developers.google.com
+lamda (modelo de idioma para aplicaciones de diálogo),Un modelo de lenguaje grande basado en transformadores desarrollado por Google entrenado en un gran conjunto de datos de diálogo que puede generar respuestas conversacionales realistas.,lamda (language model for dialogue applications),developers.google.com
+punto de referencia,Sinónimo de puntos clave.,landmarks,developers.google.com
+modelo de lenguaje,Un modelo que estima la probabilidad de un token o secuencia de tokens que ocurran en una secuencia más larga de tokens.,language model,developers.google.com
+modelo de lenguaje grande,"Como mínimo, un modelo de idioma tiene un número muy alto de parámetros.",large language model,developers.google.com
+espacio latente,Sinónimo de incrustación del espacio.,latent space,developers.google.com
+capa,Un conjunto de neuronas en una red neuronal.,layer,developers.google.com
+api de capas (tf.lapas),Una API de flujo tensor para construir una red neuronal profunda como composición de capas.,layers api (tf.layers),developers.google.com
+hoja,Cualquier punto final en un árbol de decisión.,leaf,developers.google.com
+herramienta de interpretabilidad de aprendizaje (encendido),Una herramienta visual e interactiva de modelos y visualización de datos.,learning interpretability tool (lit),developers.google.com
+tasa de aprendizaje,Un número de punto flotante que le dice al algoritmo de descenso de gradiente cuán fuertemente ajustar pesos y sesgos en cada iteración.,learning rate,developers.google.com
+regresión de mínimos cuadrados,Un modelo de regresión lineal entrenado minimizando la pérdida de L2.,least squares regression,developers.google.com
+distancia de levenshtein,"Una métrica de distancia de edición que calcula la menor cantidad de operaciones de eliminación, inserción y sustituto requeridas para cambiar una palabra a otra.",levenshtein distance,developers.google.com
+lineal,Una relación entre dos o más variables que se pueden representar únicamente a través de la suma y la multiplicación.,linear,developers.google.com
+modelo lineal,Un modelo que asigna un peso por característica para hacer predicciones.,linear model,developers.google.com
+regresión lineal,Un tipo de modelo de aprendizaje automático en el que ambos son verdaderos: regresión lineal de contraste con regresión logística.,linear regression,developers.google.com
+encendido,"La abreviatura de la herramienta de interpretabilidad de aprendizaje (LIT), que anteriormente se conocía como la herramienta de interpretabilidad del lenguaje.",lit,developers.google.com
+llm,Abreviatura para un modelo de lenguaje grande.,llm,developers.google.com
+evaluaciones de llm (evals),Un conjunto de métricas y puntos de referencia para evaluar el rendimiento de los modelos de idiomas grandes (LLM).,llm evaluations (evals),developers.google.com
+regresión logística,Un tipo de modelo de regresión que predice una probabilidad.,logistic regression,developers.google.com
+logits,"El vector de predicciones sin formalizar (no normalizadas) que genera un modelo de clasificación, que normalmente se pasa a una función de normalización.",logits,developers.google.com
+pérdida de registro,La función de pérdida utilizada en la regresión logística binaria.,log loss,developers.google.com
+log odds,El logaritmo de las probabilidades de algún evento.,log odds,developers.google.com
+memoria a corto plazo (lstm),"Un tipo de celda en una red neuronal recurrente utilizada para procesar secuencias de datos en aplicaciones como reconocimiento de escritura a mano, traducción automática y subtítulos de imágenes.",long short term memory (lstm),developers.google.com
+lora,Abreviatura de adaptabilidad de bajo rango.,lora,developers.google.com
+pérdida,"Durante el entrenamiento de un modelo supervisado, una medida de hasta qué punto el predicción de un modelo de su etiqueta.",loss,developers.google.com
+agregador de pérdidas,Un tipo de algoritmo de aprendizaje automático que mejora el rendimiento de un modelo combinando las predicciones de múltiples modelos y utilizando esas predicciones para hacer una sola predicción.,loss aggregator,developers.google.com
+curva de pérdida,Una trama de pérdida en función del número de iteraciones de entrenamiento.,loss curve,developers.google.com
+función de pérdida,"Durante el entrenamiento o las pruebas, una función matemática que calcula la pérdida en un lote de ejemplos.",loss function,developers.google.com
+superficie de pérdida,Un gráfico de peso (s) versus pérdida.,loss surface,developers.google.com
+adaptabilidad de bajo rango (lora),"Una técnica de eficiencia de parámetros para un ajuste fino que ""congela"" los pesos pretrontrados del modelo (de modo que ya no se pueden modificar) y luego inserta un pequeño conjunto de pesos entrenables en el modelo.",low rank adaptability (lora),developers.google.com
+lstm,Abreviatura para memoria a largo plazo.,lstm,developers.google.com
+aprendizaje automático,Un programa o sistema que capacita a un modelo a partir de datos de entrada.,machine learning,developers.google.com
+traducción automática,"Uso del software (generalmente, un modelo de aprendizaje automático) para convertir el texto de un lenguaje humano a otro idioma humano, por ejemplo, del inglés al japonés.",machine translation,developers.google.com
+clase mayoritaria,La etiqueta más común en un conjunto de datos ilusizado con clase.,majority class,developers.google.com
+proceso de decisión de markov (mdp),Un gráfico que representa el modelo de toma de decisiones donde se toman decisiones (o acciones) para navegar por una secuencia de estados bajo el supuesto de que la propiedad de Markov posee.,markov decision process (mdp),developers.google.com
+propiedad de markov,"Una propiedad de ciertos entornos, donde las transiciones estatales están completamente determinadas por información informal en el estado actual y la acción del agente.",markov property,developers.google.com
+modelo de lenguaje enmascarado,Un modelo de idioma que predice la probabilidad de que los tokens candidatos llenen los espacios en blanco en una secuencia.,masked language model,developers.google.com
+mate,Una biblioteca de trazado de Python 2D de código abierto.,matplotlib,developers.google.com
+factorización de matriz,"En matemáticas, un mecanismo para encontrar las matrices cuyo producto DOT se aproxima a una matriz objetivo.",matrix factorization,developers.google.com
+error absoluto medio (mae),La pérdida promedio por ejemplo cuando se usa la pérdida de L1.,mean absolute error (mae),developers.google.com
+precisión promedio media en k (map@k),La media estadística de todas las puntuaciones de precisión promedio en K en un conjunto de datos de validación.,mean average precision at k (map@k),developers.google.com
+error cuadrado medio (mse),La pérdida promedio por ejemplo cuando se usa la pérdida de L2.,mean squared error (mse),developers.google.com
+malla,"En la programación paralela de ML, un término asociado con la asignación de datos y modelo a chips TPU, y definiendo cómo estos valores serán fragmentados o replicados.",mesh,developers.google.com
+meta aprendizaje,Un subconjunto de aprendizaje automático que descubre o mejora un algoritmo de aprendizaje.,meta learning,developers.google.com
+métrico,Una estadística que te importa.,metric,developers.google.com
+api de métricas (tf.metrics),Una API de flujo tensor para evaluar modelos.,metrics api (tf.metrics),developers.google.com
+mini lote,Un subconjunto pequeño y seleccionado al azar de un lote procesado en una iteración.,mini batch,developers.google.com
+mini descenso de gradiente estocástico de lotes,Un algoritmo de descenso de gradiente que usa mini lotes.,mini batch stochastic gradient descent,developers.google.com
+pérdida de minax,"Una función de pérdida para las redes adversas generativas, basada en la entropía cruzada entre la distribución de datos generados y datos reales.",minimax loss,developers.google.com
+clase minoritaria,La etiqueta menos común en un conjunto de datos ilusizado con clase.,minority class,developers.google.com
+mezcla de expertos,Un esquema para aumentar la eficiencia de la red neuronal mediante el uso solo de un subconjunto de sus parámetros (conocidos como expertos) para procesar un token o ejemplo de bienput dada.,mixture of experts,developers.google.com
+ml,Abreviatura de aprendizaje automático.,ml,developers.google.com
+mano,Abreviatura de instrucción multimodal.,mmit,developers.google.com
+mnista,"Un conjunto de datos de dominio público compilado por Lecun, Cortes y Burges que contiene 60,000 imágenes, cada imagen que muestra cómo un humano escribió manualmente un dígito particular de 0 a 9.",mnist,developers.google.com
+modalidad,Una categoría de datos de alto nivel.,modality,developers.google.com
+modelo,"En general, cualquier construcción matemática que procese los datos de entrada y devuelva la salida.",model,developers.google.com
+capacidad modelo,La complejidad de los problemas que un modelo puede aprender.,model capacity,developers.google.com
+modelo en cascada,Un sistema que elige el modelo ideal para una consulta de inferencia específica.,model cascading,developers.google.com
+paralelismo modelo,Una forma de escalar el entrenamiento o la inferencia que coloca diferentes partes de un modelo en diferentes dispositivos.,model parallelism,developers.google.com
+enrutador modelo,El algoritmo que determina el modelo ideal para la inferencia en la cascada del modelo.,model router,developers.google.com
+entrenamiento modelo,El proceso de determinar el mejor modelo.,model training,developers.google.com
+moe,Abreviatura de la mezcla de expertos.,moe,developers.google.com
+impulso,"Un algoritmo de descenso de gradiente sofisticado en el que un paso de aprendizaje depende no solo de la derivada en el paso actual, sino también de las derivadas de los pasos que lo precedieron inmediatamente.",momentum,developers.google.com
+monte,Abreviación para la traducción automática.,mt,developers.google.com
+clasificación de múltiples clases,"En el aprendizaje supervisado, un problema de clasificación en el que el conjunto de datos contiene más de dos clases de etiquetas.",multi class classification,developers.google.com
+regresión logística de múltiples clases,Uso de regresión logística en problemas de clasificación de múltiples clases.,multi class logistic regression,developers.google.com
+atención a sí mismo de múltiples cabeza,Una extensión de la autoeficiencia que aplica el mecanismo de autoatensión varias veces para cada posición en la secuencia de entrada.,multi head self attention,developers.google.com
+instrucción multimodal sintonizada,"Modelo ajustado a AnInstruction que puede procesar la entrada más allá del texto, como imágenes, video y audio.",multimodal instruction tuned,developers.google.com
+modelo multimodal,"Un modelo cuyas entradas, salidas o ambas incluyen más de una modalidad.",multimodal model,developers.google.com
+clasificación multinomial,Sinónimo de clasificación múltiple.,multinomial classification,developers.google.com
+regresión multinomial,Sinónimo de regresión logística de múltiples clases.,multinomial regression,developers.google.com
+multitarea,Una técnica de aprendizaje automático en la que se capacita un solo modelo para realizar múltiples tareas.,multitask,developers.google.com
+trampa nan,"Cuando un número en su modelo se convierte en un nan durante el entrenamiento, lo que hace que muchos o todos los demás números en su modelo eventualmente se conviertan en un NAN.",nan trap,developers.google.com
+comprensión del lenguaje natural,Un subconjunto de procesamiento del lenguaje natural que determina las intenciones de algo dicho o escrito.,natural language understanding,developers.google.com
+clase negativa,"En la clasificación binaria, una clase se denomina positiva y la otra se denomina negativa.",negative class,developers.google.com
+muestreo negativo,Sinónimo de muestreo candidato.,negative sampling,developers.google.com
+búsqueda de arquitectura neural (nas),Una técnica para diseñar automáticamente la arquitectura de una red neuronal.,neural architecture search (nas),developers.google.com
+red neuronal,Un modelo que contiene al menos una capa oculta.,neural network,developers.google.com
+neurona,"En el aprendizaje automático, una unidad distinta dentro de una capa oculta de una red neuronal.",neuron,developers.google.com
+n gramo,Una secuencia ordenada de n palabras.,n gram,developers.google.com
+pnlp,Abreviación para el procesamiento del lenguaje natural.,nlp,developers.google.com
+nlu,Abreviatura para la comprensión del lenguaje natural.,nlu,developers.google.com
+nodo (árbol de decisión),"En un árbol de decisión, cualquier condición o hoja.",node (decision tree),developers.google.com
+nodo (red neuronal),Una neuronina una capa oculta.,node (neural network),developers.google.com
+nodo (gráfico tensorflow),Una operación en un gráfico TensorFlow.,node (tensorflow graph),developers.google.com
+ruido,"En términos generales, cualquier cosa que oculte la señal en un conjunto de datos.",noise,developers.google.com
+condición no binaria,Una condición que contiene más de dos resultados posibles.,non binary condition,developers.google.com
+no lineal,Una relación entre dos o más variables que no se pueden representar únicamente a través de la suma y la multiplicación.,nonlinear,developers.google.com
+sesgo sin respuesta,Ver sesgo de selección.,non response bias,developers.google.com
+no estacionaridad,"Una característica cuyos valores cambian en una o más dimensiones, generalmente el tiempo.",nonstationarity,developers.google.com
+ninguna respuesta correcta (nora),Un aviso que tiene múltiples respuestas apropiadas.,no one right answer (nora),developers.google.com
+nora,Abreviatura de nadie correcto.,nora,developers.google.com
+normalización,"En términos generales, el proceso de convertir el rango real de valores de una variable en un rango estándar de valores, como: por ejemplo, suponga que el rango real de valores de una determinada característica es de 800 a 2,400.",normalization,developers.google.com
+detección de novedad,El proceso de determinar si un nuevo ejemplo (novedoso) proviene de la misma distribución que el conjunto de capacitación.,novelty detection,developers.google.com
+datos numéricos,Características representadas como enteros o números de valor real.,numerical data,developers.google.com
+numpy,Una biblioteca de matemáticas de código abierto que proporciona operaciones de matriz eficientes en Python.,numpy,developers.google.com
+objetivo,Una métrica que su algoritmo está tratando de optimizar.,objective,developers.google.com
+función de objetivos,La fórmula o métrica matemática que un modelo tiene como objetivo optimizar.,objective function,developers.google.com
+condición oblicua,"En un árbol de decisión, una condición que involucra más de una característica.",oblique condition,developers.google.com
+desconectado,Sinónimo de estática.,offline,developers.google.com
+inferencia fuera de línea,El proceso de un modelo que genera un lote de predicciones y luego almacenado en caché (ahorre) esas predicciones.,offline inference,developers.google.com
+una codificación caliente,Representar los datos categóricos como un vector en el que: la codificación única se usa comúnmente para representar cadenas o identificadores que tienen un conjunto finito de valores posibles.,one hot encoding,developers.google.com
+aprendizaje de un tiro,"Un enfoque de aprendizaje automático, a menudo utilizado para la clasificación de objetos, diseñado para aprender un modelo de clasificación efectivo a partir de un solo ejemplo de capacitación.",one shot learning,developers.google.com
+un tiro de inicio,Un mensaje que contiene un ejemplo que demuestra cómo debe responder el modelo de idioma grande.,one shot prompting,developers.google.com
+uno contra todo,"Dado un problema de clasificación con las clases de N, una solución que consiste en N clasificadores binarios separados, un clasificador binario para cada resultado posible.",one vs. all,developers.google.com
+en línea,Sinónimo de dinámica.,online,developers.google.com
+inferencia en línea,Generando predicciones a demanda.,online inference,developers.google.com
+operación (op),"En TensorFlow, cualquier procedimiento que cree, manipula o destruya un tensor.",operation (op),developers.google.com
+optax,Una biblioteca de procesamiento y optimización de gradiente para Jax.,optax,developers.google.com
+optimizador,Una implementación específica del algoritmo de descenso de gradiente.,optimizer,developers.google.com
+sesgo de homogeneidad grupal,"La tendencia a ver a los miembros fuera del grupo como más iguales a los miembros que en el grupo al comparar actitudes, valores, rasgos de personalidad y otras características.",out group homogeneity bias,developers.google.com
+detección atípica,El proceso de identificación de valores atípicos en un conjunto de capacitación.,outlier detection,developers.google.com
+valores atípicos,Valores distantes de la mayoría de los otros valores.,outliers,developers.google.com
+evaluación de la bolsa (evaluación oob),Un mecanismo para evaluar la calidad de un bosque de decisión al probar cada árbol de decisión contra los ejemplos no utilizados durante el entrenamiento de ese árbol de decisión.,out of bag evaluation (oob evaluation),developers.google.com
+capa de salida,"La capa ""final"" de una red neuronal.",output layer,developers.google.com
+sobreajuste,Crear un modelo que coincida tanto con los datos de entrenamiento que el modelo no puede hacer predicciones correctas en los nuevos datos.,overfitting,developers.google.com
+sobremuestreo,Reutilizando los ejemplos de una clase minoritaria en un conjunto de datos integral de clase para crear un conjunto de capacitación más equilibrado.,oversampling,developers.google.com
+datos empacados,Un enfoque para almacenar datos de manera más eficiente.,packed data,developers.google.com
+pandas,Una API de análisis de datos orientada a la columna construida sobre Numpy.,pandas,developers.google.com
+parámetro,Los pesos y sesgos que un modelo aprende durante el entrenamiento.,parameter,developers.google.com
+ajuste eficiente de los parámetros,Un conjunto de técnicas para ajustar un gran modelo de lenguaje previamente capacitado (PLM) de manera más eficiente que el ajuste completo completo.,parameter efficient tuning,developers.google.com
+servidor de parámetros (ps),Un trabajo que realiza un seguimiento de los parámetros de un modelo en una configuración distribuida.,parameter server (ps),developers.google.com
+actualización de parámetros,"La operación de ajustar los parámetros de un modelo durante el entrenamiento, típicamente dentro de una sola iteración de descenso de gradiente.",parameter update,developers.google.com
+derivado parcial,Un derivado en el que todas las variables menos una se considera una constante.,partial derivative,developers.google.com
+sesgo de participación,Sinónimo de sesgo de no respuesta.,participation bias,developers.google.com
+estrategia de partición,El algoritmo por el cual las variables se dividen en los servidores de parámetros.,partitioning strategy,developers.google.com
+pase en k (pase@k),"Una métrica para determinar la calidad del código (por ejemplo, Python) que genera un modelo de idioma grande.",pass at k (pass@k),developers.google.com
+paz,Un marco de programación diseñado para capacitar a modelos de red neuronal a gran escala tan grande que abarcan múltiples cortes o vainas de chips de acelerador TPU.,pax,developers.google.com
+perceptrón,"Un sistema (ya sea hardware o software) que toma uno o más valores de entrada, ejecuta una función en la suma ponderada de las entradas y calcula un valor de salida único.",perceptron,developers.google.com
+importaciones variables de permutación,Un tipo de importancia variable que evalúa el aumento en el error de predicción de un modelo después de permitir los valores de la característica.,permutation variable importances,developers.google.com
+perplejidad,Una medida de qué tan bien un modelo está logrando su tarea.,perplexity,developers.google.com
+segmentación,La infraestructura que rodea un algoritmo de aprendizaje automático.,pipeline,developers.google.com
+segmentación,Una forma de paralelismo modelo en el que el procesamiento de un modelo se divide en etapas consecutivas y cada etapa se ejecuta en un dispositivo diferente.,pipelining,developers.google.com
+pjit,Una función JAX que divide el código para cumplir con múltiples chips de acelerador.,pjit,developers.google.com
+ciclo de vida del producto,Abreviatura del modelo de lenguaje previamente capacitado.,plm,developers.google.com
+pmap,"Una función JAX que ejecuta copias de la función AnInput en múltiples dispositivos de hardware subyacentes (CPU, GPU o TPU), con diferentes valores de entrada.",pmap,developers.google.com
+política,"En el aprendizaje de refuerzo, el mapeo probabilístico de un agente de los estados a las acciones.",policy,developers.google.com
+agrupación,Reducción de una matriz (o matrices) creada por una capa convolucional anterior a una matriz más pequeña.,pooling,developers.google.com
+codificación posicional,Una técnica para agregar información sobre la posición de una secuencia de Tokenin A a la incrustación del token.,positional encoding,developers.google.com
+clase positiva,La clase que está probando.,positive class,developers.google.com
+procesamiento post,Ajustar la salida de un modelo después de que se ejecute el modelo.,post processing,developers.google.com
+área bajo la curva de recuperación de precisión,"Área bajo la curva de recuperación de precisión interpolada, obtenida trazando (recordar, precisión) puntos para diferentes valores del umbral de clasificación.",pr auc (area under the pr curve),developers.google.com
+práctica,Una biblioteca ML de ML de alto rendimiento de PAX.,praxis,developers.google.com
+precisión,"Una métrica para los modelos de clasificación que responde a la siguiente pregunta: cuando el modelo predijo la clase positiva, ¿qué porcentaje de las predicciones fueron correctas? Aquí está la fórmula: donde: por ejemplo, supongamos que un modelo hizo 200 predicciones positivas.",precision,developers.google.com
+precisión en k (precision@k),Una métrica para evaluar una lista clasificada (ordenada) de elementos.,precision at k (precision@k),developers.google.com
+curva de recuerdo de precisión,Una curva de precisión versus recuperación en diferentes umbrales de clasificación.,precision recall curve,developers.google.com
+predicción,La salida de un modelo.,prediction,developers.google.com
+sesgo de predicción,Un valor que indica qué tan separado es el promedio de las predicciones del promedio de las etiquetas en el conjunto de datos.,prediction bias,developers.google.com
+ml predictivo,"Cualquier sistema de aprendizaje automático estándar (""clásico"").",predictive ml,developers.google.com
+paridad predictiva,"Una métrica de equidad que verifica si, para un clasificador dado, las tasas de precisión son equivalentes para los subgrupos bajo consideración.",predictive parity,developers.google.com
+paridad de tasa predictiva,Otro nombre para la paridad predictiva.,predictive rate parity,developers.google.com
+modelo pre -entrenado,"Por lo general, un modelo que ya ha sido entrenado.",pre trained model,developers.google.com
+previo al entrenamiento,El entrenamiento inicial de un modelo en un gran conjunto de datos.,pre training,developers.google.com
+creencia previa,Lo que cree sobre los datos antes de comenzar a entrenar ONIT.,prior belief,developers.google.com
+modelo de regresión probabilística,"Un modelo de regresión que utiliza no solo los pesos para cada característica, sino también la incertidumbre de esos pesos.",probabilistic regression model,developers.google.com
+función de densidad de probabilidad,Una función que identifica la frecuencia de muestras de datos que tienen exactamente un valor particular.,probability density function,developers.google.com
+inmediato,Cualquier texto ingresado como entrada a un modelo de lenguaje grande para acondicionar el modelo para que se comporte de cierta manera.,prompt,developers.google.com
+aprendizaje basado en el aviso,Una capacidad de ciertos modelos que les permite adaptar su comportamiento en respuesta a la entrada de texto arbitraria (indicaciones).,prompt based learning,developers.google.com
+diseño rápido,Sinónimo de ingeniería rápida.,prompt design,developers.google.com
+ingeniería rápida,El arte de crear indicaciones que provocan las respuestas deseadas de un modelo de lenguaje grande.,prompt engineering,developers.google.com
+ajuste rápido,"Un mecanismo de sintonización eficiente de parámetros que aprende un ""prefijo"" que el sistema prepara a la solicitud real.",prompt tuning,developers.google.com
+etiquetas proxy,Datos utilizados para aproximar las etiquetas no disponibles directamente en un conjunto de datos.,proxy labels,developers.google.com
+función pura,"Una función cuyas salidas se basan solo en las entradas ONIT, y eso no tiene efectos secundarios.",pure function,developers.google.com
+q función,"En el aprendizaje de refuerzo, la función que predice el rendimiento esperado de tomar un estado de acción en un estado y luego seguir una política determinada.",q function,developers.google.com
+q aprendizaje,"En el aprendizaje de refuerzo, un algoritmo que permite a un agente aprender la función Q óptima de un proceso de decisión de Markov aplicando la ecuación de Bellman.",q learning,developers.google.com
+cuantil,Cada cubo en un bulto de cuantil.,quantile,developers.google.com
+bulto de cuantil,Distribuir los valores de una característica en cubos para que cada cubo contenga el mismo (o casi el mismo) número de ejemplos.,quantile bucketing,developers.google.com
+cuantificación,Término sobrecargado que podría usarse de cualquiera de las siguientes maneras: reducir el número de bits utilizados para almacenar los parámetros de un modelo.,quantization,developers.google.com
+cola,Una operación de flujo tensor que implementa una estructura de datos de cola.,queue,developers.google.com
+trapo,Abreviatura para la generación de recuperación augtada.,rag,developers.google.com
+bosque al azar,"Un conjunto de árboles de decisión en el que cada árbol de decisión está entrenado con un ruido aleatorio específico, como el embolsado.",random forest,developers.google.com
+política aleatoria,"En el aprendizaje de refuerzo, una política que elige una acción al azar.",random policy,developers.google.com
+rango (ordinalidad),La posición ordinal de una clase en un problema de aprendizaje automático que clasifica las clases de la más alta a la más baja.,rank (ordinality),developers.google.com
+rango (tensor),El número de dimensiones en un tensor.,rank (tensor),developers.google.com
+categoría,Un tipo de aprendizaje supervisado cuyo objetivo es pedir una lista de elementos.,ranking,developers.google.com
+apreciador,Un humano que proporciona etiquetas para ejemplos.,rater,developers.google.com
+recordar,"Una métrica para los modelos de clasificación que responde a la siguiente pregunta: cuando la verdad del suelo era la clase positiva, ¿qué porcentaje de predicciones identificó correctamente el modelo como la clase positiva? Aquí está la fórmula: \ [\ text {recuperar} = \ frac {\ text {verdaderas positivas}}} {\ text {verdaderas positivas} + \ text {fals negativos}} \]. La verdad del suelo era la clase positiva.",recall,developers.google.com
+recuerde en k (recordar@k),Una métrica para evaluar sistemas que generan una lista de elementos clasificada (ordenada).,recall at k (recall@k),developers.google.com
+sistemas de recomendación,Un sistema que selecciona para cada usuario un conjunto relativamente pequeño de elementos deseables de un cuerpo grande.,recommendation system,developers.google.com
+unidad lineal rectificada (relu),Una función de activación con el siguiente comportamiento: Por ejemplo: aquí hay una gráfica de Relu: Relu es una función de activación muy popular.,rectified linear unit (relu),developers.google.com
+red neuronal recurrente,"Una red neuronal que se ejecuta intencionalmente varias veces, donde las partes de cada ejecución se alimentan en la siguiente ejecución.",recurrent neural network,developers.google.com
+texto de referencia,La respuesta de un experto a un aviso.,reference text,developers.google.com
+modelo de regresión,"Informalmente, un modelo que genera una predicción numérica.",regression model,developers.google.com
+regularización,Cualquier mecanismo que reduzca el sobreajuste.,regularization,developers.google.com
+tasa de regularización,Un número que especifica la importancia relativa de la regularización durante el entrenamiento.,regularization rate,developers.google.com
+aprendizaje de refuerzo (rl),"Una familia de algoritmos que aprenden una política óptima, cuyo objetivo es maximizar el retorno al interactuar con un entorno.",reinforcement learning (rl),developers.google.com
+aprendizaje de refuerzo de la retroalimentación humana (rlhf),Uso de la retroalimentación de los evaluadores humanos para mejorar la calidad de las respuestas de un modelo.,reinforcement learning from human feedback (rlhf),developers.google.com
+rehacer,Abreviatura de la unidad lineal rectificada.,relu,developers.google.com
+búfer de reproducción,"En los algoritmos similares a DQN, la memoria utilizada por el agente para almacenar las transiciones de estado para su uso en la repetición de la experiencia.",replay buffer,developers.google.com
+réplica,"Una copia del conjunto o modelo de entrenamiento, típicamente en otra máquina.",replica,developers.google.com
+sesgo de informes,"El hecho de que la frecuencia con la que las personas escriben sobre acciones, resultados o propiedades no es un reflejo de sus frecuencias del mundo real o el grado en que una propiedad es característica de una clase de individuos.",reporting bias,developers.google.com
+representación,El proceso de mapeo de datos a características útiles.,representation,developers.google.com
+ranking,"La etapa final de un sistema de recomendación, durante el cual los elementos puntuados se pueden volver a inscribir de acuerdo con algún otro algoritmo (típicamente no ML).",re ranking,developers.google.com
+recuperación de generación aumentada (trapo),Una técnica para mejorar la calidad del modelo de lenguaje grande (LLM) al conectarla con fuentes de conocimiento recuperadas después de que el modelo fue entrenado.,retrieval augmented generation (rag),developers.google.com
+devolver,"En el aprendizaje de refuerzo, dada una cierta política y un determinado estado, el retorno es la suma de todas las recompensas que el agente espera recibir al seguir la política del estado hasta el final del episodio.",return,developers.google.com
+premio,"En el aprendizaje de refuerzo, el resultado numérico de tomar una acción en un estado, según lo definido por el medio ambiente.",reward,developers.google.com
+regularización de la cresta,Sinónimo de regularización L2.,ridge regularization,developers.google.com
+rnn,Abreviatura de redes neuronales recurrentes.,rnn,developers.google.com
+curva roc (característica operativa del receptor),Un gráfico de tasa positiva verdadera versus tasa de falsos positivos para diferentes umbrales de clasificación en la clasificación binaria.,roc (receiver operating characteristic) curve,developers.google.com
+asignación de roles,Una parte opcional de un mensaje que identifica a un público objetivo para la respuesta de un modelo de IA generativo.,role prompting,developers.google.com
+raíz,El nodo inicial (la primera condición) en un árbol de decisión.,root,developers.google.com
+directorio raíz,El directorio que especifica para alojar subdirectorios del punto de control TensorFlow y archivos de eventos de múltiples modelos.,root directory,developers.google.com
+error cuadrado medio de raíz (rmse),La raíz cuadrada del error cuadrado medio.,root mean squared error (rmse),developers.google.com
+invariancia rotacional,"En el problema de clasificación de animación, la capacidad de un algoritmo para clasificar con éxito las imágenes incluso cuando cambia la orientación de la imagen.",rotational invariance,developers.google.com
+rouge (suplente orientado al recuerdo para la evaluación de la protección),Una familia de métricas que evalúan los modelos automáticos de resumen y traducción automática.,rouge (recall oriented understudy for gisting evaluation),developers.google.com
+rouge l,Un miembro de la familia Rouge se centró en la longitud de la posterior subsecuencia común más larga en el texto de referencia y el texto generado.,rouge l,developers.google.com
+rouge n,Un conjunto de métricas dentro de la familia Rouge que compara los n-gramos compartidos de cierto tamaño en el texto de referencia y el texto generado.,rouge n,developers.google.com
+rouge s,Una forma indulgente de Rouge-N que permite la coincidencia de gramo de omisión.,rouge s,developers.google.com
+r cuadrado,Una métrica de regresión que indica cuánta variación se debe una etiqueta a una característica andividual o a un conjunto de características.,r squared,developers.google.com
+sesgo de muestreo,Ver sesgo de selección.,sampling bias,developers.google.com
+muestreo con reemplazo,Un método para elegir elementos de un conjunto de elementos candidatos en el que se puede elegir el mismo elemento varias veces.,sampling with replacement,developers.google.com
+modelo saved,El formato recomendado para guardar y recuperar modelos de flujo tensor.,savedmodel,developers.google.com
+ahorrador,Un objeto TensorFlow responsable de guardar puntos de control del modelo.,saver,developers.google.com
+escalar,Un solo número o una sola cadena que se puede representar como un tensor del rango 0.,scalar,developers.google.com
+escalada,"Cualquier transformación o técnica matemática que cambie el rango de una etiqueta, un valor de característica o ambos.",scaling,developers.google.com
+scikit learn,Una popular plataforma de aprendizaje automático de código abierto.,scikit learn,developers.google.com
+tanteo,La parte de un sistema de recomendación que proporciona un valor o clasificación para cada elemento producido por la fase de generación de candidatos.,scoring,developers.google.com
+sesgo de selección,Errores en conclusiones extraídas de datos muestreados debido a un proceso de selección que genera diferencias sistemáticas entre las muestras observadas en los datos y las no observadas.,selection bias,developers.google.com
+atención propia (también llamada capa de atención propia),"Una capa de red neuronal que transforma una secuencia de incrustaciones (por ejemplo, incrustaciones de token) en otra secuencia de incrustaciones.",self attention (also called self attention layer),developers.google.com
+aprendizaje auto supervisado,Una familia de técnicas para convertir un problema de aprendizaje automático no supervisado en un problema de aprendizaje automático supervisado al crear etiquetas sustitutas a partir de ejemplos no etiquetados.,self supervised learning,developers.google.com
+auto entrenamiento,Una variante de aprendizaje auto-supervisado que es particularmente útil cuando todas las siguientes condiciones son verdaderas: la autodrinción funciona iterando en los siguientes dos pasos hasta que el modelo deja de mejorar: observe que cada iteración del paso 2 agrega más ejemplos etiquetados para el paso 1 para entrenar.,self training,developers.google.com
+aprendizaje semi supervisado,"Entrenar un modelo en datos donde algunos de los ejemplos de capacitación tienen etiquetas, pero otras no.",semi supervised learning,developers.google.com
+análisis de sentimientos,"Uso de algoritmos estadísticos o de aprendizaje automático para determinar la actitud general de un grupo, positiva o negativa), en el servicio, producto, organización o tema.",sentiment analysis,developers.google.com
+modelo de secuencia,Un modelo cuyas entradas tienen una dependencia secuencial.,sequence model,developers.google.com
+secuencia a la tarea de secuencia,Una tarea que convierte una secuencia de tokens aninput en una secuencia de salida de tokens.,sequence to sequence task,developers.google.com
+servicio,El proceso de poner a disposición un modelo capacitado para proporcionar predicciones a través de la inferencia en línea o la inferencia fuera de línea.,serving,developers.google.com
+forma (tensor),El número de elementos en cada dimensión de un tensor.,shape (tensor),developers.google.com
+casco,Una división lógica del conjunto de capacitación o del modelo.,shard,developers.google.com
+contracción,Un hiperparámetro en el aumento de gradiente que controla el sobreajuste.,shrinkage,developers.google.com
+función sigmoidía,"Una función matemática que ""aplaste"" el valor de la entrada en un rango restringido, típicamente de 0 a 1 o -1 a + es decir, puede pasar cualquier número (dos, millones, mil millones negativos, lo que sea) a un sigmoide y la salida aún estará en el rango limitado.",sigmoid function,developers.google.com
+medida de similitud,"En los algoritmos de agrupación, la métrica utilizada para determinar cuán similares son los dos ejemplos.",similarity measure,developers.google.com
+programa único / datos múltiples (spmd),Una técnica de paralelismo donde el mismo cálculo se ejecuta en diferentes datos de entrada en paralelo en diferentes dispositivos.,single program / multiple data (spmd),developers.google.com
+invariancia de tamaño,"En el problema de clasificación de animación, la capacidad de un algoritmo para clasificar con éxito las imágenes incluso cuando cambia el tamaño de la imagen.",size invariance,developers.google.com
+boceto,"En el aprendizaje automático no supervisado, una categoría de algoritmos que realizan un análisis de similitud preliminar en ejemplos.",sketching,developers.google.com
+saltar gramo,"Un N-gram que puede omitir (o ""omitir"") palabras del contexto original, lo que significa que las N palabras podrían no haber sido originalmente adyacentes.",skip gram,developers.google.com
+softmax,Una función que determina las probabilidades para cada clase posible en un modelo de clasificación de múltiples clases.,softmax,developers.google.com
+ajuste de inmediato suave,"Una técnica para ajustar un modelo de lenguaje grande para una tarea en particular, sin ajuste fino intensivo de recursos.",soft prompt tuning,developers.google.com
+característica escasa,Una característica cuyos valores son predominantemente cero o vacíos.,sparse feature,developers.google.com
+representación escasa,Almacenar solo la (s) posición (s) de elementos distintos de cero en una característica escasa.,sparse representation,developers.google.com
+vector escaso,Un vector cuyos valores son principalmente ceros.,sparse vector,developers.google.com
+escasez,El número de elementos establecidos en cero (o nulo) en un vector o matriz dividido por el número total de entradas en ese vector o matriz.,sparsity,developers.google.com
+agrupación espacial,Ver Agrupación.,spatial pooling,developers.google.com
+dividir,"En un árbol de decisión, otro nombre para una condición.",split,developers.google.com
+disidente,"Mientras capacita un árbol de decisión, la rutina (y el algoritmo) responsable de encontrar la mejor condición en cada nodo.",splitter,developers.google.com
+spmd,Abreviatura para un solo programa y múltiples datos.,spmd,developers.google.com
+pérdida de bisagra cuadrada,El cuadrado de la pérdida de la bisagra.,squared hinge loss,developers.google.com
+pérdida al cuadrado,Sinónimo de pérdida de L2.,squared loss,developers.google.com
+entrenamiento escenificado,Una táctica de entrenamiento de un modelo en una secuencia de etapas discretas.,staged training,developers.google.com
+estado,"En el aprendizaje de refuerzo, los valores de parámetros que describen la configuración actual del entorno, que el agente utiliza para elegir una acción.",state,developers.google.com
+función de valor de acción estatal,Sinónimo de Q-Function.,state action value function,developers.google.com
+estático,Algo hecho una vez en lugar de continuamente.,static,developers.google.com
+inferencia estática,Sinónimo de inferencia fuera de línea.,static inference,developers.google.com
+estacionariedad,"Una característica cuyos valores no cambian en una o más dimensiones, generalmente el tiempo.",stationarity,developers.google.com
+paso,Un pase hacia adelante y un pase hacia atrás de un lote.,step,developers.google.com
+tamaño de paso,Sinónimo de tasa de aprendizaje.,step size,developers.google.com
+descenso de gradiente estocástico (sgd),Un algoritmo de descenso de gradiente en el que el tamaño del lote es uno.,stochastic gradient descent (sgd),developers.google.com
+paso,"En una operación o agrupación convolucional, el delta en cada dimensión de la siguiente serie de cortes de entrada.",stride,developers.google.com
+minimización del riesgo estructural (srm),"Un algoritmo que equilibra dos objetivos: por ejemplo, una función que minimiza la pérdida+regularización en el conjunto de capacitación es un algoritmo de minimización de riesgo estructural.",structural risk minimization (srm),developers.google.com
+subsamemplado,Ver Agrupación.,subsampling,developers.google.com
+token de subvención,"En los modelos de idiomas, un token que es una subcadena de una palabra, que puede ser la palabra completa.",subword token,developers.google.com
+resumen,"En TensorFlow, un valor o conjunto de valores calculados en un paso particular, generalmente utilizado para rastrear métricas del modelo durante el entrenamiento.",summary,developers.google.com
+aprendizaje automático supervisado,Entrenamiento de un modelo a partir de características y sus etiquetas correspondientes.,supervised machine learning,developers.google.com
+característica sintética,"Una característica que no está presente entre las características de entrada, pero ensamblada a partir de una o más de ellas.",synthetic feature,developers.google.com
+t5,Un modelo de aprendizaje de transferencia de texto a texto introducido por Google AI en 2020.,t5,developers.google.com
+t5x,Un marco de aprendizaje automático de código abierto diseñado para construir y capacitar a modelos de procesamiento de lenguaje natural a gran escala (PNL).,t5x,developers.google.com
+aprendizaje de q tabular,"En el aprendizaje de refuerzo, implementando Q-learning mediante el uso de una tabla para almacenar las funciones Q para cada combinación de estado y acción.",tabular q learning,developers.google.com
+objetivo,Sinónimo de etiqueta.,target,developers.google.com
+red de destino,"En Deep Q-Learning, una red neuronal que es una aproximación estable de la red neuronal principal, donde la red neuronal principal implementa una función Q o una política.",target network,developers.google.com
+temperatura,Un hiperparámetro que controla el grado de aleatoriedad de la salida de un modelo.,temperature,developers.google.com
+datos temporales,Datos registrados en diferentes puntos en el tiempo.,temporal data,developers.google.com
+tensor,La estructura de datos primaria en los programas de flujo de tensor.,tensor,developers.google.com
+tabla tensor,El tablero que muestra los resúmenes guardados durante la ejecución de uno o más programas TensorFlow.,tensorboard,developers.google.com
+tensorflow,"Una plataforma de aprendizaje automático a gran escala, distribuida.",tensorflow,developers.google.com
+parque infantil,Un programa que visualiza cómo los diferentes hiperparámetros influyen en la capacitación del modelo (principalmente red neuronal).,tensorflow playground,developers.google.com
+tensorflow serving,Una plataforma para implementar modelos capacitados en producción.,tensorflow serving,developers.google.com
+unidad de procesamiento del tensor (tpu),Un circuito integrado específico de la aplicación (ASIC) que optimiza el rendimiento de las cargas de trabajo de aprendizaje automático.,tensor processing unit (tpu),developers.google.com
+rango tensor,Ver rango (tensor).,tensor rank,developers.google.com
+forma tensor,El número de elementos que un tensor contiene en varias dimensiones.,tensor shape,developers.google.com
+tamaño del tensor,El número total de escalares un tensor contiene.,tensor size,developers.google.com
+tienda tensor,Una biblioteca para leer y escribir eficientemente grandes matrices multidimensionales.,tensorstore,developers.google.com
+condición de terminación,"En el aprendizaje de refuerzo, las condiciones que determinan cuándo termina un episodio, como cuando el agente alcanza un determinado estado o excede un número umbral de transiciones estatales.",termination condition,developers.google.com
+prueba,"En un árbol de decisión, otro nombre para una condición.",test,developers.google.com
+pérdida de prueba,Una métrica que representa la pérdida de un modelo contra el conjunto de pruebas.,test loss,developers.google.com
+set de prueba,Un subconjunto del conjunto de datos reservado para probar un modelo capacitado.,test set,developers.google.com
+tramo de texto,El tramo de índice de matriz asociado con una subsección específica de una cadena de texto.,text span,developers.google.com
+tf.example,Un búfer de protocolo estándar para describir datos de entrada para capacitación o inferencia del modelo de aprendizaje automático.,tf.example,developers.google.com
+tf.keras,Animplementation of Keras integrada en TensorFlow.,tf.keras,developers.google.com
+umbral (para árboles de decisión),"En una condición alineada por el eje, el valor con el que se compara una característica.",threshold (for decision trees),developers.google.com
+análisis de series de tiempo,Un subcampo de aprendizaje automático y estadísticas que analiza datos temporales.,time series analysis,developers.google.com
+paso de tiempo,"Una célula ""desenrollada"" dentro de una red neuronal recurrente.",timestep,developers.google.com
+simbólico,"En un modelo de lenguaje, la unidad atómica en la que el modelo está entrenando y haciendo predicciones.",token,developers.google.com
+precisión k,"El porcentaje de veces que una ""etiqueta objetivo"" aparece dentro de las primeras posiciones K de las listas generadas.",top k accuracy,developers.google.com
+torre,Un componente de una red neuronal profunda que es en sí misma una red neuronal profunda.,tower,developers.google.com
+toxicidad,"El grado en que el contenido es abusivo, amenazante o ofensivo.",toxicity,developers.google.com
+tpu,Abreviatura de la unidad de procesamiento del tensor.,tpu,developers.google.com
+chip de tpu,Un acelerador de álgebra lineal programable con memoria de ancho de banda alto en chip que está optimizada para cargas de trabajo de aprendizaje automático.,tpu chip,developers.google.com
+dispositivo tpu,"Una placa de circuito impreso (PCB) con múltiples chips de TPU, interfaces de red de alto ancho de banda y hardware de enfriamiento del sistema.",tpu device,developers.google.com
+nodo tpu,Un recurso TPU en Google Cloud con un tipo de TPU específico.,tpu node,developers.google.com
+tpu pod,Una configuración específica de dispositivos TPU en un centro de datos de Google.,tpu pod,developers.google.com
+recurso tpu,"Una entidad TPU en Google Cloud que crea, administra o consumen.",tpu resource,developers.google.com
+tpu slice,Una porción de TPU es una porción fraccional de los dispositivos TPU en un POD TPU.,tpu slice,developers.google.com
+tipo de tpu,Una configuración de uno o más dispositivos TPU con una versión de hardware TPU específica.,tpu type,developers.google.com
+trabajador de tpu,Un proceso que se ejecuta en una máquina host y ejecuta programas de aprendizaje automático en dispositivos TPU.,tpu worker,developers.google.com
+capacitación,El proceso de determinar los parámetros ideales (pesos y sesgos) que comprende un modelo.,training,developers.google.com
+pérdida de entrenamiento,Una métrica que representa la pérdida de un modelo durante una iteración de entrenamiento particular.,training loss,developers.google.com
+capacitación que sirve sesgo,La diferencia entre el rendimiento de un modelo durante el entrenamiento y el rendimiento del mismo modelo durante la entrega.,training serving skew,developers.google.com
+set de entrenamiento,El subconjunto del conjunto de datos utilizado para entrenar un modelo.,training set,developers.google.com
+trayectoria,"En el aprendizaje de refuerzo, una secuencia de tuplas que representan una secuencia de transiciones estatales del agente, donde cada tupla corresponde al estado, la acción, la recompensa y el próximo estado para una transición de estado dada.",trajectory,developers.google.com
+transferir el aprendizaje,Transferir información de una tarea de aprendizaje automático a otra.,transfer learning,developers.google.com
+transformador,Una arquitectura de red neuronal se desarrolló en Google que se basa en mecanismos de autoatensión para transformar una secuencia de incrustaciones de entrada en una secuencia de integridades de salida sin depender de convoluciones o redes neuronales recurrentes.,transformer,developers.google.com
+invariancia traslacional,"En el problema de clasificación de animación, la capacidad de un algoritmo para clasificar con éxito las imágenes incluso cuando cambia la posición de los objetos dentro de la imagen.",translational invariance,developers.google.com
+trigrama,Un n-gram en el que n = 3.,trigram,developers.google.com
+verdadero negativo (tn),Un ejemplo en el que el modelo predice correctamente la clase negativa.,true negative (tn),developers.google.com
+verdadero positivo (tp),Un ejemplo en el que el modelo predice correctamente la clase positiva.,true positive (tp),developers.google.com
+tasa positiva verdadera (tpr),Sinónimo de recuperación.,true positive rate (tpr),developers.google.com
+inconsciente (para un atributo sensible),"Una situación en la que están presentes atributos sensibles, pero no se incluyen en los datos de entrenamiento.",unawareness (to a sensitive attribute),developers.google.com
+poco fijado,Producir un modelo con mala capacidad predictiva porque el modelo no ha capturado completamente la complejidad de los datos de entrenamiento.,underfitting,developers.google.com
+subvenciones,Eliminar ejemplos de la clase mayoritaria en un conjunto de datos integral de clase para crear un conjunto de capacitación más equilibrado.,undersampling,developers.google.com
+unidireccional,Un sistema que solo evalúa el texto que precede a una sección objetivo del texto.,unidirectional,developers.google.com
+modelo de lenguaje unidireccional,"Un modelo de lenguaje que basa sus probabilidades solo en los tokens que aparecen antes, no después, en los token (s) objetivo (s).",unidirectional language model,developers.google.com
+ejemplo sin etiqueta,Un ejemplo que contiene características pero que no hay etiqueta.,unlabeled example,developers.google.com
+aprendizaje automático no supervisado,"Entrenamiento de un modelo para encontrar patrones en un conjunto de datos, generalmente un conjunto de datos sin etiquetar.",unsupervised machine learning,developers.google.com
+modelado de elevación,"Una técnica de modelado, comúnmente utilizada en el marketing, que modela el ""efecto causal"" (también conocido como el ""impacto incremental"") de un ""tratamiento"" en un ""individuo.",uplift modeling,developers.google.com
+peso al alza,Aplicando un peso a la clase muestreada igual al factor por el cual se muestra a la baja.,upweighting,developers.google.com
+matriz de usuarios,"En los sistemas de recomendación, un vector de incrustación generado por la factorización de matriz que contiene señales latentes sobre las preferencias del usuario.",user matrix,developers.google.com
+validación,La evaluación inicial de la calidad de un modelo.,validation,developers.google.com
+pérdida de validación,Una métrica que representa la pérdida de un modelo en la validación establecida durante una iteración particular de capacitación.,validation loss,developers.google.com
+conjunto de validación,El subconjunto del conjunto de datos que realiza una evaluación inicial contra un modelo capacitado.,validation set,developers.google.com
+valor imputación,El proceso de reemplazar un valor faltante con un sustituto aceptable.,value imputation,developers.google.com
+problema de gradiente de desaparición,La tendencia de los gradientes de las primeras capas ocultas de algunas redes neuronales profundas se vuelve sorprendentemente plana (baja).,vanishing gradient problem,developers.google.com
+importancias variables,Un conjunto de puntajes que indica la importancia relativa de cada característica para el modelo.,variable importances,developers.google.com
+autoencoder variacional (vae),Un tipo de autoencoder que aprovecha la discrepancia entre los ingresos y las salidas para generar versiones modificadas de las entradas.,variational autoencoder (vae),developers.google.com
+vector,Término muy sobrecargado cuyo significado varía en diferentes campos matemáticos y científicos.,vector,developers.google.com
+pérdida de wasserstein,"Una de las funciones de pérdida comúnmente utilizadas en las redes adversas generativas, basada en la distancia del motor de la Tierra entre la distribución de datos generados y datos reales.",wasserstein loss,developers.google.com
+peso,Un valor que un modelo se multiplica por otro valor.,weight,developers.google.com
+mínimos cuadrados alternativos pesados ​​(wals),"Un algoritmo para minimizar la función objetivo durante los sistemas de recomendación de factorización de matriz, lo que permite un downweighting de los ejemplos faltantes.",weighted alternating least squares (wals),developers.google.com
+suma pesada,La suma de todos los valores de entrada relevantes multiplicados por sus pesos correspondientes.,weighted sum,developers.google.com
+modelo ancho,Un modelo lineal que generalmente tiene muchas características de entrada dispersas.,wide model,developers.google.com
+ancho,El número de neuronas en una capa particular de una red neuronal.,width,developers.google.com
+sabiduría de la multitud,"La idea de que promediar las opiniones o estimaciones de un gran grupo de personas (""la multitud"") a menudo produce resultados sorprendentemente buenos.",wisdom of the crowd,developers.google.com
+incrustación de palabras,"Representando cada palabra en una palabra establecida dentro de un vector de incrustación; Es decir, representar cada palabra como un vector de valores de punto flotante entre 0 y palabras con significados similares tienen representaciones más similares a las palabras con diferentes significados.",word embedding,developers.google.com
+xla (álgebra lineal acelerada),"Un compilador de aprendizaje automático de código abierto para GPU, CPU y aceleradores ML.",xla (accelerated linear algebra),developers.google.com
+aprendizaje de disparo cero,Un tipo de entrenamiento de aprendizaje automático donde el modelo infiere una predicción para una tarea en la que ya no estaba específicamente entrenada.,zero shot learning,developers.google.com
+indicación de disparo cero,Un mensaje que no proporciona un ejemplo de cómo desea que responda el modelo de idioma grande.,zero shot prompting,developers.google.com
+z normalización de la puntuación,Una técnica de escala que reemplaza un valor de característica en bruto con un valor de punto flotante que representa el número de desviaciones estándar de la media de esa característica.,z score normalization,developers.google.com
+algoritmo,Una serie de pasos repetibles para llevar a cabo cierto tipo de tarea con datos.,algorithm,iaarbook.github.io
+aprendizaje supervisado,En machine learning el aprendizaje supervisado es una técnica para deducir una función a partir de datos de entrenamiento.,supervised learning,iaarbook.github.io
+aprendizaje no supervisado,El aprendizaje no supervisado es un método de machine learning en donde el modelo es ajustado a las observaciones.,unsupervised learning,iaarbook.github.io
+aprendizaje por refuerzo,"En los problemas de aprendizaje por refuerzo, el algoritmo aprende observando el mundo que le rodea.",reinforcement learning,iaarbook.github.io
+arboles de decision,"Los arboles de decision son un algoritmo de machine learning que consisten en diagramas con construcciones lógicas, muy similares a los sistemas de predicción basados en reglas, que sirven para representar y categorizar una serie de condiciones que ocurren de forma sucesiva, para la resolución de un problema.",decision trees,iaarbook.github.io
+atributos,Los atributos son las propiedades individuales que se pueden medir de un fenómeno que se observa.,attributes,iaarbook.github.io
+backpropagation,La propagación hacia atrás o backpropagation es un  algoritmo para el ajuste iterativo de los pesos utilizados por las redes neuronales.,backpropagation,iaarbook.github.io
+bci,Bci o brain computer interfaces constituyen una tecnología que se basa en la adquisición de ondas cerebrales para luego ser procesadas e interpretadas por una máquina u ordenador.,bci,iaarbook.github.io
+big data,La big data es la rama de las teconlogías de la información que estudia las dificultades inherentes a la manipulación de grandes conjuntos de datos.,big data,iaarbook.github.io
+ciencia de datos,"La ciencia de datos es un campo interdisciplinario que involucra métodos científicos, procesos y sistemas para extraer conocimiento o un mejor entendimiento de datos en sus diferentes formas, ya sea estructurados o no estructurados.",data science,iaarbook.github.io
+clasificacion,En machine learning los problemas de clasificación son aquellos en dónde el algoritmo de aprendizaje debe clasificar una serie de vectores en base a información de ejemplos previamente etiquetados.,classification,iaarbook.github.io
+clustering,"El clustering o agrupamiento consiste en agrupar un un conjunto de objetos de tal manera que los miembros del mismo grupo (llamado clúster) sean más similares, en algún sentido u otro.",clustering,iaarbook.github.io
+computacion en la nube,"La computación en la nube es un paradigma que permite ofrecer servicios de computación através de una red, que usualmente es la internet.",cloud computing,iaarbook.github.io
+conjunto de datos,Un conjunto de datos o dataset es una colección de datos que habitualmente están estructurados en forma tabular.,data set,iaarbook.github.io
+datos,"Un dato es una representación simbólica (numérica, alfabética, algorítmica, espacial, etc) de un atributo o variable cuantitativa o cualitativa.",data,iaarbook.github.io
+deep learning,"El deep learning o aprendizaje profundo es un subcampo dentro del machine learning, el cuál utiliza distintas estructuras de redes neuronales para lograr el aprendizaje de sucesivas capas de representaciones cada vez más significativas de los datos.",deep learning,iaarbook.github.io
+estadistica,La estadística suele ser definida como la ciencia de aprender de los datos o como la ciencia de obtener conclusiones en la presencia de incertidumbre.,statistics,iaarbook.github.io
+estadistica descriptiva,"La estadística descriptiva se dedica a recolectar, ordenar, analizar y representar a un conjunto de datos, con el fin de describir apropiadamente las características de este.",descriptive statistics,iaarbook.github.io
+estadistica inferencial,"La estadistica inferencial estudia cómo sacar conclusiones generales para toda la población a partir del estudio de una muestra, y el grado de fiabilidad o significación de los resultados obtenidos.",inferential statistics,iaarbook.github.io
+funcion de activacion,En redes neuronales la función de activación es la que define la forma en que una neurona se activa de acuerdo a una entrada o conjunto de entradas.,activation function,iaarbook.github.io
+funcion de perdida,"En machine learning y optimización, la función de pérdida es aquella que representa la pérdida de información o el precio pagado por la inexactitud en las predicciones.",loss function,iaarbook.github.io
+gradiente,El concepto de gradiente es la generalización de derivada a funciones de más de una variable o vectores.,gradient,iaarbook.github.io
+hadoop,"Hadoop es un framework de software, desarrollado en el lenguaje de programación java, que permite el procesamiento distribuido de grandes conjuntos de datos através de clusters de computadoras utilizando simples modelos de programación.",hadoop,iaarbook.github.io
+hipotesis,"En estadística, una hipótesis es una suposición de algo posible o imposible para sacar de ello una o más conclusiones.",hypothesis,iaarbook.github.io
+iaar,Iaar es la comunidad argentina de inteligencia artificial.,iaar,iaarbook.github.io
+inteligencia artificial,La inteligencia artificial es el estudio de la inforseramática centrándose en el desarrollo de software o máquinas que exhiben una inteligencia humana.,artificial intelligence,iaarbook.github.io
+interfaz cerebro computadora,"La interfaz cerebro computadora o bci es un campo multidisciplinario que utiliza los nuevos avances en neurociencia, procesamiento de señales, machine learning y las tecnologías de la información para explorar la forma de comunicar nuestro cerebro en forma directa con las máquinas, de la misma forma en que lo hacemos con nuestro cuerpo.",brain computer interfaces,iaarbook.github.io
+internet de las cosas,"La internet de las cosas o iot es un concepto que se refiere a la interconexión digital de objetos cotidianos coninternet, permitiendo la creación de un sin fin de sistemas inteligentes que aprovechan los beneficios de la big data.",internet of things,iaarbook.github.io
+java,Java es un lenguaje de programación orientado a objetos diseñado para ser multiplataforma y poder ser empleado el mismo programa en diversos sistemas operativos.,java,iaarbook.github.io
+javascript,Javascript es el lenguaje de programación de la web.,javascript,iaarbook.github.io
+keras,"Keras es una librería de alto nivel para deep learning, muy fácil de utilizar.",keras,iaarbook.github.io
+k means,K-means es un algoritmo de machine learning no supervisado muy popular para problemas de agrupamiento; funciona reduciendo al mínimo la suma de las distancias cuadradas desde la media dentro de un agrupamiento.,k means,iaarbook.github.io
+knn,Knn o k vecinos más cercanos es un algoritmo de machine learning que consiste en realizar predicciones sobre una clase en base a la clase a la que pertenecen los puntos vecinos más cercanos al que intentamos predecir.,knn,iaarbook.github.io
+machine learning,El machine learning o aprendizaje automático es el diseño y estudio de las herramientas informáticas que utilizan la experiencia pasada para tomar decisiones futuras; es el estudio de programas que pueden aprender de los datos.,machine learning,iaarbook.github.io
+matrices,"Una matriz es un arreglo bidimensional de números (llamados entradas de la matriz) ordenados en filas (o renglones) y columnas, donde una fila es cada una de las líneas horizontales de la matriz y una columna es cada una de las líneas verticales.",arrays,iaarbook.github.io
+modelo,"En machine learning, un modelo es el objeto que va a representar la salida del algoritmo de aprendizaje.",model,iaarbook.github.io
+muestra,En estadística un muestra es un subconjunto de casos o individuos de una población.,sample,iaarbook.github.io
+neurona,Una neurona en una red neuronal artificial es una aproximación matemática de una neurona biológica.,neuron,iaarbook.github.io
+open source,Open source es un modelo de desarrollo de software que se caracteriza por promover el rápido desarrollo e implementación de mejoras y corrección de errores en una solución de software.,open source,iaarbook.github.io
+optimizacion,La optimización consiste en la selección del mejor elemento (con respecto a algún criterio) de un conjunto de elementos disponibles.,optimization,iaarbook.github.io
+probabilidad,La probabilidad es la rama de las matemáticas que se ocupa de los fenómenos aleatorios y de la incertidumbre.,probability,iaarbook.github.io
+procesamiento del lenguaje natural,El procesamiento del lenguaje natural es una disciplina interdisciplinaria cuya idea central es la de darle a las máquinas la capacidad de leer y comprender los idiomas que hablamos los humanos.,natural language processing,iaarbook.github.io
+python,"Python es actualmente uno de los lenguajes más utilizados en inteligencia artificial y la ciencia de datos; es un lenguaje de programación de alto nivel que se caracteriza por hacer hincapié en una sintaxis limpia, que favorece un código legible y fácilmente administrable.",python,iaarbook.github.io
+lenguaje r,R es un lenguaje de programacióninterpretado diseñado específicamente para el análisis estadístico y la manipulación de datos.,language r,iaarbook.github.io
+red neuronal,"Las redes neuronales son un modelo computacional basado en un gran conjunto de unidades neuronales simples (neuronas artificiales), de forma aproximadamente análoga al comportamiento observado en los axones de las neuronas en los cerebros biológicos.",neural network,iaarbook.github.io
+regresion,"En machine learning, la regresión consiste en encontrar la mejor relación que representa al conjuntos de datos.",regression,iaarbook.github.io
+sobreajuste,"En machine learning un modelo va a estar sobreajustado cuando vemos que se desempeña bien con los datos de entrenamiento, pero su precisión es notablemente más baja con los datos de evaluación; esto se debe a que el modelo ha memorizado los datos que ha visto y no pudo generalizar las reglas para predecir los datos que no ha visto.",overfitting,iaarbook.github.io
+svm,Las máquinas de vectores de soporte o svm es un algoritmo de machine learning cuya idea central consiste en encontrar un plano que separe los grupos dentro de los datos de la mejor forma posible.,svm,iaarbook.github.io
+tensor,"Un tensor un un arreglo de números que generaliza los conceptos de escalares, vectores, y matrices a un grado mayor de dimensiones.",tensor,iaarbook.github.io
+tensorflow,Tensorflow es un frameworks desarrollado por google para deep learning.,tensorflow,iaarbook.github.io
+vector,Un vector es una serie de números.,vector,iaarbook.github.io
+vision por computadora,"La visión por computadora es una disciplina científica que incluye métodos para adquirir, procesar, analizar y comprender las imágenes del mundo real con el fin de producir información numérica o simbólica para que puedan ser tratados por una computadora.",computer vision,iaarbook.github.io

@@ -1,0 +1,41 @@
+Concepto,Descripción
+Exploración de Datos,Proceso de analizar conjuntos de datos para resumir sus características principales.
+Análisis Exploratorio de Datos (EDA),Técnica para investigar datos a través de resúmenes y gráficos antes de aplicar modelos.
+Estadísticas Descriptivas,Cálculo de medidas estadísticas para describir los datos de forma general.
+Distribución de Datos,Representación visual y estadística de cómo se distribuyen los valores en un conjunto de datos.
+Media,Promedio de los valores en un conjunto de datos.
+Mediana,Valor central de un conjunto de datos ordenado.
+Moda,Valor más frecuente en un conjunto de datos.
+Rango,Diferencia entre los valores máximo y mínimo de un conjunto de datos.
+Varianza,Medida que refleja la dispersión de los datos en relación a la media.
+Desviación Estándar,"Raíz cuadrada de la varianza, usada para medir la dispersión en los datos."
+Percentiles,Valores que dividen un conjunto de datos en partes proporcionales.
+Cuartiles,Valores que dividen los datos en cuatro partes iguales.
+Histogramas,Gráfico que muestra la distribución de datos en intervalos (bins).
+Diagramas de Caja,"Gráfico que visualiza la dispersión, mediana y valores extremos de los datos."
+Gráficos de Dispersión,Gráfico que muestra relaciones entre dos variables mediante puntos dispersos.
+Gráficos de Correlación,Gráfico que utiliza colores o flechas para mostrar la fuerza y dirección de las correlaciones.
+Matrices de Correlación,Matriz que muestra correlaciones entre múltiples variables en un conjunto de datos.
+Diagrama de Pareto,Gráfico que identifica los elementos más importantes en un conjunto de datos categóricos.
+Detección de Valores Atípicos,Proceso para identificar valores que se alejan significativamente del resto de los datos.
+Análisis Bivariado,Análisis que examina relaciones entre dos variables.
+Análisis Multivariado,Análisis que explora interacciones entre más de dos variables.
+Gráficos de Series Temporales,"Gráfico que visualiza datos a lo largo del tiempo, mostrando tendencias o patrones."
+Transformación de Datos,Aplicación de funciones matemáticas para modificar la distribución de datos.
+Normalización,Escalado de datos a un rango común para facilitar comparaciones.
+Estandarización,Ajuste de los datos para que tengan una media de 0 y desviación estándar de 1.
+Filtrado de Datos,Eliminación de registros irrelevantes o problemáticos para mejorar la calidad de los datos.
+Agrupación de Datos,Agrupación de datos en categorías o segmentos para su análisis.
+Segmentación de Datos,División de datos en subconjuntos según características comunes.
+Análisis de Componentes Principales (PCA),Técnica para reducir dimensiones mientras se mantiene la variabilidad de los datos.
+Reducción de Dimensionalidad,Método para disminuir el número de variables en un conjunto de datos.
+Relación Variable-Objetivo,Análisis para evaluar cómo las variables independientes afectan a la variable objetivo.
+Gráficos de Barras,Gráfico que utiliza barras para comparar categorías o variables.
+Gráficos de Líneas,Gráfico que conecta puntos con líneas para mostrar tendencias en los datos.
+Nubes de Palabras,Representación visual de palabras más frecuentes en un conjunto de texto.
+Mapas de Calor,Gráfico que utiliza colores para representar la intensidad de datos en una matriz o mapa.
+Análisis de Correlación,Medición de la relación entre dos o más variables cuantitativas.
+Identificación de Patrones,"Identificación de tendencias, relaciones o regularidades en los datos."
+Comprobación de Supuestos Estadísticos,Evaluación de si los datos cumplen con supuestos como normalidad o independencia.
+Interpretación de Resultados,Proceso de extraer conclusiones claras y accionables de los datos analizados.
+Reportes de Datos,Creación de informes que resuman hallazgos clave en el análisis de datos.

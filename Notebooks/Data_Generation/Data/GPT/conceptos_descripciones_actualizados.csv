@@ -1,0 +1,31 @@
+Concepto,Descripción
+agrupamiento aglomerado,Método jerárquico de agrupamiento que une elementos o grupos en función de su similitud.
+area bajo la curva de pr,Medida del rendimiento de un modelo que combina precisión y recuperación en problemas de clasificación.
+area bajo la curva roc,Indicador de desempeño que mide la capacidad de un modelo para distinguir entre clases en problemas binarios.
+ecuacion de bellman,Ecuación central en la programación dinámica que describe la relación recursiva en problemas de decisión.
+sesgo de cobertura,Sesgo que surge cuando ciertos datos no están representados en la muestra analizada.
+agrupamiento en clusteres divisivo,Método jerárquico que comienza con un grupo único y lo divide recursivamente en subgrupos.
+sesgo del investigador,Sesgo que ocurre cuando las expectativas del investigador influyen en los resultados del estudio.
+sesgo de no respuesta,Sesgo que se genera por la falta de respuestas de ciertos participantes en una encuesta o estudio.
+precision,Proporción de predicciones correctas sobre el total de predicciones positivas hechas por un modelo.
+recall,Proporción de verdaderos positivos sobre el total de positivos reales en un conjunto de datos.
+sesgo muestral,Sesgo que ocurre cuando la muestra seleccionada no representa adecuadamente a la población objetivo.
+reduccion espacial,Proceso de reducir la dimensionalidad de los datos manteniendo la mayor cantidad de información relevante.
+submuestreo,Técnica para reducir el tamaño de un conjunto de datos seleccionando una muestra más pequeña representativa.
+rango de tensor,Número de dimensiones linealmente independientes en un tensor.
+tasa de falsos positivos,Proporción de negativos falsamente clasificados como positivos por un modelo de clasificación.
+tasa de verdaderos positivos,Proporción de positivos correctamente identificados sobre el total de positivos reales.
+estadistica inferencial,Rama de la estadística que utiliza muestras para hacer inferencias sobre una población.
+prueba de hipotesis,Procedimiento estadístico para determinar si una hipótesis es consistente con los datos observados.
+series de tiempo,Conjunto de observaciones tomadas secuencialmente en el tiempo.
+redes neuronales recurrentes,Tipo de red neuronal diseñada para procesar secuencias de datos y conservar información de estados anteriores.
+redes neuronales convolucionales,"Tipo de red neuronal optimizada para el procesamiento de datos con estructura espacial, como imágenes."
+hugging face,Plataforma y librería de machine learning centrada en modelos de procesamiento de lenguaje natural.
+procesamiento de senales,Disciplina que estudia cómo analizar y modificar señales para extraer información útil.
+valores atipicos,Valores que se desvían significativamente de los demás en un conjunto de datos.
+deteccion de anomalias,Proceso de identificar datos que no cumplen con patrones normales en un conjunto de datos.
+Rango intercuartílico,Medida estadística que evalúa la dispersión de los datos dentro del rango entre el primer y el tercer cuartil.
+valores representativos,"Valores que resumen o representan características clave de un conjunto de datos, como medias o medianas."
+poblacion estadistica,Conjunto completo de individuos o elementos que se estudian en un análisis estadístico.
+muesta estadistica,Subconjunto de la población estadística seleccionado para realizar un estudio o análisis.
+covarianza,Medida estadística que indica la relación entre dos variables y cómo cambian conjuntamente.

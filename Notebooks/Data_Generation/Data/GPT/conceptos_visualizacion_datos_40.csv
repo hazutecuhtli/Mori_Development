@@ -1,0 +1,41 @@
+Concepto,Descripción
+Visualización de Datos,"Técnica para representar datos visualmente, facilitando su interpretación y análisis."
+Gráficos de Barras,Gráfico que utiliza barras para comparar valores entre diferentes categorías.
+Gráficos de Líneas,Gráfico que conecta puntos de datos con líneas para mostrar tendencias.
+Gráficos de Dispersión,Gráfico que representa relaciones entre dos variables mediante puntos dispersos.
+Histogramas,Gráfico que muestra la distribución de datos dividiéndolos en intervalos o bins.
+Diagramas de Caja,Gráfico que visualiza la distribución de datos mostrando cuartiles y valores atípicos.
+Heatmaps,Gráfico que utiliza colores para representar la intensidad de datos en una matriz.
+Gráficos de Torta,Gráfico que muestra proporciones de un total usando segmentos de un círculo.
+Gráficos de Área,Gráfico que combina líneas y áreas para mostrar acumulaciones de datos a lo largo del tiempo.
+Diagramas de Dispersión con Burbujas,Extensión del gráfico de dispersión que incluye tamaños de burbujas para representar una tercera variable.
+Gráficos de Radar,Gráfico que representa variables multidimensionales en forma de un polígono.
+Gráficos de Rosca,Variante del gráfico de torta con un centro hueco para visualización adicional.
+Mapas Coropléticos,Mapa que utiliza variaciones de color para mostrar valores en diferentes regiones geográficas.
+Gráficos de Series Temporales,Gráfico diseñado para visualizar cambios a lo largo del tiempo en una o varias series.
+Gráficos de Violin,Gráfico que muestra la distribución de datos combinando aspectos de diagramas de caja y densidad.
+Gráficos de Densidad,Gráfico que muestra estimaciones de la densidad de datos en un conjunto continuo.
+Diagramas de Gantt,Gráfico utilizado para planificar y mostrar tareas a lo largo del tiempo.
+Nubes de Palabras,Representación visual de texto donde las palabras más frecuentes tienen mayor tamaño.
+Treemaps,Gráfico jerárquico que utiliza rectángulos para representar proporciones de categorías.
+Mapas de Calor Geográficos,Visualización que combina datos geográficos con colores para representar información regional.
+Gráficos de Red,Gráfico que muestra conexiones entre nodos en un sistema de red.
+Diagramas de Sankey,Gráfico que representa flujos de datos entre categorías con anchos proporcionales.
+Gráficos de Pareto,Gráfico que ordena datos por frecuencia para identificar las más significativas.
+Gráficos de Boxen,Gráfico similar al diagrama de caja pero diseñado para grandes conjuntos de datos.
+Diagrama de Hexágonos,Gráfico que utiliza celdas hexagonales para agrupar y representar densidad de puntos.
+Gráficos de Líneas Apiladas,Gráfico que apila líneas para mostrar la contribución de cada serie en un total acumulado.
+Gráficos de Variación,Gráfico diseñado para mostrar desviaciones de un valor promedio o estándar.
+Mapas de Relieve,Mapa que representa datos utilizando variaciones en la elevación geográfica.
+Mapas de Flujo,Mapa que utiliza líneas y flechas para mostrar el flujo de datos o personas.
+Gráficos de Pirámides Poblacionales,Gráfico demográfico que muestra la distribución de una población por edad y género.
+Gráficos de Velocímetros,Gráfico que simula indicadores de velocidad para mostrar valores actuales frente a un objetivo.
+Gráficos de Rosetas,Gráfico circular con múltiples capas para mostrar datos jerárquicos o categóricos.
+Visualización Interactiva,Representación interactiva de datos que permite explorar información dinámicamente.
+Dashboard,Panel que combina múltiples gráficos e indicadores para mostrar métricas clave.
+Gráficos Dinámicos,Gráficos que permiten actualización en tiempo real para análisis dinámico.
+Infografía,Combinación de gráficos y texto para comunicar información de manera atractiva.
+Colores en Visualización,Uso estratégico de colores para mejorar la comprensión de los datos visualizados.
+Principios de Percepción Visual,Principios que optimizan cómo los humanos perciben y entienden gráficos.
+Anotaciones en Gráficos,Elementos adicionales en gráficos para destacar puntos clave o contextos importantes.
+"Software de Visualización (Tableau, Power BI)",Herramientas de software populares para crear gráficos y paneles interactivos.

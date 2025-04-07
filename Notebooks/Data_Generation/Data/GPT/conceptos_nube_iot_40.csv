@@ -1,0 +1,42 @@
+Concepto,Descripción
+Computación en la Nube,Modelo de computación que permite acceso remoto a recursos y servicios compartidos.
+Internet de las Cosas (IoT),Red de dispositivos conectados que recopilan e intercambian datos a través de internet.
+Plataforma como Servicio (PaaS),Modelo de servicio que proporciona una plataforma para desarrollar y desplegar aplicaciones.
+Infraestructura como Servicio (IaaS),"Provisión de infraestructura virtualizada, como servidores y almacenamiento, bajo demanda."
+Software como Servicio (SaaS),"Modelo que ofrece software a través de internet, eliminando la necesidad de instalación local."
+Edge Computing,Procesamiento de datos en dispositivos cercanos al lugar donde se generan.
+Fog Computing,Extensión del edge computing que utiliza nodos intermedios para procesar datos.
+Computación Híbrida,Combinación de servicios locales y en la nube para una mayor flexibilidad y control.
+Servidor en la Nube,Computadoras virtuales que proporcionan servicios en entornos de nube.
+Almacenamiento en la Nube,Almacenamiento de datos que se accede y gestiona a través de internet.
+Big Data en la Nube,Procesamiento y análisis de grandes volúmenes de datos utilizando servicios en la nube.
+Servicios de Nube Privada,Entornos de nube diseñados exclusivamente para una sola organización.
+Servicios de Nube Pública,Servicios de nube disponibles para el público general a través de proveedores.
+Seguridad en la Nube,Prácticas y herramientas para proteger datos y aplicaciones en entornos de nube.
+Automatización en la Nube,Uso de herramientas para gestionar y optimizar procesos en la nube automáticamente.
+Machine Learning en la Nube,Implementación de algoritmos de machine learning utilizando infraestructura en la nube.
+Redes de Sensores IoT,Conjunto de dispositivos interconectados para monitoreo y recolección de datos ambientales.
+Conectividad IoT,Tecnologías que conectan dispositivos IoT a redes y servicios de internet.
+Protocolo MQTT,Protocolo ligero para la comunicación entre dispositivos IoT y servidores.
+Protocolo CoAP,Protocolo diseñado para aplicaciones IoT de baja potencia y recursos limitados.
+Dispositivos IoT,Dispositivos físicos que recopilan datos y actúan en base a comandos recibidos.
+Pasarelas IoT,Puentes que conectan dispositivos IoT con redes o servicios en la nube.
+Análisis de Datos IoT,Procesamiento y análisis de los datos generados por dispositivos IoT.
+Computación en Tiempo Real,Capacidad de procesar datos en tiempo real para aplicaciones sensibles a la latencia.
+Integración de IoT y Cloud,Uso combinado de IoT y servicios en la nube para gestionar dispositivos y datos.
+Gemelos Digitales,Representaciones virtuales de dispositivos o sistemas físicos para simulación y análisis.
+Arquitectura de Microservicios,Estructura que permite desarrollar y desplegar aplicaciones como componentes independientes.
+IoT Industrial (IIoT),Aplicación de IoT en entornos industriales para optimizar procesos y monitorear equipos.
+Automatización del Hogar,Uso de dispositivos IoT para controlar y automatizar funciones en el hogar.
+Redes 5G para IoT,Tecnología de redes móviles que soporta alta velocidad y conectividad masiva para IoT.
+API de IoT,Interfaz que permite a desarrolladores integrar dispositivos IoT con sistemas externos.
+Servicios en Nube Multi-tenant,Entornos de nube compartidos por múltiples usuarios o empresas.
+Orquestación de Nube,Gestión coordinada de recursos y servicios en entornos de nube complejos.
+Contenedores en la Nube,Tecnología para empaquetar aplicaciones y sus dependencias para ejecutar en cualquier entorno.
+Kubernetes,Plataforma para gestionar contenedores en entornos de nube y locales.
+Cloud Functions,Servicios basados en eventos que ejecutan funciones en la nube sin necesidad de servidores.
+IoT Security,Prácticas y tecnologías para proteger dispositivos IoT y sus datos.
+Procesamiento de Datos IoT,"Métodos para recopilar, procesar y analizar datos generados por dispositivos IoT."
+Servicios de Mensajería en la Nube,Herramientas para transmitir mensajes entre aplicaciones y servicios en la nube.
+Blockchain en IoT,Aplicación de blockchain para mejorar la seguridad y transparencia en IoT.
+Análisis Predictivo IoT,Análisis de datos IoT para predecir eventos futuros y optimizar operaciones.

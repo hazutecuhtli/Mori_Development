@@ -1,0 +1,41 @@
+Concepto,Descripción
+Procesamiento de Señales,Estudio y análisis de señales para mejorar su interpretación o transmisión.
+Señal Continua,Señal que varía de forma continua en el tiempo o el espacio.
+Señal Discreta,Señal definida solo en instantes discretos de tiempo.
+Frecuencia de Muestreo,Frecuencia a la cual se toma una muestra de una señal continua.
+Transformada de Fourier,Técnica matemática para descomponer señales en sus componentes frecuenciales.
+Transformada Rápida de Fourier (FFT),Versión eficiente de la transformada de Fourier para señales discretas.
+Filtro Pasa Bajos,Filtro que permite pasar frecuencias bajas y atenúa las altas.
+Filtro Pasa Altos,Filtro que permite pasar frecuencias altas y atenúa las bajas.
+Filtro Pasa Banda,Filtro que permite pasar frecuencias dentro de un rango específico.
+Filtro Rechaza Banda,Filtro que elimina frecuencias dentro de un rango específico.
+Transformada de Laplace,Transformación para analizar señales en el dominio complejo.
+Transformada Z,Herramienta matemática para analizar sistemas lineales discretos.
+Convolución,Operación que combina dos señales para producir una tercera.
+Correlación Cruzada,Medida de similitud entre dos señales en función del tiempo.
+Autocorrelación,Medida de similitud de una señal consigo misma en diferentes instantes.
+Análisis de Espectro,Análisis que identifica la distribución de energía en función de la frecuencia.
+Señales Determinísticas,Señales cuya amplitud y características pueden predecirse completamente.
+Señales Aleatorias,Señales que contienen componentes impredecibles debido al ruido.
+Ruido en Señales,Interferencias no deseadas que afectan la calidad de una señal.
+Sistema Lineal e Invariante en el Tiempo (LTI),Sistemas cuyas propiedades no cambian con el tiempo y son lineales.
+Respuesta Impulsiva,Respuesta de un sistema a una señal impulsiva.
+Respuesta en Frecuencia,Descripción de cómo un sistema afecta las distintas frecuencias de una señal.
+Modulación Amplitud (AM),Técnica de transmisión que varía la amplitud de la señal portadora.
+Modulación Frecuencia (FM),Técnica de transmisión que varía la frecuencia de la señal portadora.
+Modulación de Fase,Técnica de transmisión que varía la fase de la señal portadora.
+Señales Digitales,Señales que consisten en valores discretos en el tiempo.
+Señales Analógicas,Señales que son continuas en el tiempo y varían suavemente.
+Teorema de Muestreo de Nyquist,Principio que determina la frecuencia mínima de muestreo para evitar aliasing.
+Aliasing,Fenómeno donde frecuencias altas se confunden con frecuencias bajas al muestrear.
+Interpolación de Señales,Método para reconstruir una señal continua a partir de muestras discretas.
+Dizaje de Señales,Reducción de la frecuencia de muestreo de una señal.
+Análisis de Tiempo-Frecuencia,Análisis que combina información del tiempo y la frecuencia de una señal.
+Filtrado Digital,Procesamiento de señales en formato digital usando algoritmos.
+Filtrado Analógico,Procesamiento de señales usando circuitos y componentes físicos.
+Ruido Blanco,Ruido con energía uniforme en todo el espectro de frecuencias.
+Ruido Gaussiano,Ruido que sigue una distribución normal en sus valores.
+Ruido de Banda Limitada,Ruido restringido a un rango específico de frecuencias.
+Detección de Bordes en Señales,Técnica para identificar cambios abruptos en señales.
+Espectrogramas,Representación visual que muestra cómo cambian las frecuencias en el tiempo.
+Análisis de Señales Multiresolución,Análisis que descompone señales en diferentes niveles de detalle y resolución.

@@ -1,0 +1,105 @@
+
+
+
+
+
+{
+    "tag": "condición oblicua",
+    "patterns": [
+        "¿Qué es condición oblicua?",
+        "¿Qué es oblique condition?",
+        "¿Define oblique condition?",
+        "¿Para qué sirve condición oblicua?",
+        "¿Para qué sirve oblique condition?",
+        "¿Define condición oblicua?"
+    ],
+    "response": [
+        "En un árbol de decisión, una condición que involucra más de una característica."
+    ]
+},
+{
+    "tag": "una codificación caliente",
+    "patterns": [
+        "¿Para qué sirve one hot encoding?",
+        "¿Para qué sirve la una codificación caliente?",
+        "¿Define una codificación caliente?",
+        "¿Qué es la una codificación caliente?",
+        "¿Define one hot encoding?",
+        "¿Qué es one hot encoding?"
+    ],
+    "response": [
+        "Representar los datos categóricos como un vector en el que: la codificación única se usa comúnmente para representar cadenas o identificadores que tienen un conjunto finito de valores posibles.",
+        "En los circuitos digitales y el aprendizaje automático, un único-Hot es un grupo de bits entre los cuales las combinaciones legales de valores son solo aquellas con un solo alto (1) bit y todos los demás bajos (0)."
+    ]
+},
+{
+    "tag": "aprendizaje de un tiro",
+    "patterns": [
+        "¿Qué es el aprendizaje de un tiro?",
+        "¿Para qué sirve el aprendizaje de un tiro?",
+        "¿Define one shot learning?",
+        "¿Define aprendizaje de un tiro?",
+        "¿Qué es one shot learning?",
+        "¿Para qué sirve one shot learning?"
+    ],
+    "response": [
+        "Un enfoque de aprendizaje automático, a menudo utilizado para la clasificación de objetos, diseñado para aprender un modelo de clasificación efectivo a partir de un solo ejemplo de capacitación."
+    ]
+},
+{
+    "tag": "un tiro de inicio",
+    "patterns": [
+        "¿Para qué sirve one shot prompting?",
+        "¿Define one shot prompting?",
+        "¿Define un tiro de inicio?",
+        "¿Qué es un tiro de inicio?",
+        "¿Qué es one shot prompting?",
+        "¿Para qué sirve un tiro de inicio?"
+    ],
+    "response": [
+        "Un mensaje que contiene un ejemplo que demuestra cómo debe responder el modelo de idioma grande."
+    ]
+},
+{
+    "tag": "uno contra todo",
+    "patterns": [
+        "¿Qué es one vs. all?",
+        "¿Define one vs. all?",
+        "¿Qué es el uno contra todo?",
+        "¿Para qué sirve el uno contra todo?",
+        "¿Para qué sirve one vs. all?",
+        "¿Define uno contra todo?"
+    ],
+    "response": [
+        "Dado un problema de clasificación con las clases de N, una solución que consiste en N clasificadores binarios separados, un clasificador binario para cada resultado posible."
+    ]
+},
+{
+    "tag": "operación (op)",
+    "patterns": [
+        "¿Define operación (op)?",
+        "¿Para qué sirve operación (op)?",
+        "¿Qué es operation (op)?",
+        "¿Define operation (op)?",
+        "¿Qué es operación (op)?",
+        "¿Para qué sirve operation (op)?"
+    ],
+    "response": [
+        "En TensorFlow, cualquier procedimiento que cree, manipula o destruya un tensor."
+    ]
+},
+{
+    "tag": "optimizador",
+    "patterns": [
+        "¿Define optimizer?",
+        "¿Para qué sirve optimizer?",
+        "¿Qué es optimizer?",
+        "¿Define optimizador?",
+        "¿Para qué sirve el optimizador?",
+        "¿Qué es el optimizador?"
+    ],
+    "response": [
+        "La optimización matemática (alternativamente de la optimización deletreada) o la programación matemática es la selección de un mejor elemento, con respecto a algunos criterios, de algún conjunto de alternativas disponibles.",
+        "Una implementación específica del algoritmo de descenso de gradiente."
+    ]
+},

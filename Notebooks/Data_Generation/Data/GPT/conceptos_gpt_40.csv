@@ -1,0 +1,41 @@
+Concepto,Descripción
+GPT,Modelo generativo basado en transformers diseñado para procesar y generar texto.
+transformer,Arquitectura que utiliza mecanismos de atención para capturar relaciones entre tokens.
+autoregressive model,Modelo que predice la siguiente palabra basándose en las palabras anteriores.
+preentrenamiento,Fase inicial de entrenamiento donde el modelo aprende patrones generales del lenguaje.
+fine-tuning,Ajuste del modelo preentrenado para tareas específicas con datos etiquetados.
+contexto en GPT,Contexto textual que el modelo utiliza para hacer predicciones o generar respuestas.
+atención autoregresiva,Mecanismo que calcula pesos basados en tokens previos para predecir el siguiente token.
+tokenización en GPT,Proceso de dividir texto en unidades más pequeñas como palabras o subpalabras para el modelo.
+embeddings de entrada,Representaciones vectoriales de tokens que alimentan el modelo para su procesamiento.
+head de atención,Elemento de la arquitectura de transformers que aplica atención sobre diferentes representaciones.
+capas de transformer,Capas de la arquitectura que procesan datos utilizando mecanismos de atención y normalización.
+normalización de capas,Técnica que mejora la estabilidad del entrenamiento ajustando valores en las capas del modelo.
+máscara de atención,Máscara que evita que el modelo considere tokens futuros durante la predicción.
+salida del modelo GPT,Texto generado por el modelo tras procesar la entrada proporcionada.
+aprendizaje transferido,Uso de conocimientos aprendidos en una tarea para mejorar el desempeño en otra tarea.
+parámetros ajustables,Parámetros internos que se ajustan durante el entrenamiento para minimizar la pérdida.
+modelo preentrenado,Modelo que ya ha sido entrenado en un corpus grande y generalizado antes de ser ajustado.
+entrenamiento supervisado,Método de aprendizaje que utiliza datos etiquetados para entrenar el modelo en tareas específicas.
+entrenamiento no supervisado,Método donde el modelo aprende patrones sin supervisión directa ni etiquetas explícitas.
+ajuste por retropropagación,Método que ajusta los parámetros del modelo utilizando gradientes calculados a partir del error.
+codificador en transformers,Componente de los transformers que procesa representaciones completas del texto.
+decodificador en transformers,Componente que utiliza la atención para generar texto basado en entradas previas.
+atención multihead,Técnica que utiliza múltiples cabezas de atención para capturar diferentes patrones en los datos.
+dimensión oculta,Tamaño de las representaciones internas utilizadas en cada capa del modelo.
+pesos aprendidos,Valores en la red que se optimizan durante el entrenamiento para capturar relaciones textuales.
+generación de texto,Capacidad del modelo para crear texto coherente y fluido en lenguaje natural.
+completado de texto,Capacidad del modelo para completar una frase o texto basándose en un inicio dado.
+traducción automática,Uso del modelo para traducir texto de un idioma a otro utilizando su arquitectura generativa.
+resumen automático,Generación de resúmenes concisos y coherentes a partir de textos más extensos.
+clasificación de texto,Uso del modelo para categorizar texto en diferentes clases o etiquetas.
+prompt en GPT,Texto inicial proporcionado al modelo para dirigir su generación de respuestas.
+zero-shot learning,Capacidad del modelo para realizar tareas sin entrenamiento específico en ellas.
+few-shot learning,Capacidad del modelo para realizar tareas con ejemplos limitados proporcionados como guía.
+entrenamiento continuo,Extensión del entrenamiento de un modelo ya preentrenado para actualizar conocimientos.
+modelo de lenguaje generativo,Modelo diseñado para generar texto basándose en probabilidades aprendidas del lenguaje.
+pérdida de entropía cruzada,Función utilizada para medir la discrepancia entre la salida del modelo y la verdad.
+regularización en GPT,Técnicas utilizadas para evitar el sobreajuste y mejorar la generalización del modelo.
+escalado de modelos,Escalado de la arquitectura y parámetros del modelo para mejorar su rendimiento.
+entrenamiento distribuido,Método para entrenar el modelo en múltiples máquinas o procesadores para acelerar el proceso.
+aplicaciones de GPT,"Aplicaciones prácticas del modelo en diversas áreas como chatbots, análisis de sentimientos y más."

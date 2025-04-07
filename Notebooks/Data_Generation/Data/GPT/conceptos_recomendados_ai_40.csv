@@ -1,0 +1,41 @@
+Concepto,Descripción
+Aceleración de Modelos AI,Uso de hardware especializado y técnicas avanzadas para acelerar la inferencia de modelos.
+Despliegue de Modelos AI en Edge,Implementación de modelos en dispositivos periféricos para procesamiento local.
+Inferencia Distribuida,División de cargas de inferencia en múltiples nodos o servidores.
+Optimización de Recursos para Modelos,"Optimización del uso de CPU, GPU y memoria para mejorar la eficiencia de modelos."
+Gestión de Datos para AI,Gestión eficaz de datos necesarios para entrenar y validar modelos de AI.
+Trazabilidad de Datos,Seguimiento del origen y transformación de datos usados en los modelos.
+Pruebas de Estabilidad de Modelos,Pruebas para evaluar la estabilidad del desempeño de los modelos a lo largo del tiempo.
+Control de Calidad de Modelos,Medidas para garantizar que los modelos mantengan altos estándares de calidad.
+Pipeline de Datos AI,Pipeline diseñado para procesar y preparar datos usados en modelos AI.
+Orquestación de Tareas AI,Coordinación de procesos relacionados con la preparación y despliegue de modelos.
+Infraestructura como Código para Modelos,Uso de herramientas de automatización para definir infraestructura de despliegue como código.
+Versionado de Datos de Entrenamiento,Registro y control de versiones de los datos usados en el entrenamiento de modelos.
+Automatización de Features Engineering,Automatización del proceso de creación y selección de características relevantes.
+Monitorización de Drift de Datos,Monitorización de cambios en datos que pueden afectar el rendimiento de los modelos.
+Escalado Automático de Modelos,Capacidad para ajustar dinámicamente la infraestructura según la demanda del modelo.
+Despliegue Multinube,Despliegue de modelos en múltiples entornos de nube para mayor flexibilidad.
+Adaptación Dinámica de Modelos,Ajuste continuo de los modelos basándose en datos o contextos cambiantes.
+Inferencia en Tiempo Real,Capacidad para realizar predicciones inmediatamente después de recibir datos.
+Inferencia en Lote,Procesamiento de grandes lotes de datos para inferencias masivas.
+Explicabilidad Basada en Gráficos,Uso de visualizaciones gráficas para explicar las predicciones de los modelos.
+Privacidad Diferencial en Modelos AI,Implementación de técnicas para garantizar la privacidad de los datos en modelos AI.
+Evaluación de Impacto Ético de Modelos,Análisis del impacto social y ético de los modelos en su contexto de uso.
+Regulación de Modelos de Machine Learning,Cumplimiento de normas y regulaciones relacionadas con el uso de AI.
+Pruebas de Resiliencia de Modelos,Pruebas para evaluar la capacidad del modelo de mantener su rendimiento bajo estrés.
+Compatibilidad con Frameworks Múltiples,Compatibilidad de modelos con múltiples frameworks de machine learning.
+Automatización de Documentación de Modelos,Generación automática de documentación técnica para modelos desplegados.
+A/B Testing en Modelos AI,Experimentación controlada para comparar el rendimiento de diferentes modelos.
+Gestión de Sesgos Post-Despliegue,Mitigación y ajuste de sesgos detectados después del despliegue de modelos.
+Integración de Modelos en Aplicaciones Web,Integración fluida de modelos en aplicaciones web y móviles.
+Uso de GPUs para Despliegue AI,Uso de unidades de procesamiento gráfico para optimizar despliegues en producción.
+Inferencia en Dispositivos IoT,Despliegue de modelos en dispositivos conectados como sensores y cámaras.
+Pruebas de Seguridad para Modelos AI,Pruebas para identificar vulnerabilidades de seguridad en modelos AI.
+Monitorización en Tiempo Real de Modelos,Seguimiento continuo del rendimiento y la actividad de los modelos en producción.
+Despliegue de Modelos AI en Kubernetes,Automatización del despliegue y gestión de modelos usando plataformas como Kubernetes.
+Reentrenamiento Automático Basado en Feedback,Actualización automática de modelos basándose en retroalimentación de usuarios o datos nuevos.
+Uso de Data Lake para Entrenamiento AI,Uso de repositorios centralizados de datos para entrenar y reentrenar modelos.
+Automatización de Auditorías de Modelos,Automatización de auditorías para revisar el desempeño y el cumplimiento de modelos.
+Seguridad de Datos en Despliegues AI,Garantizar la seguridad de datos sensibles usados durante el entrenamiento o inferencia.
+Despliegue de Modelos Explicables,Despliegue de modelos con capacidades para proporcionar interpretaciones claras.
+Actualización Continua de Modelos en Producción,Implementación de estrategias para actualizar modelos sin interrumpir el servicio.

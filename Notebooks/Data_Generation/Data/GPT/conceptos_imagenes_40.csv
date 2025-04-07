@@ -1,0 +1,41 @@
+Concepto,Descripción
+Procesamiento de Imágenes,"Técnicas y métodos para analizar, modificar o interpretar imágenes digitales."
+Segmentación de Imágenes,Proceso de dividir una imagen en regiones basadas en características similares.
+Detección de Bordes,"Técnica para identificar los contornos en una imagen, marcando áreas de cambio brusco de intensidad."
+Filtro de Sobel,Filtro para detectar bordes en una imagen usando gradientes en direcciones específicas.
+Filtro de Canny,Algoritmo avanzado para detección precisa de bordes en imágenes.
+Transformada de Fourier,Transformación matemática para analizar frecuencias en una imagen.
+Transformada de Hough,"Técnica para identificar líneas, círculos y otras formas geométricas en imágenes."
+Convolución en Imágenes,Operación matemática entre matrices utilizada para aplicar filtros o detectar patrones en imágenes.
+Redes Neuronales Convolucionales (CNN),"Tipo de red neuronal diseñada específicamente para procesar datos con estructura espacial, como imágenes."
+Mapas de Características,Representaciones intermedias de características detectadas en una imagen durante el procesamiento.
+Pooling,Técnica para reducir la dimensionalidad de mapas de características en redes neuronales convolucionales.
+Upsampling,Método para aumentar la resolución de una imagen o mapa de características.
+Normalización de Imágenes,Proceso de escalar los valores de píxeles a un rango estándar para mejorar el procesamiento.
+Ecualización de Histograma,Método para mejorar el contraste de una imagen distribuyendo los niveles de intensidad uniformemente.
+Reducción de Ruido,Técnicas para eliminar ruido en imágenes digitales manteniendo detalles importantes.
+Filtro Gaussiano,Filtro que suaviza una imagen utilizando una distribución gaussiana.
+Filtro de Mediana,"Filtro que reduce el ruido preservando bordes, calculando la mediana de los píxeles vecinos."
+Morfología Matemática,Conjunto de operaciones para procesar estructuras en imágenes binarias.
+Dilatación y Erosión,Operaciones básicas para expandir o reducir regiones en imágenes binarias.
+Transformada de Radón,Técnica para proyectar una imagen en un espacio transformado para analizar patrones lineales.
+Clasificación de Imágenes,Asignación de categorías a imágenes según su contenido.
+Reconocimiento de Objetos,Proceso de identificar y etiquetar objetos específicos en imágenes.
+Detección de Objetos,Localización y clasificación de objetos dentro de una imagen.
+Anotación de Imágenes,Proceso de marcar manualmente áreas relevantes de una imagen para entrenamiento o análisis.
+Reconocimiento Facial,Identificación de rostros humanos en imágenes o videos.
+Reconstrucción de Imágenes,Proceso de recrear imágenes a partir de datos incompletos o distorsionados.
+Ajuste de Contraste,Método para ajustar la diferencia de brillo entre las partes oscuras y claras de una imagen.
+Balance de Blancos,Corrección del color de una imagen para que los blancos parezcan más naturales.
+Realce de Imágenes,Técnicas para mejorar la calidad visual de una imagen.
+Compresión de Imágenes,Proceso para reducir el tamaño de una imagen digital conservando su calidad visual lo máximo posible.
+"Formatos de Imagen (JPEG, PNG, TIFF)",Diferentes estándares para almacenar y representar imágenes digitales.
+Transformación Afín,Transformación que mantiene paralelismo entre líneas en una imagen.
+Transformación de Perspectiva,Transformación que modifica la perspectiva para simular diferentes puntos de vista.
+Warping de Imágenes,Técnica para deformar imágenes aplicando transformaciones geométricas.
+Registro de Imágenes,Proceso de alinear imágenes superpuestas para compararlas o fusionarlas.
+Análisis de Textura,Análisis de patrones repetitivos o texturas en una imagen.
+Extracción de Características,Proceso de identificar y extraer características significativas de una imagen.
+Reconstrucción 3D,Reconstrucción de escenas tridimensionales a partir de imágenes bidimensionales.
+Esteganografía de Imágenes,Método para ocultar información dentro de una imagen de manera imperceptible.
+Segmentación Basada en Color,Técnica de segmentación basada en diferencias de color en las imágenes.
