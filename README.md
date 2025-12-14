@@ -49,9 +49,9 @@ Para más información sobre configuraciones compatibles con GPU, consulta la do
 
 ```bash
 python -m pip install --upgrade pip
-pip install torch --index-url https://download.pytorch.org/whl/cuXXX
-pip install -r requirements.txt
+python -m pip install -r requirements.txt --extra-index-url https://download.pytorch.org/whl/cuXXX
 ```
+*Reemplaza `cuXXX` por la versión de CUDA compatible con tu sistema (por ejemplo, `cu118`, `cu121`).*
 
 ## Instalación (CPU)
 
@@ -59,8 +59,7 @@ Instalación recomendada para sistemas **sin GPU NVIDIA** o con recursos de cóm
 
 ```bash
 python -m pip install --upgrade pip
-pip install torch --index-url https://download.pytorch.org/whl/cpu
-pip install -r requirements.txt
+python -m pip install -r requirements.txt --extra-index-url https://download.pytorch.org/whl/cpu
 ```
 
 ## Composicion del Proyecto
