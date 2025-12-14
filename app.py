@@ -12,6 +12,7 @@ from Scripts.config import LLM1_DIR, LLM2_DIR
 import streamlit as st
 import datetime as dt
 from pathlib import Path
+from huggingface_hub import try_to_load_from_cache
 from transformers import AutoTokenizer, AutoModelForSeq2SeqLM, AutoModelForCausalLM
 from Scripts.Mori_TechnicalPrompts import answer_with_mori_rag, answer_with_mori_plain, answer_with_qwen_base
 import torch
@@ -159,7 +160,7 @@ def sidebar_params():
 def limpiar_input():
     st.session_state["entrada"] = ""
 
-# ✅ Corrige la ruta correctamente desde Scripts hacia Models
+# Corrige la ruta correctamente desde Scripts hacia Models
 def get_model_path(folder_name):
     APP_DIR = Path(__file__).resolve().parent
     TEC_DIR = (APP_DIR / "Models" / folder_name).resolve()
@@ -210,25 +211,55 @@ def load_mori_model():
 # Qwen base model (for comparison)
 #-------------------------------------------------------------------------
 
-QWEN_MODEL_NAME = LLM2_DIR  # Asegúrate que exista localmente en HF cache
+# El modelo Qwen se descarga una sola vez al cache de Hugging Face.
+# En ejecuciones siguientes se carga 100% offline.
+
+QWEN_MODEL_NAME = LLM2_DIR  
+
+
+def _is_cached(repo_id: str) -> bool:
+    # Con que exista config + tokenizer + al menos un weight, ya no deberías “descargar siempre”
+    cfg = try_to_load_from_cache(repo_id, "config.json")
+    tok = try_to_load_from_cache(repo_id, "tokenizer.json")  # a veces es tokenizer.model
+    w1  = try_to_load_from_cache(repo_id, "model.safetensors")
+    # Si viene shardeado, puede ser model-00001-of-000xx.safetensors
+    w2  = try_to_load_from_cache(repo_id, "model-00001-of-00002.safetensors")
+    return (cfg is not None) and (tok is not None or try_to_load_from_cache(repo_id, "tokenizer.model") is not None) and (w1 is not None or w2 is not None)
+
   
 @st.cache_resource
-def load_qwen_model():
+def load_qwen_model(device: str):
     """
-    Carga el modelo base de Qwen sin fine-tuning.
+    1) Intenta cargar desde cache (offline).
+    2) Si no está, descarga (online) y vuelve a cargar.
     """
-    tokenizer = AutoTokenizer.from_pretrained(QWEN_MODEL_NAME, local_files_only=True)
-    if tokenizer.pad_token is None:
-        tokenizer.pad_token = tokenizer.eos_token
-    tokenizer.padding_side = "right"
+    # (Opcional) permitir cache en carpeta del proyecto:
+    # os.environ["HF_HOME"] = os.path.join(os.getcwd(), ".hf_cache")
 
-    model = AutoModelForCausalLM.from_pretrained(
-        QWEN_MODEL_NAME,
-        local_files_only=True
-    ).to(device).eval()
+    def _load(local_only: bool):
+        tok = AutoTokenizer.from_pretrained(QWEN_MODEL_NAME, local_files_only=local_only)
+        if tok.pad_token is None:
+            tok.pad_token = tok.eos_token
+        tok.padding_side = "right"
 
-    return model, tokenizer
+        mdl = AutoModelForCausalLM.from_pretrained(
+            QWEN_MODEL_NAME,
+            local_files_only=local_only,
+            torch_dtype="auto",
+            device_map=None,  
+        ).to(device).eval()
 
+        return mdl, tok
+
+    # 1) Offline first
+    if _is_cached(QWEN_MODEL_NAME):
+        return _load(local_only=True)
+    else:
+        # 2) Fallback: descargar (requiere internet)
+        st.info("Descargando Qwen por primera vez (se guardará en caché para futuras ejecuciones)...")
+        model, tok = _load(local_only=False)
+        st.success("Modelo descargado y cacheado.")
+        return model, tok
 
 #-------------------------------------------------------------------------
 # Seeds
@@ -316,7 +347,7 @@ if __name__ == "__main__":
             # -----------------------------------------
             if backend.startswith("👸 Qwen"):
                 modelito = 'Qwen'
-                qwen_model, qwen_tokenizer = load_qwen_model()
+                qwen_model, qwen_tokenizer = load_qwen_model(device)
                 response, prompt = answer_with_qwen_base(
                     qwen_tokenizer,
                     qwen_model,

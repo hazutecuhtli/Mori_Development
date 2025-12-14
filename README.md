@@ -126,14 +126,33 @@ Interacción directa desde consola, útil para pruebas rápidas o integración e
 
 ### Utilizando Mori con Streamlit
 
-El uso del asistente personal a través de Streamlit ofrece un mayor nivel de flexibilidad sobre la forma en que se utiliza Mori. Esta interfaz permite no solo el uso del modelo FLAN-T5 ajustado mediante fine-tuning, sino también la opción de emplear un modelo más robusto y de mayor tamaño, específicamente Qwen (Tongyi Qianwen) de Alibaba. En este caso, el modelo se utiliza en su versión original, sin ajuste fino, con el objetivo de comparar las respuestas generadas por ambos enfoques.
+El uso del asistente personal a través de Streamlit ofrece un mayor nivel de flexibilidad sobre la forma en que se utiliza Mori. Esta interfaz permite no solo el uso del modelo FLAN-T5 ajustado mediante fine-tuning, sino también la opción de emplear un modelo más robusto y de mayor tamaño, específicamente Qwen (Tongyi Qianwen) de Alibaba.
 
-De forma complementaria, la interfaz de Streamlit permite la selección de diferentes personalidades para el asistente personal, las cuales modifican el estilo y la forma en que se genera el texto mediante el ajuste de diversos hiperparámetros. Por último, la interfaz también ofrece la posibilidad de descargar la conversación en formato .txt, lo que permite almacenarla y consultarla posteriormente.
+En este caso, el modelo Qwen se utiliza en su versión original, sin ajuste fino, con el objetivo de comparar las respuestas generadas por ambos enfoques.
 
-Para utilizar el asistente personal mediante Streamlit es necesario utilizar el siguieten comando, una vez que el entorno de Python haya sido activado, tal como se explicó anteriormente. Dicho comando debe ejecutarse desde el directorio raíz del proyecto:
+> ***Nota importante sobre el uso de Qwen***
+>
+> *Si se desea utilizar Mori con el modelo **Qwen**, es necesario descargar dicho modelo desde la plataforma **Hugging Face**.*
+>
+> *Esta descarga se realiza de manera **automática** la primera vez que se selecciona Qwen y se solicita una respuesta al asistente.*
+>
+> *Es importante considerar que el uso de Qwen implica:*
+> - *Un consumo aproximado de **3 GB de espacio en disco**.*
+> - *El uso de **recursos de red y cómputo** durante la primera descarga.*
+>
+> *El modelo se almacena en la **caché del entorno de Python** en el que se ejecuta Mori. En la versión actual, **no existe una ruta local explícita** dentro del proyecto para acceder directamente al modelo descargado.*
+>
+> *No obstante, la estructura del proyecto permite sustituir fácilmente el modelo base (por ejemplo, **Google FLAN-T5**) por cualquier otro modelo compatible, facilitando la experimentación con distintas arquitecturas.*
+
+
+De forma complementaria, la interfaz de Streamlit permite la selección de diferentes personalidades para el asistente personal, las cuales modifican el estilo y la forma en que se genera el texto mediante el ajuste de diversos hiperparámetros.
+
+Por último, la interfaz también ofrece la posibilidad de descargar la conversación en formato .txt, lo que permite almacenarla y consultarla posteriormente.
+
+Para utilizar el asistente personal mediante Streamlit, es necesario ejecutar el siguiente comando una vez que el entorno de Python haya sido activado, tal como se explicó anteriormente. Dicho comando debe ejecutarse desde el directorio raíz del proyecto:
 
 ```bash
-streamlit run app.py --server.port 8502
+streamlit run app.py
 ```
 
 #### Streamlit GUI
