@@ -59,7 +59,7 @@ Instalación recomendada para sistemas **sin GPU NVIDIA** o con recursos de cóm
 
 ```bash
 python -m pip install --upgrade pip
-python -m pip install -r requirements.txt --extra-index-url https://download.pytorch.org/whl/cpu
+python -m pip install -r requirements-cpu.txt --extra-index-url https://download.pytorch.org/whl/cpu
 ```
 
 ## Composicion del Proyecto
