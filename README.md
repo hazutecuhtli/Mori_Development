@@ -34,7 +34,7 @@ source .venv/bin/activate
 ```
 
 ## Requisitos
-- **Python** 3.10  
+- **Python** >= 3.10.13
 - (Opcional, GPU) **NVIDIA Driver** actualizado  
 - (Opcional) **CUDA/cuDNN** a nivel sistema **solo si los necesitas**.  
 
